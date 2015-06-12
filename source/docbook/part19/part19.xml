@@ -2499,7 +2499,7 @@ Number = attribute number { xsd:positiveInteger }
             </tr>
             <tr valign="top">
               <td align="left" colspan="1" rowspan="1">
-                <para>&gt;&gt;RealWordMapping</para>
+                <para>&gt;&gt;RealWorldMapping</para>
               </td>
               <td align="center" colspan="1" rowspan="1">
                 <para>O</para>
@@ -3327,7 +3327,7 @@ AbstractImageDataSet =
       attribute maxValue { xsd:double }?,
       element Semantics { CodedTerm },
       element Unit { CodedTerm  },
-      element RealWordMapping {
+      element RealWorldMapping {
         attribute rescaleSlope { xsd:double },
         attribute rescaleIntercept { xsd:double },
         element Unit { CodedTerm },

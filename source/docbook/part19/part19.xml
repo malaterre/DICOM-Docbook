@@ -3424,7 +3424,7 @@ AbstractImageDataSet =
  element AbstractImageDataSet {
     element Component{
       attribute idNumber { xsd:positiveInteger },
-      attribute datatype { ComponentDatatype },
+      attribute dataType { ComponentDataType },
       attribute minValue { xsd:double }?,
       attribute maxValue { xsd:double }?,
       element Semantics { CodedTerm },
@@ -3474,7 +3474,7 @@ AbstractImageDataSet =
     }+,
     element PixelData { DimensionalData },
     element PixelMapOfValidData {
-      attribute datatype { PixelMapDatatype },
+      attribute dataType { PixelMapDataType },
       (
         attribute inValue { xsd:positiveInteger }
         | attribute outValue { xsd:positiveInteger }
@@ -3483,7 +3483,7 @@ AbstractImageDataSet =
     }?
   }
 
-ComponentDatatype =
+ComponentDataType =
     "SIGNED_INT8"
     | "SIGNED_INT16"
     | "SIGNED_INT32"
@@ -3493,7 +3493,7 @@ ComponentDatatype =
     | "FLOAT32"
     | "FLOAT64"
   
-PixelMapDatatype = 
+PixelMapDataType = 
     "BIT1"
     | "UNSIGNED_INT8"
 

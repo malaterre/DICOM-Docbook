@@ -3081,7 +3081,7 @@ Number = attribute number { xsd:positiveInteger }
                 <para>0-1</para>
               </td>
               <td align="left" colspan="1" rowspan="1">
-                <para>A pixel map that identifies which pixels either belong in or out of the Data Set. The dimensions of the pixel map match the dimensions of the image data, i.e., there is a one-to-one correspondence between samples in the image data and samples in the pixel map. The pointers to the pixel map data are included one of the Dimension XML elements.</para>
+                <para>A pixel map that identifies which pixels either belong in or out of the Data Set. The dimensions of the pixel map match the dimensions of the image data, i.e., there is a one-to-one correspondence between samples in the image data and samples in the pixel map. The pointers to the pixel map data are included into one of the Dimension XML elements.</para>
               </td>
             </tr>
             <tr valign="top">

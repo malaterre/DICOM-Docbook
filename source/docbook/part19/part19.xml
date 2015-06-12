@@ -3327,7 +3327,7 @@ DimensionalData =
   }
 
 BulkDataPointer = 
-    attribute UUID { xsd:string }
+    attribute bulkDataUUID { xsd:string }
 
 CodedTerm = 
     element CodeValue { xsd:string },

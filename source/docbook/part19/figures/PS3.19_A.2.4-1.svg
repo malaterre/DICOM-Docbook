@@ -224,7 +224,7 @@
 			<rect x="260.681" y="253.856" fill="none" width="44.892" height="9.727"/>
 			<text transform="matrix(1 0 0 1 272.4585 259.5811)" font-size="8">Origin</text>
 			<rect x="257.187" y="270.53" fill="none" width="54.251" height="38.527"/>
-			<text transform="matrix(1 0 0 1 257.186 276.2588)"><tspan x="0" y="0" font-size="8">index</tspan><tspan x="0" y="9.6" font-size="8">X_coord</tspan><tspan x="0" y="19.2" font-size="8">Y_coord</tspan><tspan x="0" y="28.8" font-size="8">Z_coord</tspan></text>
+			<text transform="matrix(1 0 0 1 257.186 276.2588)"><tspan x="0" y="0" font-size="8">index</tspan><tspan x="0" y="9.6" font-size="8">xCoord</tspan><tspan x="0" y="19.2" font-size="8">yCoord</tspan><tspan x="0" y="28.8" font-size="8">zCoord</tspan></text>
 		</g>
 		<g>
 			<rect x="501.877" y="256.05" fill="#FFFFFF" stroke="#1C3766" width="90" height="18"/>

@@ -192,7 +192,7 @@
 			<rect x="249.95" y="125.871" fill="none" width="70.254" height="8.883"/>
 			<text transform="matrix(1 0 0 1 266.1792 131.5991)" font-size="8">Dimension</text>
 			<rect x="243.657" y="141.252" fill="none" width="59.578" height="28.929"/>
-			<text transform="matrix(1 0 0 1 243.6548 146.9785)"><tspan x="0" y="0" font-size="8">id_number</tspan><tspan x="0" y="9.6" font-size="8">number()Sample</tspan><tspan x="0" y="19.2" font-size="8">Semantics</tspan></text>
+			<text transform="matrix(1 0 0 1 243.6548 146.9785)"><tspan x="0" y="0" font-size="8">idNumber</tspan><tspan x="0" y="9.6" font-size="8">datatype</tspan><tspan x="0" y="19.2" font-size="8">Semantics</tspan></text>
 		</g>
 		<g>
 			<rect x="390.956" y="137.679" fill="#FFFFFF" stroke="#1C3766" width="90" height="32.228"/>

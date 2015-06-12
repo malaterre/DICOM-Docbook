@@ -3322,7 +3322,7 @@ AbstractImageDataSet =
  element AbstractImageDataSet {
     element Component{
       attribute idNumber { xsd:positiveInteger },
-      attribute dataType { ComponentDatatype },
+      attribute dataType { ComponentDataType },
       attribute minValue { xsd:double }?,
       attribute maxValue { xsd:double }?,
       element Semantics { CodedTerm },
@@ -3387,7 +3387,7 @@ AbstractImageDataSet =
     }?
   }
 
-ComponentDatatype =
+ComponentDataType =
     "SIGNED_INT8"
     | "SIGNED_INT16"
     | "SIGNED_INT32"

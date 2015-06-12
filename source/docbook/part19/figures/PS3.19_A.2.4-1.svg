@@ -200,7 +200,7 @@
 			<rect x="397.938" y="127.461" fill="none" width="76.035" height="9.729"/>
 			<text transform="matrix(1 0 0 1 397.9385 133.186)" font-size="8">PixelMapOfValidData</text>
 			<rect x="394.604" y="140.734" fill="none" width="59.578" height="28.929"/>
-			<text transform="matrix(1 0 0 1 394.6055 146.4609)"><tspan x="0" y="0" font-size="8">datatype</tspan><tspan x="0" y="9.6" font-size="8">inValue</tspan><tspan x="0" y="19.2" font-size="8">outValue</tspan></text>
+			<text transform="matrix(1 0 0 1 394.6055 146.4609)"><tspan x="0" y="0" font-size="8">dataType</tspan><tspan x="0" y="9.6" font-size="8">inValue</tspan><tspan x="0" y="19.2" font-size="8">outValue</tspan></text>
 		</g>
 		<g>
 			<rect x="501.88" y="331.183" fill="#FFFFFF" stroke="#1C3766" width="90" height="23.463"/>

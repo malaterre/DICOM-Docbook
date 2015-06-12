@@ -208,7 +208,7 @@
 			<rect x="518.193" y="319.776" fill="none" width="57.371" height="9.729"/>
 			<text transform="matrix(1 0 0 1 534.6455 325.498)" font-size="8">DataAt</text>
 			<rect x="505.963" y="335.075" fill="none" width="62.691" height="19.328"/>
-			<text transform="matrix(1 0 0 1 505.959 340.7969)"><tspan x="0" y="0" font-size="8">sampleNumber</tspan><tspan x="0" y="9.6" font-size="8">nativeModelUUID</tspan></text>
+			<text transform="matrix(1 0 0 1 505.959 340.7969)"><tspan x="0" y="0" font-size="8">indexWithinDimension</tspan><tspan x="0" y="9.6" font-size="8">descriptorUUID</tspan><tspan x="0" y="19.2" font-size="8">bulkDataUUID</tspan></text>
 		</g>
 		<g>
 			<rect x="90.637" y="256.05" fill="#FFFFFF" stroke="#1C3766" width="90" height="42.113"/>
@@ -280,6 +280,7 @@
 			<rect x="302.113" y="366.81" fill="none" width="37.8" height="9.729"/>
 			<text transform="matrix(1 0 0 1 302.1128 372.5371)" font-size="8">Qualitative</text>
 		</g>
+<!--
 		<g>
 			<rect x="501.881" y="443.302" fill="#FFFFFF" stroke="#1C3766" width="89.998" height="32.676"/>
 			<rect x="501.881" y="427.042" fill="#B2CEE7" stroke="#1C3766" width="89.998" height="16.26"/>
@@ -288,6 +289,7 @@
 			<rect x="516.643" y="447.048" fill="none" width="60.473" height="28.928"/>
 			<text transform="matrix(1 0 0 1 516.6387 452.7734)"><tspan x="0" y="0" font-size="8">offset</tspan><tspan x="0" y="9.6" font-size="8">length</tspan><tspan x="0" y="19.199" font-size="8">path</tspan></text>
 		</g>
+-->
 		<g>
 			<rect x="127.242" y="211.892" fill="#F5EED6" width="20" height="10.997"/>
 			<rect x="210.961" y="432.929" fill="#F5EED6" width="20" height="10.998"/>

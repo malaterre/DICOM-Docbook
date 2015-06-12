@@ -3378,7 +3378,7 @@ AbstractImageDataSet =
     }+,
     element PixelData { DimensionalData },
     element PixelMapOfValidData {
-      attribute dataType { PixelMapDatatype },
+      attribute dataType { PixelMapDataType },
       (
         attribute inValue { xsd:positiveInteger }
         | attribute outValue { xsd:positiveInteger }
@@ -3397,7 +3397,7 @@ ComponentDataType =
     | "FLOAT32"
     | "FLOAT64"
   
-PixelMapDatatype = 
+PixelMapDataType = 
     "BIT1"
     | "UNSIGNED_INT8"
 

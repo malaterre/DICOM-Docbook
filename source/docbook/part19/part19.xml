@@ -2920,7 +2920,7 @@ Number = attribute number { xsd:positiveInteger }
                 <para>A</para>
               </td>
               <td align="left" colspan="1" rowspan="1">
-                <para>Index of the sample to which this Origin,. If this is a single Origin that applies to all samples along this Dimension, then index shall either be left out or given a value of "0" (zero). Otherwise, the value shall be the appropriate number between 1 and numberOfSamples.</para>
+                <para>Index of the sample to which this Origin applies. If this is a single Origin that applies to all samples along this Dimension, then index shall either be left out or given a value of "0" (zero). Otherwise, the value shall be the appropriate number between 1 and numberOfSamples.</para>
               </td>
             </tr>
             <tr valign="top">

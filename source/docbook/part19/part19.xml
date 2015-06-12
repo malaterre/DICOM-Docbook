@@ -3320,7 +3320,7 @@ DimensionalData =
     attribute dimensionID { xsd:positiveInteger },
     element DataAt 
     {
-      attribute sampleNumber { xsd:positiveInteger },
+      attribute indexWithinDimension { xsd:positiveInteger },
       attribute descriptorUUID { xsd:string }?,
       (DimensionalData | BulkDataPointer)
     }+

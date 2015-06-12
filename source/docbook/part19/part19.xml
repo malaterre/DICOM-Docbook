@@ -2405,7 +2405,7 @@ Number = attribute number { xsd:positiveInteger }
             </tr>
             <tr valign="top">
               <td align="left" colspan="1" rowspan="1">
-                <para>&gt;&gt;datatype</para>
+                <para>&gt;&gt;dataType</para>
               </td>
               <td align="center" colspan="1" rowspan="1">
                 <para>R</para>
@@ -3086,7 +3086,7 @@ Number = attribute number { xsd:positiveInteger }
             </tr>
             <tr valign="top">
               <td align="left" colspan="1" rowspan="1">
-                <para>&gt;&gt;datatype</para>
+                <para>&gt;&gt;dataType</para>
               </td>
               <td align="center" colspan="1" rowspan="1">
                 <para>R</para>
@@ -3236,7 +3236,7 @@ AbstractImageDataSet =
  element AbstractImageDataSet {
     element Component{
       attribute idNumber { xsd:positiveInteger },
-      attribute datatype { ComponentDatatype },
+      attribute dataType { ComponentDatatype },
       attribute minValue { xsd:double }?,
       attribute maxValue { xsd:double }?,
       element Semantics { CodedTerm },
@@ -3292,7 +3292,7 @@ AbstractImageDataSet =
     }+,
     element PixelData { DimensionalData },
     element PixelMapOfValidData {
-      attribute datatype { PixelMapDatatype },
+      attribute dataType { PixelMapDatatype },
       (
         attribute inValue { xsd:positiveInteger }
         | attribute outValue { xsd:positiveInteger }

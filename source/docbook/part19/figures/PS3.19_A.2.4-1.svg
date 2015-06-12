@@ -238,7 +238,7 @@
 			<rect x="338.403" y="273.589" fill="#FFFFFF" stroke="#1C3766" width="107.995" height="51.729"/>
 			<rect x="338.403" y="250.591" fill="#B2CEE7" stroke="#1C3766" width="107.995" height="22.998"/>
 			<rect x="358.151" y="254.259" fill="none" width="68.923" height="19.326"/>
-			<text transform="matrix(1 0 0 1 362.3867 259.9878)"><tspan x="0" y="0" font-size="8">DirectionCosines</tspan><tspan x="-4.23" y="9.6" font-size="8">of space dimension</tspan></text>
+			<text transform="matrix(1 0 0 1 362.3867 259.9878)"><tspan x="0" y="0" font-size="8">DirectionCosines</tspan></text>
 			<rect x="342.43" y="277.188" fill="none" width="99.607" height="48.129"/>
 			<text transform="matrix(1 0 0 1 342.4346 282.916)"><tspan x="0" y="0" font-size="8">concernedSpatialDimension</tspan><tspan x="0" y="9.6" font-size="8">index</tspan><tspan x="0" y="19.2" font-size="8">cosAlongX</tspan><tspan x="0" y="28.8" font-size="8">cosAlongY</tspan><tspan x="0" y="38.4" font-size="8">cosAlongZ</tspan></text>
 		</g>

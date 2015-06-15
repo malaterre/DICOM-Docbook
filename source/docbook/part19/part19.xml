@@ -3240,7 +3240,7 @@ AbstractImageDataSet =
       attribute minValue { xsd:double }?,
       attribute maxValue { xsd:double }?,
       element Semantics { CodedTerm },
-      element Unit { CodedTerm  },
+      element Unit { CodedTerm  }
     }+,
     element Dimension {
       attribute idNumber { xsd:positiveInteger },

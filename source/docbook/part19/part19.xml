@@ -2286,7 +2286,7 @@ Number = attribute number { xsd:positiveInteger }
             <para>A single DICOM SOP Instance shall not be divided into multiple instances of the Abstract Multi-Dimensional Image Model.</para>
           </listitem>
           <listitem>
-            <para>The coordinate system utilized within the Abstract Multi-Dimensional Image Model shall use the coordinate system defined by the DICOM objects utilized in the creation of the Abstract Multi-Dimensional Image Model instance if applicable. Where practical, the coordinate system and Dimension definitions utilized within the Abstract Multi-Dimensional Image Model shall be chosen such that interpolation is not required to covert the source data into the Abstract Multi-Dimensional Image Model.</para>
+            <para>The coordinate system utilized within the Abstract Multi-Dimensional Image Model shall use the coordinate system defined by the DICOM objects utilized in the creation of the Abstract Multi-Dimensional Image Model instance if applicable. Where practical, the coordinate system and Dimension definitions utilized within the Abstract Multi-Dimensional Image Model shall be chosen such that interpolation is not required to convert the source data into the Abstract Multi-Dimensional Image Model.</para>
             <note>
               <para>Interpolation may be necessary if the source data is not laid out on a frame-based Cartesian coordinate grid.</para>
             </note>

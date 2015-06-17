@@ -1071,7 +1071,7 @@
             <para>MimeType : MimeType - the MIME content type of this particular data object, in its most natural form available from the source. The most natural form is typically the form in which the source maintains the data in its database, for example a DICOM file.</para>
           </listitem>
           <listitem>
-            <para>ClassUID : UID - the UID that represents the class of this data object in the form described by mimeType. For objects whose mimeType refers to a data exchange model such as those defined in <xref linkend="chapter_A" xrefstyle="template:Annex %n"/>, this is the UID of that model. For objects whose mimeType is application:dicom, this is the SOP Class UID of the DICOM object. This may be empty for those objects whose MIME content types have no additional classes.</para>
+            <para>ClassUID : UID - the UID that represents the class of this data object in the form described by mimeType. For objects whose mimeType refers to a data exchange model such as those defined in <xref linkend="chapter_A" xrefstyle="template:Annex %n"/>, this is the UID of that model. For objects whose mimeType is <quote>application/dicom</quote>, this is the SOP Class UID of the DICOM object. This may be empty for those objects whose MIME content types have no additional classes.</para>
           </listitem>
           <listitem>
             <para>TransferSyntaxUID : UID - the UID that represents the Transfer Syntax of this data object in the form described by mimeType. This may be empty for those objects of a MIME content type where Transfer Syntax has no meaning.</para>

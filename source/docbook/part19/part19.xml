@@ -147,6 +147,14 @@
       <para xml:id="para_d0376bce-5848-4c8e-a9b4-e96d89ca7ba0">The XML Information Set W3C Recommendation can be found at <link xl:href="http://www.w3.org/TR/xml-infoset/"/>
 </para>
     </note>
+    <para>XML Schema Part 1: Structures Second Edition</para>
+    <note>
+      <para>The XML Schema Part 1: Structures Second Edition can be found at <link xl:href="http://www.w3.org/TR/xmlschema-1/"/></para>
+    </note>
+    <para>XML Schema Part 2: Datatypes Second Edition</para>
+    <note>
+      <para>The XML Schema Part 2: Datatypes Second Edition can be found at <link xl:href="http://www.w3.org/TR/xmlschema-2/"/></para>
+    </note>
   </chapter>
   <chapter label="3" status="1" xml:id="chapter_3">
     <title>Definitions</title>
@@ -2465,6 +2473,9 @@ Number = attribute number { xsd:positiveInteger }
           </listitem>
           <listitem>
             <para xml:id="para_1137467e-b5e3-4b97-97ed-c0ab23250233">Any pixel values that correspond to the pixel padding values shall be stripped out (i.e., set to zero or other suitable replacement value) and the spatially corresponding values in the PixelMapOfValidData shall be set to the outValue or something other than the inValue, as appropriate.</para>
+          </listitem>
+          <listitem>
+            <para>Abstract Multi-Dimensional Image Model shall be valid with regards to the Normative Schema. In particular the datatypes used in XML shall be a valid xsd:double (patterned after the IEEE double-precision 64-bit floating point type). Implementers should pay attention that there is no direct mapping in between a Decimal String Value Representation and binary64.</para>
           </listitem>
         </orderedlist>
         <para xml:id="para_a0944c1e-5a0e-4913-8b19-a4a5953ea002">When converting data within an instance of the Abstract Multi-Dimensional Image Models into DICOM SOP Instances, the recipient of an abstract model instance shall convert the pixel data back into values compatible with the native form of the DICOM SOP Instances being created. This conversion may include recreating Modality LUT information, inserting pixel padding values, converting pixel spacing and origins, etc. as dictated by the SOP Class the data is being converted to. When converting a single Abstract Multi-Dimensional Image Model into multiple DICOM SOP Instances, the DICOM SOP Instances shall all have the same Frame of Reference UID (0020,0052), if permitted by the SOP Class.</para>

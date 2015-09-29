@@ -3598,7 +3598,7 @@
       <section label="A.3.7" xml:id="sect_A.3.7">
         <title>References</title>
         <para>Referenced documents should be listed here, including appropriate product manuals (such as service manuals that specify how to set DICOM communication parameters). References to the DICOM Standard should provide the URL for the free published version of the Standard, but should not specify a date of publication:</para>
-        <para>NEMA PS3 Digital Imaging and Communications in Medicine (DICOM) Standard, available free at http://medical.nema.org/</para>
+        <para>NEMA PS3 Digital Imaging and Communications in Medicine (DICOM) Standard, available free at <link xl:href="http://medical.nema.org/"/></para>
       </section>
     </section>
     <section label="A.4" status="2" xml:id="sect_A.4">

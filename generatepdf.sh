@@ -1,6 +1,6 @@
 #!/bin/sh -e
 
-#set -x
+set -x
 
 part="$1"
 
@@ -41,14 +41,11 @@ rm output/fo/part${part}_withmml.fo
 # need to turn off (remove file) in draft.watermark.image in stylesheets/customize-fo.xsl for fop, else get serialization error :(
 #fop -conserve -c lib/fop/fop.xml -fo output/fo/part${part}.fo -pdf "/tmp/part${part}_fop.pdf"
 
-if [ -f XEP/xep ]
-then
 XEP/xep -fo "output/fo/part${part}.fo" -pdf "output/pdf/part${part}.pdf"
 
 #XEP/xep -fo "output/fo/part${part}.fo" -xep "output/xep/part${part}.xep"
 #java -jar /opt/local/share/java/saxon9he.jar "-xsl:stylesheets/linenumberxep.xsl" "-s:output/xep/part${part}.xep" "-o:output/xep/part${part}_linenumbered.xep"
 #XEP/xep -xep "output/xep/part${part}_linenumbered.xep" -pdf "output/pdf/part${part}.pdf"
-fi
 
 # embed all fonts and make tagged PDF ...
 #/usr/local/AHFormatterV61/run.sh -tpdf -peb 2 -i lib/ahf/AHFormatter.xml -d "output/fo/part${part}.fo" -o "/tmp/part${part}_ahf.pdf"

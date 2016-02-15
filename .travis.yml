@@ -1,0 +1,8 @@
+# https://docs.travis-ci.com/user/environment-variables/#Default-Environment-Variables
+# https://github.com/travis-ci/travis-ci/issues/3505
+language: c
+# Use the faster container-based infrastructure.
+sudo: false
+
+os: linux
+addons: {apt: {packages: [xsltproc, docbook-xsl-ns]}}

@@ -13,7 +13,7 @@ rm -rf tmp/pMML2SVG-0.8.5
 rm -rf tmp/XEP_trial
 rm -rf tmp/catalogs
 rm -rf tmp/wordexport
-rm -rf tmp/stylesheets
+#rm -rf tmp/stylesheets
 rm -rf tmp/svg2emf
 
 # do not mess with the current one:

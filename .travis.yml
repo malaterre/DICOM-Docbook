@@ -3,7 +3,7 @@ language: c
 sudo: false
 
 os: linux
-addons: {apt: {packages: [xsltproc, docbook-xsl-ns, docbook-xsl-saxon, libsaxonhe-java, fop]}}
+addons: {apt: {packages: [xsltproc, docbook-xsl-ns, docbook-xsl-saxon, libsaxonb-java, fop]}}
 
 script:
   - ./generateforrelease.sh

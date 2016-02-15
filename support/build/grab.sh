@@ -13,7 +13,7 @@ rm -rf tmp/lib
 rm -rf tmp/pMML2SVG-0.8.5/examples
 rm -rf tmp/pMML2SVG-0.8.5/doc
 rm -rf tmp/pMML2SVG-0.8.5/ttfreader
-rm     tmp/pMML2SVG-0.8.5/*
+#rm     tmp/pMML2SVG-0.8.5/*
 rm -rf tmp/XEP_trial
 rm -rf tmp/catalogs
 rm -rf tmp/wordexport

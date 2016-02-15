@@ -1,4 +1,6 @@
-#!/bin/sh
+#!/bin/sh -e
+
+set -x
 
 part="$1"
 

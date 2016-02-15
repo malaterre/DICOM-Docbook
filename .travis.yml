@@ -7,5 +7,6 @@ addons: {apt: {packages: [xsltproc, docbook-xsl-ns, docbook-xsl-saxon, libsaxonb
 
 script:
   - sed -i -e "s:/Users/dclunie/Documents/Work/DICOM_Publish_XML/DocBookDICOM2013:$PWD:" olinkdb_pdf.xml
-  - sed -i -e "s:/opt/local/share/java/saxon9he.jar:/usr/share/java/saxonb.jar:" *.sh
+  #- sed -i -e "s:/opt/local/share/java/saxon9he.jar:/usr/share/java/saxonb.jar:" *.sh
+  - sed -i -e "s:-jar /opt/local/share/java/saxon9he.jar:-classpath /usr/share/java/saxonb.jar net.sf.saxon.Transform:" *.sh
   - ./generateforrelease.sh

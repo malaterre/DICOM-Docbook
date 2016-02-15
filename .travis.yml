@@ -4,3 +4,6 @@ sudo: false
 
 os: linux
 addons: {apt: {packages: [xsltproc, docbook-xsl-ns]}}
+
+script:
+  - ./generateforrelease.sh

@@ -12,8 +12,5 @@ mkdir -p "output/fo"
 mkdir -p "output/pdf"
 
 xsltproc --nonet -o "output/fo/${basefile}.fo" stylesheets/customize-fo-pdf-releasenotes.xsl "source/docbook/releasenotes/${basefile}.xml"
-if [ -f XEP/xep ]
-then
 XEP/xep -fo "output/fo/${basefile}.fo" -pdf "output/pdf/${basefile}.pdf"
-fi
 rm "output/fo/${basefile}.fo"

@@ -8,6 +8,6 @@ addons: {apt: {packages: [xsltproc, docbook-xsl-ns, docbook-xsl-saxon, libsaxonh
 script:
   - sed -i -e "s:/Users/dclunie/Documents/Work/DICOM_Publish_XML/DocBookDICOM2013:$PWD:" *.xml stylesheets/*.xsl
   #- sed -i -e "s:/opt/local/share/java/saxon9he.jar:/usr/share/java/saxonb.jar:" *.sh
-  - sed -i -e "s@-jar /opt/local/share/java/saxon9he.jar@-classpath /usr/share/java/saxonb.jar net.sf.saxon.Transform -ext:on@" *.sh
+  - sed -i -e "s@-jar /opt/local/share/java/saxon9he.jar@-classpath /usr/share/java/saxonb.jar net.sf.saxon.Transform -t -ext:on@" *.sh
   - sed -i -e "s:xep.extensions:fop1.extensions:" stylesheets/*.xsl
   - ./generateforrelease.sh

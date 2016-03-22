@@ -3156,7 +3156,7 @@
             <listitem>
               <para xml:id="para_7ef27e5b-1166-49be-b782-688deb51aa97">Formerly, bits not used for Pixel Sample
               Values were described as being usable for overlay planes, but this usage has
-              been retired. See PS3.5-2004.</para>
+              been retired. See <link xl:href="ftp://medical.nema.org/MEDICAL/Dicom/2004/printed/04_05pu.pdf">PS3.5-2004</link>.</para>
             </listitem>
             <listitem>
               <para xml:id="para_f777ac20-cdc7-41ba-9e81-128c7eba5bf8">Formerly, High Bit

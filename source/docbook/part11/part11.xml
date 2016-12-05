@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xl="http://www.w3.org/1999/xlink" label="PS3.11" version="5.0" xml:id="PS3.11">
   <title>PS3.11</title>
-  <subtitle>DICOM PS3.11 2016a - Media Storage Application Profiles</subtitle>
+  <subtitle>DICOM PS3.11 2016e - Media Storage Application Profiles</subtitle>
   <info>
     <author>
       <orgname>DICOM Standards Committee</orgname>
@@ -49,11 +49,11 @@
   <chapter label="" status="1" xml:id="chapter_Foreword">
     <title>Foreword</title>
     <para xml:id="para_39a6589e-0057-4104-b9ee-89305eadf0c6">This DICOM Standard was developed according to the procedures of the DICOM Standards Committee.</para>
-    <para xml:id="para_88191668-1fda-4579-99f8-db3e2066e6d5">The DICOM Standard is structured as a multi-part document using the guidelines established in <xref linkend="biblio_ISODirectives3"/>.</para>
-    <para>DICOM® is the registered trademark of the National Electrical Manufacturers Association for its standards publications relating to digital communications of medical information.</para>
-    <para>HL7® and CDA® are the registered trademarks of Health Level Seven International.</para>
-    <para>SNOMED®, SNOMED Clinical Terms®, SNOMED CT® are the registered trademarks of the International Health Terminology Standards Development <foreignphrase xml:lang="en-GB">Organisation</foreignphrase> (IHTSDO).</para>
-    <para>LOINC® is the registered trademark of Regenstrief Institute, Inc.</para>
+    <para xml:id="para_88191668-1fda-4579-99f8-db3e2066e6d5">The DICOM Standard is structured as a multi-part document using the guidelines established in <xref linkend="biblio_ISODirectives2"/>.</para>
+    <para xml:id="para_5f344613-2a66-4421-9370-f9473347b1db">DICOM® is the registered trademark of the National Electrical Manufacturers Association for its standards publications relating to digital communications of medical information, all rights reserved.</para>
+    <para xml:id="para_035b5274-515f-4944-b557-d88be0e41620">HL7® and CDA® are the registered trademarks of Health Level Seven International, all rights reserved.</para>
+    <para xml:id="para_8dc2dae4-491b-4b08-8aa7-78f5118edb8b">SNOMED®, SNOMED Clinical Terms®, SNOMED CT® are the registered trademarks of the International Health Terminology Standards Development <foreignphrase xml:lang="en-GB">Organisation</foreignphrase> (IHTSDO), all rights reserved.</para>
+    <para xml:id="para_60d39293-1685-492b-91ae-352a2e324f0e">LOINC® is the registered trademark of Regenstrief Institute, Inc, all rights reserved.</para>
   </chapter>
   <chapter label="1" status="1" xml:id="chapter_1">
     <title>Scope and Field of Application</title>
@@ -99,19 +99,23 @@
     <title>Normative References</title>
     <para xml:id="para_6d91cbb8-091e-4e71-b7fe-6b216808f328">The following standards contain provisions that, through reference in this text, constitute provisions of this Standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this Standard are encouraged to investigate the possibilities of applying the most recent editions of the standards indicated below.</para>
     <bibliography>
-      <biblioentry xml:id="biblio_ISODirectives3">
-        <abbrev>ISO/IEC Directives, Part 3</abbrev>
+      <biblioentry xml:id="biblio_ISODirectives2">
+        <abbrev>ISO/IEC Directives, Part 2</abbrev>
         <author>
           <orgname>ISO/IEC</orgname>
         </author>
-        <date>1989</date>
-        <title>Drafting and presentation of International Standards</title>
+        <date>2011/04</date>
+        <edition>6.0</edition>
+        <title>Rules for the structure and drafting of International Standards</title>
+        <bibliosource>
+          <link xl:href="http://www.iec.ch/members_experts/refdocs/iec/isoiec-dir2%7Bed6.0%7Den.pdf"/>
+        </bibliosource>
       </biblioentry>
     </bibliography>
     <para xml:id="para_569e15c8-01bf-42c2-9339-640142b4f7cf">ISO 7498-1, Information Processing Systems - Open Systems Interconnection - Basic Reference Model.</para>
     <para xml:id="para_53727856-78b5-415c-839f-f71eb2660cd1">ISO 7498-2, Information processing systems - Open Systems Interconnection - Basic reference Model - Part 2: Security Architecture</para>
     <para xml:id="para_05360441-3cb1-4014-a3a7-2fa2fd6ee0cd">ISO 8859, Information Processing - 8-bit single-byte coded graphic character sets - part 1: Latin Alphabet No. 1.</para>
-    <para xml:id="para_7f06f16b-b192-4d08-a71e-bd3486962d17">RFC-2630, Cryptographic Message Syntax, June 1999</para>
+    <para xml:id="para_7f06f16b-b192-4d08-a71e-bd3486962d17">RFC2630, Cryptographic Message Syntax, June 1999</para>
   </chapter>
   <chapter label="3" status="1" xml:id="chapter_3">
     <title>Definitions</title>
@@ -711,10 +715,10 @@
     </section>
     <section label="A.2" status="2" xml:id="sect_A.2">
       <title>Clinical Context</title>
-      <para xml:id="para_2b7e0b4a-bc27-4890-a582-9d4ac09dca80">This Application Profile Class facilitates the interchange of primary digital X-Ray cine runs, typically acquired as part of cardiac catheterization procedures. Typical media interchanges would be from in-lab acquisition equipment to either a display workstation or to a data archive system, or between a display workstation and a data archive system (in both directions). This context is shown in figure A.2-1 below.</para>
+      <para xml:id="para_2b7e0b4a-bc27-4890-a582-9d4ac09dca80">This Application Profile Class facilitates the interchange of primary digital X-Ray cine runs, typically acquired as part of cardiac catheterization procedures. Typical media interchanges would be from in-lab acquisition equipment to either a display workstation or to a data archive system, or between a display workstation and a data archive system (in both directions). This context is shown in <xref linkend="figure_A.2-1" xrefstyle="select: label"/>.</para>
       <para xml:id="para_2e7a8e8b-2cce-43b0-97d6-de470e08574d">
         <figure label="A.2-1" pgwide="1" xml:id="figure_A.2-1">
-          <title>Clinical Context</title>
+          <title>Basic Cardiac X-Ray Angiographic Clinical Context</title>
           <mediaobject>
             <imageobject>
               <imagedata fileref="figures/PS3.11_A.2-1.svg"/>
@@ -2038,7 +2042,7 @@
       <para xml:id="para_9d47ab3e-ac4b-401f-be33-038216364e05">These classes of Application Profiles facilitate the interchange of ultrasound data on media. Typical interchanges would be between ultrasound systems, between an ultrasound system and a display workstation, between display workstations, or between an ultrasound system and a data archive. This context is shown in <xref linkend="figure_C.2-1" xrefstyle="select: label"/>.</para>
       <para xml:id="para_211331f5-c23d-4672-9e8b-fd49a1d309aa">
         <figure label="C.2-1" pgwide="1" xml:id="figure_C.2-1">
-          <title>Clinical Context</title>
+          <title>Ultrasound Clinical Context</title>
           <mediaobject>
             <imageobject>
               <imagedata fileref="figures/PS3.11_C.2-1.svg"/>
@@ -2232,10 +2236,12 @@
                   <para xml:id="para_ab5533f2-1ca6-4a80-8f74-84f5fe06ef38">MONOCHROME2</para>
                 </td>
                 <td align="left" colspan="1" rowspan="1">
-                  <para xml:id="para_cb7cd602-5ee1-465a-bda0-7f1d073e90e6">Uncompressed RLE Lossless Image Compression</para>
+                  <para xml:id="para_cb7cd602-5ee1-465a-bda0-7f1d073e90e6">Uncompressed RLE</para>
+<para xml:id="para_f8e87ae4-75f1-45c4-9e0b-5b699272ab25">Lossless Image Compression</para>
                 </td>
                 <td align="left" colspan="1" rowspan="1">
-                  <para xml:id="para_54e9a5fe-f87e-41f6-a533-a84f31b9959f">1.2.840.10008.1.2.11.2.840.10008.1.2.5</para>
+                  <para xml:id="para_54e9a5fe-f87e-41f6-a533-a84f31b9959f">1.2.840.10008.1.2.1</para>
+<para xml:id="para_b0c77b38-ab38-4cd1-b74f-5ca5b622bf3e">1.2.840.10008.1.2.5</para>
                 </td>
               </tr>
               <tr valign="top">
@@ -2243,10 +2249,12 @@
                   <para xml:id="para_df20ab76-869c-49f9-9cbe-f005f3661bdc">RGB</para>
                 </td>
                 <td align="left" colspan="1" rowspan="1">
-                  <para xml:id="para_7869ca6e-aa21-4a0b-8b82-0b02d26109bc">Uncompressed RLE Lossless Image Compression</para>
+                  <para xml:id="para_7869ca6e-aa21-4a0b-8b82-0b02d26109bc">Uncompressed</para>
+<para xml:id="para_1ffe6de5-d7cb-4463-8448-b71c2f6458d3">RLE Lossless Image Compression</para>
                 </td>
                 <td align="left" colspan="1" rowspan="1">
-                  <para xml:id="para_5558ab0c-5813-42ef-a866-e2a7751174bb">1.2.840.10008.1.2.11.2.840.10008.1.2.5</para>
+                  <para xml:id="para_5558ab0c-5813-42ef-a866-e2a7751174bb">1.2.840.10008.1.2.1</para>
+<para xml:id="para_17a281c2-2552-44d4-ba5e-b8dcc401df7b">1.2.840.10008.1.2.5</para>
                 </td>
               </tr>
               <tr valign="top">
@@ -2254,10 +2262,12 @@
                   <para xml:id="para_0f5f5f2d-378a-4f1b-8d84-397dc66fe779">PALETTE COLOR</para>
                 </td>
                 <td align="left" colspan="1" rowspan="1">
-                  <para xml:id="para_ee5c3414-0cac-4a59-b368-16d1a07edb68">Uncompressed RLE Lossless Image Compression</para>
+                  <para xml:id="para_ee5c3414-0cac-4a59-b368-16d1a07edb68">Uncompressed</para>
+<para xml:id="para_87109394-4f34-4a1a-9f73-81a7fa5462af">RLE Lossless Image Compression</para>
                 </td>
                 <td align="left" colspan="1" rowspan="1">
-                  <para xml:id="para_f9d3564e-03d0-4ab4-bc13-43ac32890918">1.2.840.10008.1.2.11.2.840.10008.1.2.5</para>
+                  <para xml:id="para_f9d3564e-03d0-4ab4-bc13-43ac32890918">1.2.840.10008.1.2.1</para>
+<para xml:id="para_f44352b4-fb90-4859-a700-2276df45d809">1.2.840.10008.1.2.5</para>
                 </td>
               </tr>
               <tr valign="top">
@@ -2276,10 +2286,12 @@
                   <para xml:id="para_9ddd6911-e5ab-4954-9eed-51e2b3fb8fc4">YBR_FULL_422</para>
                 </td>
                 <td align="left" colspan="1" rowspan="1">
-                  <para xml:id="para_9f3703cc-e159-49e6-9897-657b1d1a22a3">Uncompressed JPEG Lossy</para>
+                  <para xml:id="para_9f3703cc-e159-49e6-9897-657b1d1a22a3">Uncompressed</para>
+<para xml:id="para_c6d0c3e0-fb1b-4d90-bb11-3aed6795aa2b">JPEG Lossy</para>
                 </td>
                 <td align="left" colspan="1" rowspan="1">
-                  <para xml:id="para_a87b5c44-8d0f-4cc2-b731-426c05bc5bdc">1.2.840.10008.1.2.11.2.840.10008.1.2.4.50</para>
+                  <para xml:id="para_a87b5c44-8d0f-4cc2-b731-426c05bc5bdc">1.2.840.10008.1.2.1</para>
+<para xml:id="para_af9c3eb3-8747-4711-9b3b-764f7ed00019">1.2.840.10008.1.2.4.50</para>
                 </td>
               </tr>
               <tr valign="top">
@@ -2287,10 +2299,12 @@
                   <para xml:id="para_8d458109-b4af-4527-8643-9676d45f4d95">YBR_PARTIAL_422</para>
                 </td>
                 <td align="left" colspan="1" rowspan="1">
-                  <para xml:id="para_d21ae9d7-3b04-4e9f-b1a5-9381b18ce91b">Uncompressed JPEG Lossy</para>
+                  <para xml:id="para_d21ae9d7-3b04-4e9f-b1a5-9381b18ce91b">Uncompressed</para>
+<para xml:id="para_e947205f-66a2-4d7d-9e97-abe06b6573d3">JPEG Lossy</para>
                 </td>
                 <td align="left" colspan="1" rowspan="1">
-                  <para xml:id="para_71cb8ba4-eaae-4eda-a2e1-2e26ced8d097">1.2.840.10008.1.2.11.2.840.10008.1.2.4.50</para>
+                  <para xml:id="para_71cb8ba4-eaae-4eda-a2e1-2e26ced8d097">1.2.840.10008.1.2.1</para>
+<para xml:id="para_45d2bcac-dda1-4a67-a4f8-89cc82b936a6">1.2.840.10008.1.2.4.50</para>
                 </td>
               </tr>
             </tbody>
@@ -3642,10 +3656,10 @@
                 <td align="left" colspan="1" rowspan="1">
                   <para xml:id="para_10e3e2e5-2d4c-47b4-a677-c9e7ec0d2017">High Bit</para>
                 </td>
-                <td align="left" colspan="1" rowspan="1">
+                <td align="center" colspan="1" rowspan="1">
                   <para xml:id="para_7aa97d47-3da4-4da2-9093-a15b001027bb">(0028,0102)</para>
                 </td>
-                <td align="center" colspan="1" rowspan="1">
+                <td align="left" colspan="1" rowspan="1">
                   <para xml:id="para_ba625499-6d9c-4ef6-ab97-36d7042d0dd3">Bits Stored (0028,0101) - 1</para>
                 </td>
               </tr>
@@ -3928,7 +3942,7 @@
     <title>General Purpose DVD With Compression Interchange Profiles (Normative)</title>
     <section label="H.1" status="2" xml:id="sect_H.1">
       <title>Profile Identification</title>
-      <para xml:id="para_b243be97-da4a-49aa-a742-9124ee54d055">This Annex defines an Application Profile Class potentially inclusive of all defined Media Storage SOP Classes. This class is intended to be used for the interchange of Composite SOP Instances via DVD media for general purpose applications. Objects from multiple modalities may be included on the same media. Images may be compressed with or without loss using either JPEG or JPEG 2000; all readers shall support compression.</para>
+      <para xml:id="para_b243be97-da4a-49aa-a742-9124ee54d055">This Annex defines an Application Profile Class potentially inclusive of all defined Media Storage SOP Classes. This class is intended to be used for the interchange of Composite SOP Instances via DVD media for general purpose applications. Objects from multiple modalities may be included on the same media. Images may be compressed with or without loss using either JPEG or JPEG 2000; all File Set Readers are required to support decompression of all of the compressed Transfer Syntaxes defined for each Profile.</para>
       <para xml:id="para_abe3b8dc-8fb3-4153-9e35-0aac1b21aaee">A detailed list of the Media Storage SOP Classes that may be supported is defined in <olink targetdoc="PS3.4" targetptr="PS3.4" xrefstyle="select: labelnumber"/>.</para>
       <table frame="box" label="H.1-1" rules="all" xml:id="table_H.1-1">
         <caption>STD-GEN-DVD and STD-GEN-SEC-DVD Profiles</caption>
@@ -5006,7 +5020,7 @@
     <title>General Purpose USB and Flash Memory With Compression Interchange Profiles (Normative)</title>
     <section label="J.1" status="2" xml:id="sect_J.1">
       <title>Profile Identification</title>
-      <para xml:id="para_0555070f-5b6d-4367-a56e-3d2f68adc061">This Annex defines an Application Profile Class potentially inclusive of all defined Media Storage SOP Classes. This class is intended to be used for the interchange of Composite SOP Instances via USB, CF, MMC or SD media for general-purpose applications. Objects from multiple modalities may be included on the same media. Images may be compressed with or without loss using either JPEG or JPEG 2000; all readers shall support compression.</para>
+      <para xml:id="para_0555070f-5b6d-4367-a56e-3d2f68adc061">This Annex defines an Application Profile Class potentially inclusive of all defined Media Storage SOP Classes. This class is intended to be used for the interchange of Composite SOP Instances via USB, CF, MMC or SD media for general-purpose applications. Objects from multiple modalities may be included on the same media. Images may be compressed with or without loss using either JPEG or JPEG 2000; all File Set Readers are required to support decompression of all of the compressed Transfer Syntaxes defined for each Profile.</para>
       <para xml:id="para_178da986-ae88-4512-8eb6-7b8f3245e03f">A detailed list of the Media Storage SOP Classes that may be supported is defined in <olink targetdoc="PS3.4" targetptr="PS3.4" xrefstyle="select: labelnumber"/>.</para>
       <table frame="box" label="J.1-1" rules="all" xml:id="table_J.1-1">
         <caption>STD-GEN-USB, STD-GEN-SEC-USB STD-GEN-MMC, STD-GEN-SEC-MMC, STD-GEN-CF, STD-GEN-SEC-CF, STD-GEN-SD and STD-GEN-SEC-SD Profiles</caption>
@@ -5547,7 +5561,7 @@
       <para xml:id="para_552ee38d-7501-48bd-9869-39c35762f417">This Application Profile facilitates the interchange of dental data on media. Typical interchanges would be between dental systems, between a dental system and a display workstation, between display workstations, or between a dental system and a data archive. This context is shown in <xref linkend="figure_K.2-1" xrefstyle="select: label"/>.</para>
       <para xml:id="para_2ba1b276-e07d-4c99-8fd1-2330dea79221">
         <figure label="K.2-1" pgwide="1" xml:id="figure_K.2-1">
-          <title>Clinical Context</title>
+          <title>Dental Clinical Context</title>
           <mediaobject>
             <imageobject>
               <imagedata fileref="figures/PS3.11_K.2-1.svg"/>
@@ -6350,7 +6364,7 @@
     <title>General Purpose BD With Compression Interchange Profiles (Normative)</title>
     <section label="M.1" status="2" xml:id="sect_M.1">
       <title>Profile Identification</title>
-      <para xml:id="para_2d731529-d9eb-46be-8544-bc22cd241bb0">This Annex defines an Application Profile Class potentially inclusive of all defined Media Storage SOP Classes. This class is intended to be used for the interchange of Composite SOP Instances via BD media for general-purpose applications. Objects from multiple modalities may be included on the same media. Images may be compressed with or without loss using either JPEG or JPEG 2000. And multi-frame images and video may be compressed with MPEG2 Main Profile / Main Level or MPEG2 Main Profile / High Level or MPEG-4 AVC/H.264 High Profile / Level 4.1 or MPEG-4 AVC/H.264 BD-compatible High Profile / Level 4.1.</para>
+      <para xml:id="para_2d731529-d9eb-46be-8544-bc22cd241bb0">This Annex defines an Application Profile Class potentially inclusive of all defined Media Storage SOP Classes. This class is intended to be used for the interchange of Composite SOP Instances via BD media for general-purpose applications. Objects from multiple modalities may be included on the same media. Images may be compressed with or without loss using either JPEG or JPEG 2000. And multi-frame images and video may be compressed with MPEG2 Main Profile / Main Level or MPEG2 Main Profile / High Level or MPEG-4 AVC/H.264 High Profile / Level 4.1 or MPEG-4 AVC/H.264 BD-compatible High Profile / Level 4.1; all File Set Readers are required to support decompression of all of the compressed Transfer Syntaxes defined for each Profile.</para>
       <para xml:id="para_3fbe8961-da40-49ce-817a-0f9315ce7088">A detailed list of the Media Storage SOP Classes that may be supported is defined in <olink targetdoc="PS3.4" targetptr="PS3.4" xrefstyle="select: labelnumber"/>.</para>
       <table frame="box" label="M.1-1" rules="all" xml:id="table_M.1-1">
         <caption>STD-GEN-BD and STD-GEN-SEC-BD Profiles</caption>

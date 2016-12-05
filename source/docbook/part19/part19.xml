@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xl="http://www.w3.org/1999/xlink" label="PS3.19" version="5.0" xml:id="PS3.19">
   <title>PS3.19</title>
-  <subtitle>DICOM PS3.19 2016a - Application Hosting</subtitle>
+  <subtitle>DICOM PS3.19 2016e - Application Hosting</subtitle>
   <info>
     <author>
       <orgname>DICOM Standards Committee</orgname>
@@ -49,11 +49,11 @@
   <chapter label="" status="1" xml:id="chapter_Foreword">
     <title>Foreword</title>
     <para xml:id="para_ffc33ef0-a692-48af-a7a1-440d4ac0bf1c">This DICOM Standard was developed according to the procedures of the DICOM Standards Committee.</para>
-    <para xml:id="para_a27cd82f-e697-431d-8f23-653c1ddfe096">The DICOM Standard is structured as a multi-part document using the guidelines established in <xref linkend="biblio_ISODirectives3"/>.</para>
-    <para>DICOM® is the registered trademark of the National Electrical Manufacturers Association for its standards publications relating to digital communications of medical information.</para>
-    <para>HL7® and CDA® are the registered trademarks of Health Level Seven International.</para>
-    <para>SNOMED®, SNOMED Clinical Terms®, SNOMED CT® are the registered trademarks of the International Health Terminology Standards Development <foreignphrase xml:lang="en-GB">Organisation</foreignphrase> (IHTSDO).</para>
-    <para>LOINC® is the registered trademark of Regenstrief Institute, Inc.</para>
+    <para xml:id="para_a27cd82f-e697-431d-8f23-653c1ddfe096">The DICOM Standard is structured as a multi-part document using the guidelines established in <xref linkend="biblio_ISODirectives2"/>.</para>
+    <para xml:id="para_66ba86fe-01fc-4de6-8805-5c2994ed9e6a">DICOM® is the registered trademark of the National Electrical Manufacturers Association for its standards publications relating to digital communications of medical information, all rights reserved.</para>
+    <para xml:id="para_9893c058-21fc-4735-8bc8-a6dacf79d9a3">HL7® and CDA® are the registered trademarks of Health Level Seven International, all rights reserved.</para>
+    <para xml:id="para_d8572681-cee7-40e3-a9b3-4b287765c4e5">SNOMED®, SNOMED Clinical Terms®, SNOMED CT® are the registered trademarks of the International Health Terminology Standards Development <foreignphrase xml:lang="en-GB">Organisation</foreignphrase> (IHTSDO), all rights reserved.</para>
+    <para xml:id="para_5e756cfb-caa8-419f-a482-bf5dfb778093">LOINC® is the registered trademark of Regenstrief Institute, Inc, all rights reserved.</para>
   </chapter>
   <chapter label="1" status="1" xml:id="chapter_1">
     <title>Scope and Field of Application</title>
@@ -114,21 +114,25 @@
     <title>Normative References</title>
     <para xml:id="para_2db5c4d2-148e-4c67-a4dd-357075a32f3a">The following standards contain provisions that, through reference in this text, constitute provisions of this Standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this Standard are encouraged to investigate the possibilities of applying the most recent editions of the standards indicated below.</para>
     <bibliography>
-      <biblioentry xml:id="biblio_ISODirectives3">
-        <abbrev>ISO/IEC Directives, Part 3</abbrev>
+      <biblioentry xml:id="biblio_ISODirectives2">
+        <abbrev>ISO/IEC Directives, Part 2</abbrev>
         <author>
           <orgname>ISO/IEC</orgname>
         </author>
-        <date>1989</date>
-        <title>Drafting and presentation of International Standards</title>
+        <date>2011/04</date>
+        <edition>6.0</edition>
+        <title>Rules for the structure and drafting of International Standards</title>
+        <bibliosource>
+          <link xl:href="http://www.iec.ch/members_experts/refdocs/iec/isoiec-dir2%7Bed6.0%7Den.pdf"/>
+        </bibliosource>
       </biblioentry>
     </bibliography>
-    <para xml:id="para_7342e92c-4ff9-45bd-abec-15cbcfbdf759">IETF RFC 2045,2046,2048 MIME Multipurpose Internet Mail Extension</para>
-    <para xml:id="para_7552dd36-5fe4-4a85-8834-520a52facb0c">IETF RFC 3240 application/dicom MIME Sub-type Registration</para>
-    <para xml:id="para_31c7e5e2-066f-4d0a-9d3d-983e99a4b0a7">IETF RFC 3986 Uniform Resource Identifiers (URI) : Generic Syntax</para>
+    <para xml:id="para_7342e92c-4ff9-45bd-abec-15cbcfbdf759">IETF RFC2045,2046,2048 MIME Multipurpose Internet Mail Extension</para>
+    <para xml:id="para_7552dd36-5fe4-4a85-8834-520a52facb0c">IETF RFC3240 application/dicom MIME Sub-type Registration</para>
+    <para xml:id="para_31c7e5e2-066f-4d0a-9d3d-983e99a4b0a7">IETF RFC3986 Uniform Resource Identifiers (URI) : Generic Syntax</para>
     <para xml:id="para_64ae4837-c2d7-4938-a804-fc476dc165ce">ISO 8822:1988 Information processing systems -- Open Systems Interconnection - Connection oriented presentation service definition</para>
     <para xml:id="para_8ae891ff-8b44-4ad9-bf36-8ead1880905c">ISO/IEC 19757 DSDL Document Schema Definition Languages (DSDL)</para>
-    <para xml:id="para_3778ebb3-dc20-42ee-97cb-a803e0134ec4">ITU-T Recommendation X.667 UUID (also IETF RFC 4122)</para>
+    <para xml:id="para_3778ebb3-dc20-42ee-97cb-a803e0134ec4">ITU-T Recommendation X.667 UUID (also IETF RFC4122)</para>
     <para xml:id="para_bf07d6fb-03eb-46fa-921d-0ad3d0724550">W3C Recommendation Web Services Description Language (WSDL) 1.1</para>
     <note>
       <para xml:id="para_36bf6ded-0b86-40d1-8fae-2bb0cd402e03">The WSDL W3C Recommendation can be found at <link xl:href="http://www.w3.org/TR/wsdl"/>
@@ -1156,7 +1160,7 @@
     </section>
     <section label="9.3" status="2" xml:id="sect_9.3">
       <title>MimeType</title>
-      <para xml:id="para_6f25802f-7779-40e5-82de-1757183e812c">A data type whose values are Defined Terms that identify particular MIME content types. The syntax of the string defining a MIME content type is defined in IETF RFC 2045. Top level MIME content types are defined in IETF RFC 2046. MIME content types are drawn from the list managed by the Internet Assigned Numbers Authority (IANA) whose web site is at <link xl:href="http://www.iana.org/assignments/media-types/"/>, as described in IETF RFC 2048.</para>
+      <para xml:id="para_6f25802f-7779-40e5-82de-1757183e812c">A data type whose values are Defined Terms that identify particular MIME content types. The syntax of the string defining a MIME content type is defined in IETF RFC2045. Top level MIME content types are defined in IETF RFC2046. MIME content types are drawn from the list managed by the Internet Assigned Numbers Authority (IANA) whose web site is at <link xl:href="http://www.iana.org/assignments/media-types/"/>, as described in IETF RFC2048.</para>
     </section>
     <section label="9.4" status="2" xml:id="sect_9.4">
       <title>ModelSetDescriptor</title>
@@ -1457,32 +1461,25 @@
     <section label="10.1" status="2" xml:id="sect_10.1">
       <title>Coded Terminology</title>
       <para xml:id="para_9785058b-0e31-400c-8b13-4ea2fba6ed49">Models may make use of coded terminology. The representation of coded terminology in DICOM is described in <olink targetdoc="PS3.3" targetptr="PS3.3" xrefstyle="select: labelnumber"/>. Specific terminology of interest, organized in Context Groups in <olink targetdoc="PS3.16" targetptr="PS3.16" xrefstyle="select: labelnumber"/>, can be referenced using the following macro.</para>
-      <table frame="box" label="10.1-1" rules="all" xml:id="table_10.1-1">
-        <caption>Coded Terminology Macro</caption>
+      <table frame="box" label="10.1-1a" rules="all" xml:id="table_10.1-1a">
+        <caption>Basic Coded Terminology Macro</caption>
         <thead>
           <tr valign="top">
             <th align="center" colspan="1" rowspan="1">
-              <para xml:id="para_153779d4-ecba-4546-a739-e74f5859fd2e">Name</para>
+              <para xml:id="para_f1ef9dc9-d10a-4367-a285-6bb965d3bb52">Name</para>
             </th>
             <th align="center" colspan="1" rowspan="1">
-              <para xml:id="para_ae91176c-776e-42a7-832b-f4806270bc56">Optionality</para>
+              <para xml:id="para_d81925a5-7754-42e0-baec-af409000b16e">Optionality</para>
             </th>
             <th align="center" colspan="1" rowspan="1">
-              <para xml:id="para_274b141a-0bf2-4601-a880-aaf184655744">Cardinality</para>
+              <para xml:id="para_577eb8ca-fcf6-4f81-a874-2d7ebed3d3b0">Cardinality</para>
             </th>
             <th align="center" colspan="1" rowspan="1">
-              <para xml:id="para_e4e6e2c3-89ef-4aa3-912f-5b76375930e3">Description</para>
+              <para xml:id="para_868ffae2-3e62-4551-84b8-cf7dd599da5c">Description</para>
             </th>
           </tr>
         </thead>
         <tbody>
-          <tr valign="top">
-            <td align="left" colspan="4" rowspan="1">
-              <para xml:id="para_032a2da8-b98a-4f1e-a446-abe370c17cdd">
-                <emphasis role="italic">BASIC CODED ENTRY ATTRIBUTES</emphasis>
-              </para>
-            </td>
-          </tr>
           <tr valign="top">
             <td align="left" colspan="1" rowspan="1">
               <para xml:id="para_074ea902-02df-4fa5-b6da-494b899f8023">CodeValue</para>
@@ -1495,7 +1492,7 @@
             </td>
             <td align="left" colspan="1" rowspan="1">
               <para xml:id="para_8c663cff-5279-46b5-ba62-d3fd6cf97df1">The particular code value identifying the referenced term or concept. See <olink targetdoc="PS3.3" targetptr="sect_8.1" xrefstyle="select: docname label"/>.</para>
-              <para>The same XML Element CodeValue is used regardless of the length or encoding of the code value. I.e., separate XML elements are not used when the value is obtained from Long Code Value (0008,0119) or URN Code Value (0008,0120) rather than Code Value (0008,0100).</para>
+              <para xml:id="para_73c570b0-96f4-4b50-b375-957e6551a8d7">The same XML Element CodeValue is used regardless of the length or encoding of the code value. I.e., separate XML elements are not used when the value is obtained from Long Code Value (0008,0119) or URN Code Value (0008,0120) rather than Code Value (0008,0100).</para>
             </td>
           </tr>
           <tr valign="top">
@@ -1540,13 +1537,27 @@
               <para xml:id="para_2c7a07d7-65f2-4bc3-b5d1-994fc5c25733">A brief human readable description of what the coded value means. See <olink targetdoc="PS3.3" targetptr="sect_8.3" xrefstyle="select: docname label"/>.</para>
             </td>
           </tr>
+        </tbody>
+      </table>
+      <table frame="box" label="10.1-1b" rules="all" xml:id="table_10.1-1b">
+        <caption>Enhanced Coded Terminology Macro</caption>
+        <thead>
           <tr valign="top">
-            <td align="left" colspan="4" rowspan="1">
-              <para xml:id="para_fe3b2ef5-7e56-4fe8-81f3-0a3450ff9cae">
-                <emphasis role="italic">ENHANCED ENCODING MODE</emphasis>
-              </para>
-            </td>
+            <th align="center" colspan="1" rowspan="1">
+              <para xml:id="para_3649e480-f99f-4069-b0a9-14ba19645ac9">Name</para>
+            </th>
+            <th align="center" colspan="1" rowspan="1">
+              <para xml:id="para_85d47e72-e16b-4536-87cc-b8fc08853570">Optionality</para>
+            </th>
+            <th align="center" colspan="1" rowspan="1">
+              <para xml:id="para_b2907bc6-a6d0-4f41-953c-6887c824ae1b">Cardinality</para>
+            </th>
+            <th align="center" colspan="1" rowspan="1">
+              <para xml:id="para_7d53170e-a753-4fd0-a91c-369f2bc591e6">Description</para>
+            </th>
           </tr>
+        </thead>
+        <tbody>
           <tr valign="top">
             <td align="left" colspan="1" rowspan="1">
               <para xml:id="para_ca06f0d5-c2a9-4f90-a9ad-a2899d54a47f">ContextIdentifier</para>
@@ -1563,16 +1574,16 @@
           </tr>
           <tr valign="top">
             <td align="left" colspan="1" rowspan="1">
-              <para>ContextUID</para>
+              <para xml:id="para_af8a0873-b7eb-457f-ab1f-900714bbe3c9">ContextUID</para>
             </td>
             <td align="center" colspan="1" rowspan="1">
-              <para>O</para>
+              <para xml:id="para_7f6c9955-7b0b-4918-b09e-cba927a0932e">O</para>
             </td>
             <td align="center" colspan="1" rowspan="1">
-              <para>0-1</para>
+              <para xml:id="para_bbea5ba1-faeb-4143-98ab-6953d284f151">0-1</para>
             </td>
             <td align="left" colspan="1" rowspan="1">
-              <para>Uniquely identifies the Context Group. See <olink targetdoc="PS3.3" targetptr="sect_8.6" xrefstyle="select: docname label"/>.</para>
+              <para xml:id="para_eb10228a-1cca-48b7-adb5-5c26939b9bef">Uniquely identifies the Context Group. See <olink targetdoc="PS3.3" targetptr="sect_8.6" xrefstyle="select: docname label"/>.</para>
             </td>
           </tr>
           <tr valign="top">
@@ -1591,16 +1602,30 @@
           </tr>
           <tr valign="top">
             <td align="left" colspan="1" rowspan="1">
-              <para>MappingResourceUID</para>
+              <para xml:id="para_c573d71e-c334-49e5-8568-c6922e294a72">MappingResourceUID</para>
             </td>
             <td align="center" colspan="1" rowspan="1">
-              <para>O</para>
+              <para xml:id="para_8f6f4cd9-6157-4ead-8107-ba88787a69f4">O</para>
             </td>
             <td align="center" colspan="1" rowspan="1">
-              <para>0-1</para>
+              <para xml:id="para_df504b47-1e2c-407c-a6d1-6c19ce81fd79">0-1</para>
             </td>
             <td align="left" colspan="1" rowspan="1">
-              <para>Uniquely identifies the Mapping Resource that defines the Context Group.</para>
+              <para xml:id="para_01b330a6-1eff-4f03-86a1-7d577ab87240">Uniquely identifies the Mapping Resource that defines the Context Group.</para>
+            </td>
+          </tr>
+          <tr valign="top">
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_9df0fdb8-b299-458f-b56c-42bca2e220c2">MappingResourceName</para>
+            </td>
+            <td align="center" colspan="1" rowspan="1">
+              <para xml:id="para_b856239b-74a1-44e9-b393-6381cd049e8e">O</para>
+            </td>
+            <td align="center" colspan="1" rowspan="1">
+              <para xml:id="para_1ce544f3-04a5-496b-9a96-bf8ac135c057">0-1</para>
+            </td>
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_be217ca6-b108-4263-ab29-25a6619d11c0">Name of Mapping Resource like name of an Institution or Organization.</para>
             </td>
           </tr>
           <tr valign="top">
@@ -1661,6 +1686,80 @@
             <td align="left" colspan="1" rowspan="1">
               <para xml:id="para_13b7a0d6-bfac-49f0-b97e-625ca9d15505">Identifies the person or organization who created an extension to the Context Group. See <olink targetdoc="PS3.3" targetptr="sect_8.7" xrefstyle="select: docname label"/>.</para>
               <para xml:id="para_6ec925d7-0d84-429e-99cc-385285fc739b">Required if the value of contextGroupExtensionFlag is "Y".</para>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table frame="box" label="10.1-1" rules="all" xml:id="table_10.1-1">
+        <caption>Coded Terminology Macro</caption>
+        <thead>
+          <tr valign="top">
+            <th align="center" colspan="1" rowspan="1">
+              <para xml:id="para_153779d4-ecba-4546-a739-e74f5859fd2e">Name</para>
+            </th>
+            <th align="center" colspan="1" rowspan="1">
+              <para xml:id="para_ae91176c-776e-42a7-832b-f4806270bc56">Optionality</para>
+            </th>
+            <th align="center" colspan="1" rowspan="1">
+              <para xml:id="para_274b141a-0bf2-4601-a880-aaf184655744">Cardinality</para>
+            </th>
+            <th align="center" colspan="1" rowspan="1">
+              <para xml:id="para_e4e6e2c3-89ef-4aa3-912f-5b76375930e3">Description</para>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr valign="top">
+            <td align="left" colspan="4" rowspan="1">
+              <para xml:id="para_032a2da8-b98a-4f1e-a446-abe370c17cdd">
+                <emphasis role="italic">BASIC CODED ENTRY ATTRIBUTES</emphasis>
+              </para>
+            </td>
+          </tr>
+          <tr valign="top">
+            <td align="left" colspan="4" rowspan="1">
+              <emphasis role="italic">Include <xref linkend="table_10.1-1a" xrefstyle="select: label"/>
+</emphasis>
+            </td>
+          </tr>
+          <tr valign="top">
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_4bfed16e-6208-4732-93c6-fa936437aa73">DicomAttribute that encodes EquivalentCodeSequence</para>
+            </td>
+            <td align="center" colspan="1" rowspan="1">
+              <para xml:id="para_e8777da7-23d2-44b3-8ce4-852fdc433849">O</para>
+            </td>
+            <td align="center" colspan="1" rowspan="1">
+              <para xml:id="para_4d45e044-3f0b-43b8-96c9-71aba88ce3ae">0-1 with 1-n Item</para>
+            </td>
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_6b590eae-0d19-46d2-b00c-34fa3053fe74">Codes that are considered equivalent by the creating system.</para>
+              <para xml:id="para_52b10eba-9912-4415-a818-9c0fb2c723c2">See <olink targetdoc="PS3.3" targetptr="sect_8.9" xrefstyle="select: docname label"/>.</para>
+            </td>
+          </tr>
+          <tr valign="top">
+            <td align="left" colspan="4" rowspan="1">
+              <emphasis role="italic">&gt;Include <xref linkend="table_10.1-1a" xrefstyle="select: label"/>
+</emphasis>
+            </td>
+          </tr>
+          <tr valign="top">
+            <td align="left" colspan="4" rowspan="1">
+              <emphasis role="italic">&gt;Include <xref linkend="table_10.1-1b" xrefstyle="select: label"/>
+</emphasis>
+            </td>
+          </tr>
+          <tr valign="top">
+            <td align="left" colspan="4" rowspan="1">
+              <para xml:id="para_fe3b2ef5-7e56-4fe8-81f3-0a3450ff9cae">
+                <emphasis role="italic">ENHANCED ENCODING MODE</emphasis>
+              </para>
+            </td>
+          </tr>
+          <tr valign="top">
+            <td align="left" colspan="4" rowspan="1">
+              <emphasis role="italic">Include <xref linkend="table_10.1-1b" xrefstyle="select: label"/>
+</emphasis>
             </td>
           </tr>
         </tbody>
@@ -2174,11 +2273,11 @@
                 <para xml:id="para_05efa8e6-e32a-4bc7-8c41-1e8eda28f39b">The provider of the data may use a BulkData reference at its discretion to avoid encoding a large DICOM Value Field as text by value in the Infoset. For example, pixel data or look up tables.</para>
                 <para xml:id="para_ac5ff352-569c-43cb-864c-882bd9deb93f">There is a single BulkData Infoset element representing the entire Value Field, and not one per Value in the case where the Value Multiplicity is greater than one.</para>
                 <note>
-                  <para>E.g., a LUT with 4096 16 bit entries that may be encoded in DICOM with a Value Representation of OW, with a VL of 8192 and a VM of 1, or a US VR with a VL of 8192 and a VM of 4096 would both be represented as a single BulkData element.</para>
+                  <para xml:id="para_214d1867-e438-4959-9d1c-1d5b8123d934">E.g., a LUT with 4096 16 bit entries that may be encoded in DICOM with a Value Representation of OW, with a VL of 8192 and a VM of 1, or a US VR with a VL of 8192 and a VM of 4096 would both be represented as a single BulkData element.</para>
                 </note>
                 <para xml:id="para_40e6cfd1-d1ab-428c-aa1d-759b3233246a">All rules (e.g., byte ordering and swapping) in <olink targetdoc="PS3.5" targetptr="PS3.5" xrefstyle="select: labelnumber"/> apply.</para>
                 <note>
-                  <para xml:id="para_368ed09e-9d16-43d8-acad-d6712577863f">Implementers should in particular pay attention the <olink targetdoc="PS3.5" targetptr="PS3.5" xrefstyle="select: labelnumber"/> rules regarding the value representations of OW and OF.</para>
+                  <para xml:id="para_368ed09e-9d16-43d8-acad-d6712577863f">Implementers should in particular pay attention the <olink targetdoc="PS3.5" targetptr="PS3.5" xrefstyle="select: labelnumber"/> rules regarding the value representations of OD, OF, OL and OW.</para>
                 </note>
                 <para xml:id="para_63ec0186-3bf5-40db-80b1-b9418adccb87">If the BulkData has a string or text Value Representation, the value(s) of the DICOM Specific Character Set Data Element, if present, might be necessary to determine its encoding.</para>
               </td>
@@ -2246,11 +2345,11 @@
                 <para xml:id="para_0b53c5f8-fe34-45f9-84e7-5c444ddeb5c8">Shall not be present otherwise.</para>
                 <para xml:id="para_5bb461ea-68fb-4344-94d4-eca457036c25">There is a single InlineBinary Infoset element representing the entire Value Field, and not one per Value in the case where the Value Multiplicity is greater than one.</para>
                 <note>
-                  <para>E.g., a LUT with 4096 16 bit entries that may be encoded in DICOM with a Value Representation of OW with a VL of 8192 and a VM of 1 would be represented as a single InlineBinary element.</para>
+                  <para xml:id="para_1e59701e-0115-4042-b6a4-f224edcaf619">E.g., a LUT with 4096 16 bit entries that may be encoded in DICOM with a Value Representation of OW with a VL of 8192 and a VM of 1 would be represented as a single InlineBinary element.</para>
                 </note>
                  <para xml:id="para_59619b0f-1a7f-49ec-9d00-3dd74f2c1b72">All rules (e.g., byte ordering and swapping) in <olink targetdoc="PS3.5" targetptr="PS3.5" xrefstyle="select: labelnumber"/> apply.</para>
                 <note>
-                  <para xml:id="para_50130faa-0218-41ff-86cb-3c9c9a4d8e7b">Implementers should in particular pay attention to the <olink targetdoc="PS3.5" targetptr="PS3.5" xrefstyle="select: labelnumber"/> rules regarding the value representations of OD, OF and OW.</para>
+                  <para xml:id="para_50130faa-0218-41ff-86cb-3c9c9a4d8e7b">Implementers should in particular pay attention to the <olink targetdoc="PS3.5" targetptr="PS3.5" xrefstyle="select: labelnumber"/> rules regarding the value representations of OD, OF, OL and OW.</para>
                 </note>
               </td>
             </tr>
@@ -2313,7 +2412,7 @@ Keyword = attribute keyword { xsd:token }
 # canonical XML definition of Hex, with lowercase letters disallowed
 Tag = attribute tag { xsd:string{ minLength="8" maxLength="8" pattern="[0-9A-F]{8}" } } 
 VR = attribute vr { "AE" | "AS" | "AT"| "CS" | "DA" | "DS" | "DT" | "FL" | "FD" 
-                    | "IS" | "LO" | "LT" | "OB" | "OD" | "OF" | "OW" | "PN" | "SH" | "SL" 
+                    | "IS" | "LO" | "LT" | "OB" | "OD" | "OF" | "OL" | "OW" | "PN" | "SH" | "SL" 
                     | "SQ" | "SS" | "ST" | "TM" | "UC" | "UI" | "UL" | "UN" | "UR" | "US" | "UT" }
 PrivateCreator = attribute privateCreator{ xsd:string }
 UUID = attribute uuid { xsd:string }
@@ -3329,13 +3428,7 @@ AbstractImageDataSet =
       attribute minValue { xsd:double }?,
       attribute maxValue { xsd:double }?,
       element Semantics { CodedTerm },
-      element Unit { CodedTerm  },
-      element RealWordMapping {
-        attribute rescaleSlope { xsd:double },
-        attribute rescaleIntercept { xsd:double },
-        element Unit { CodedTerm },
-        element Semantics { CodedTerm }
-      }*
+      element Unit { CodedTerm }
     }+,
     element Dimension {
       attribute idNumber { xsd:positiveInteger },
@@ -3344,9 +3437,9 @@ AbstractImageDataSet =
       (element Regular {
          attribute width { xsd:double },
          attribute spacing { xsd:double },
-         element Unit { CodedTerm  },
-         element AxisDirection { CodedTerm  }?,
-         element AxisOrientation { CodedTerm  }?
+         element Unit { CodedTerm },
+         element AxisDirection { CodedTerm }?,
+         element AxisOrientation { CodedTerm }?
        }
        | element Irregular {
            attribute origin { xsd:double },
@@ -3355,9 +3448,9 @@ AbstractImageDataSet =
              attribute width { xsd:double },
              attribute distanceToOrigin { xsd:double }
            }+,
-         element Unit { CodedTerm  },
-         element AxisDirection { CodedTerm  }?,
-         element AxisOrientation { CodedTerm  }?
+         element Unit { CodedTerm },
+         element AxisDirection { CodedTerm }?,
+         element AxisOrientation { CodedTerm }?
          }
        | element Qualitative {
            element Sample {

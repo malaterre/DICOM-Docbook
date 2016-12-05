@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xl="http://www.w3.org/1999/xlink" label="PS3.15" version="5.0" xml:id="PS3.15">
   <title>PS3.15</title>
-  <subtitle>DICOM PS3.15 2016a - Security and System Management Profiles</subtitle>
+  <subtitle>DICOM PS3.15 2016e - Security and System Management Profiles</subtitle>
   <info>
     <author>
       <orgname>DICOM Standards Committee</orgname>
@@ -49,11 +49,11 @@
   <chapter label="" status="1" xml:id="chapter_Foreword">
     <title>Foreword</title>
     <para xml:id="para_787a0f0f-1ad1-4e1e-bd29-39c19a428361">This DICOM Standard was developed according to the procedures of the DICOM Standards Committee.</para>
-    <para xml:id="para_7020e657-a0d8-4ced-9e73-8ac40006290b">The DICOM Standard is structured as a multi-part document using the guidelines established in <xref linkend="biblio_ISODirectives3"/>.</para>
-    <para>DICOM® is the registered trademark of the National Electrical Manufacturers Association for its standards publications relating to digital communications of medical information.</para>
-    <para>HL7® and CDA® are the registered trademarks of Health Level Seven International.</para>
-    <para>SNOMED®, SNOMED Clinical Terms®, SNOMED CT® are the registered trademarks of the International Health Terminology Standards Development <foreignphrase xml:lang="en-GB">Organisation</foreignphrase> (IHTSDO).</para>
-    <para>LOINC® is the registered trademark of Regenstrief Institute, Inc.</para>
+    <para xml:id="para_7020e657-a0d8-4ced-9e73-8ac40006290b">The DICOM Standard is structured as a multi-part document using the guidelines established in <xref linkend="biblio_ISODirectives2"/>.</para>
+    <para xml:id="para_f6076693-75ac-494a-a73f-30aeea24887d">DICOM® is the registered trademark of the National Electrical Manufacturers Association for its standards publications relating to digital communications of medical information, all rights reserved.</para>
+    <para xml:id="para_279e1a9a-b87a-4ef9-b7d4-5b780de8b1d8">HL7® and CDA® are the registered trademarks of Health Level Seven International, all rights reserved.</para>
+    <para xml:id="para_ba30052f-5c1d-4bb1-b29a-5e65913ce9d1">SNOMED®, SNOMED Clinical Terms®, SNOMED CT® are the registered trademarks of the International Health Terminology Standards Development <foreignphrase xml:lang="en-GB">Organisation</foreignphrase> (IHTSDO), all rights reserved.</para>
+    <para xml:id="para_1bf2021f-7dbe-494a-aa51-57850fd2cb74">LOINC® is the registered trademark of Regenstrief Institute, Inc, all rights reserved.</para>
   </chapter>
   <chapter label="1" status="1" xml:id="chapter_1">
     <title>Scope and Field of Application</title>
@@ -83,13 +83,17 @@
   
   <para xml:id="para_895753cc-c1f5-4189-9900-0d1305e63828">The following standards contain provisions that, through reference in this text, constitute provisions of this Standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this Standard are encouraged to investigate the possibilities of applying the most recent editions of the standards indicated below.</para>
   <bibliography>
-    <biblioentry xml:id="biblio_ISODirectives3">
-      <abbrev>ISO/IEC Directives, Part 3</abbrev>
+    <biblioentry xml:id="biblio_ISODirectives2">
+      <abbrev>ISO/IEC Directives, Part 2</abbrev>
       <author>
         <orgname>ISO/IEC</orgname>
       </author>
-      <date>1989</date>
-      <title>Drafting and presentation of International Standards</title>
+      <date>2011/04</date>
+      <edition>6.0</edition>
+      <title>Rules for the structure and drafting of International Standards</title>
+      <bibliosource>
+        <link xl:href="http://www.iec.ch/members_experts/refdocs/iec/isoiec-dir2%7Bed6.0%7Den.pdf"/>
+      </bibliosource>
     </biblioentry>
   </bibliography>
   <para xml:id="para_8c39a0c9-d6c4-4484-8e22-0e0813fc4082">ANSI X9.52 American National Standards Institute. ANSI X9.52-1998, Triple Data Encryption Algorithm Modes of Operation. 1998.</para>
@@ -108,40 +112,40 @@
   <note>
     <para xml:id="para_bebf2bef-2eab-4a16-8c4a-bd86912014b3">ITU-T Recommendation X.509 is similar to ISO/IEC 9594-8 1990. However, the ITU-T recommendation is the more familiar form, and was revised in 1993 and 2000, with two sets of corrections in 2001. ITU-T was formerly known as CCITT.</para>
   </note>
-  <para xml:id="para_a307429a-b9f9-42d9-9935-ca30255b973f">RFC 1035 Domain Name System (DNS)</para>
-  <para xml:id="para_9442448a-d900-4a12-ad76-baa616decfc5">RFC 1305 Network Time Protocol (Version 3) Specification, Implementation</para>
-  <para xml:id="para_52c85fd5-b150-4f39-ad7e-31f5e50a1ec9">RFC 2030 Simple Network Time Protocol (SNTP) Version 4</para>
-  <para xml:id="para_9fa00c8f-0924-4a04-8723-67d4dcdf327c">RFC 2131 Dynamic Host Configuration Protocol</para>
-  <para xml:id="para_71176b65-35bd-411c-be77-7f9d1b12a7f1">RFC 2132 Dynamic Host Configuration Protocol Options</para>
-  <para xml:id="para_4feeed62-d1f9-4b7f-9fb3-8f75d21064f7">RFC 2136 Dynamic Updates in the Domain Name System (DNS UPDATE)</para>
-  <para xml:id="para_a429532b-d551-4009-892b-4705df324ef8">RFC 2181 Clarifications to the DNS Specification</para>
-  <para xml:id="para_ca479fa2-01fa-402f-a0cf-0df05098022b">RFC 2219 Use of DNS Aliases for Network Services</para>
-  <para xml:id="para_df41b6fa-3e95-41f6-9c20-5969dc8e8b8d">RFC 2246, Transport Layer Security (TLS) 1.0 Internet Engineering Task Force</para>
+  <para xml:id="para_a307429a-b9f9-42d9-9935-ca30255b973f">RFC1035 Domain Name System (DNS)</para>
+  <para xml:id="para_9442448a-d900-4a12-ad76-baa616decfc5">RFC1305 Network Time Protocol (Version 3) Specification, Implementation</para>
+  <para xml:id="para_52c85fd5-b150-4f39-ad7e-31f5e50a1ec9">RFC2030 Simple Network Time Protocol (SNTP) Version 4</para>
+  <para xml:id="para_9fa00c8f-0924-4a04-8723-67d4dcdf327c">RFC2131 Dynamic Host Configuration Protocol</para>
+  <para xml:id="para_71176b65-35bd-411c-be77-7f9d1b12a7f1">RFC2132 Dynamic Host Configuration Protocol Options</para>
+  <para xml:id="para_4feeed62-d1f9-4b7f-9fb3-8f75d21064f7">RFC2136 Dynamic Updates in the Domain Name System (DNS UPDATE)</para>
+  <para xml:id="para_a429532b-d551-4009-892b-4705df324ef8">RFC2181 Clarifications to the DNS Specification</para>
+  <para xml:id="para_ca479fa2-01fa-402f-a0cf-0df05098022b">RFC2219 Use of DNS Aliases for Network Services</para>
+  <para xml:id="para_df41b6fa-3e95-41f6-9c20-5969dc8e8b8d">RFC2246, Transport Layer Security (TLS) 1.0 Internet Engineering Task Force</para>
   <note>
     <para xml:id="para_8154650b-9c08-4a44-b7d6-eee4165a9b00">TLS is derived from SSL 3.0, and is largely compatible with it.</para>
   </note>
-  <para xml:id="para_28a9a7ac-e1cd-47f1-838b-7834a9c601ad">RFC 2251 Lightweight Directory Access Protocol (v3)</para>
-  <para xml:id="para_78681dd4-6460-45f7-ba0b-e993f5dedc31">RFC 2313 PKCS #1: RSA Encryption, Version 1.5, March 1998.</para>
-  <para xml:id="para_ef82b8a4-5309-4d1a-b791-eb5bdeee9a7d">RFC 2563 DHCP Option to Disable Stateless Auto-Configuration in IPv4 Clients</para>
-  <para xml:id="para_5d9dccd0-1251-4fd3-883f-77376777f3e6">RFC 2782 A DNS RR for specifying the location of services (DNS SRV)</para>
-  <para xml:id="para_49bee952-6612-4d22-9da2-f6fa5bacc159">RFC 2849 The LDAP Data Interchange Format (LDIF)</para>
-  <para xml:id="para_0a01fb06-d7b9-4bdb-a393-f3fcee0d6410">RFC 2898 PKCS #5: Password-Based Cryptography Specification Version 2.0, September 2000</para>
-  <para xml:id="para_2732d351-1cba-4e4b-8014-123a9d05b6f3">RFC 3211 Password-based Encryption for CMS, December 2001</para>
-  <para xml:id="para_74af3b3c-56a6-4f9b-9eb9-ed43bbf0ac5e">RFC 3268 Advanced Encryption Standard (AES) Ciphersuites for Transport Layer Security (TLS), June 2002.</para>
-  <para xml:id="para_a74b52cc-64c3-4837-a248-adfdc5c09de5">RFC 3447 PKCS #1 RSA Cryptography Specifications Version 2.1, February 2003</para>
+  <para xml:id="para_28a9a7ac-e1cd-47f1-838b-7834a9c601ad">RFC2251 Lightweight Directory Access Protocol (v3)</para>
+  <para xml:id="para_78681dd4-6460-45f7-ba0b-e993f5dedc31">RFC2313 PKCS #1: RSA Encryption, Version 1.5, March 1998.</para>
+  <para xml:id="para_ef82b8a4-5309-4d1a-b791-eb5bdeee9a7d">RFC2563 DHCP Option to Disable Stateless Auto-Configuration in IPv4 Clients</para>
+  <para xml:id="para_5d9dccd0-1251-4fd3-883f-77376777f3e6">RFC2782 A DNS RR for specifying the location of services (DNS SRV)</para>
+  <para xml:id="para_49bee952-6612-4d22-9da2-f6fa5bacc159">RFC2849 The LDAP Data Interchange Format (LDIF)</para>
+  <para xml:id="para_0a01fb06-d7b9-4bdb-a393-f3fcee0d6410">RFC2898 PKCS #5: Password-Based Cryptography Specification Version 2.0, September 2000</para>
+  <para xml:id="para_2732d351-1cba-4e4b-8014-123a9d05b6f3">RFC3211 Password-based Encryption for CMS, December 2001</para>
+  <para xml:id="para_74af3b3c-56a6-4f9b-9eb9-ed43bbf0ac5e">RFC3268 Advanced Encryption Standard (AES) Ciphersuites for Transport Layer Security (TLS), June 2002.</para>
+  <para xml:id="para_a74b52cc-64c3-4837-a248-adfdc5c09de5">RFC3447 PKCS #1 RSA Cryptography Specifications Version 2.1, February 2003</para>
   <note>
     <para xml:id="para_ae025c6e-5d72-469c-90c0-2adfd18ec86a">The RSA Encryption Standard is also defined in informative annex A of ISO/IEC 9796, and in Normative <xref linkend="chapter_A" xrefstyle="template:Annex %n"/> of the CEN/TC251 European Prestandard prENV 12388:1996.</para>
   </note>
-  <para xml:id="para_82cba187-b0f8-4eba-adcb-a8316be3220c">RFC 3852 Cryptographic Message Syntax,July 2004</para>
-  <para xml:id="para_0f7b6088-494b-4b04-9009-90166298c0f1">RFC 3370 Cryptographic Message Syntax (CMS) Algorithms, August 2002</para>
-  <para xml:id="para_b604763d-9eb8-4741-ae1f-5c3e9013a1c7">RFC 3565 Use of the Advanced Encryption Standard (AES) Encryption Algorithm in Cryptographic Message Syntax (CMS), July 2003</para>
+  <para xml:id="para_82cba187-b0f8-4eba-adcb-a8316be3220c">RFC3852 Cryptographic Message Syntax,July 2004</para>
+  <para xml:id="para_0f7b6088-494b-4b04-9009-90166298c0f1">RFC3370 Cryptographic Message Syntax (CMS) Algorithms, August 2002</para>
+  <para xml:id="para_b604763d-9eb8-4741-ae1f-5c3e9013a1c7">RFC3565 Use of the Advanced Encryption Standard (AES) Encryption Algorithm in Cryptographic Message Syntax (CMS), July 2003</para>
   <para xml:id="para_02a8371f-8866-453a-8833-231f409f01b9">SHA-1 National Institute of Standards and Technology, FIPS Pub 180-1: Secure Hash Standard, 17 April 1995</para>
   <para xml:id="para_f817acf5-eb30-4b5d-8e37-f43bb918fd2a">SHA-2 National Institute of Standards and Technology, FIPS Pub 180-2: Secure Hash Standard, 1 August 2002</para>
-  <para xml:id="para_5b3324fb-21a2-4973-9710-813ff62af632">RFC 3851 Secure/Multipurpose Internet Mail Extensions (S/MIME) Version 3.1 Message Specification</para>
-  <para xml:id="para_73ade592-b669-4091-8c74-48740230ff34">RFC 3853 S/MIME Advanced Encryption Standard (AES) Requirement for the Session Initiation Protocol (SIP)</para>
-  <para xml:id="para_41985c34-c780-4420-9621-22a686fd7e0a">RFC 5424 The Syslog Protocol</para>
-  <para xml:id="para_51a1c04a-bcaa-42db-8654-01dcb5240952">RFC 5425 Transport Layer Security (TLS) Transport Mapping for Syslog</para>
-  <para xml:id="para_d89cf1fa-937e-4248-86a9-2168b1cec25d">RFC 5426 Transmission of Syslog Messages over UDP</para>
+  <para xml:id="para_5b3324fb-21a2-4973-9710-813ff62af632">RFC3851 Secure/Multipurpose Internet Mail Extensions (S/MIME) Version 3.1 Message Specification</para>
+  <para xml:id="para_73ade592-b669-4091-8c74-48740230ff34">RFC3853 S/MIME Advanced Encryption Standard (AES) Requirement for the Session Initiation Protocol (SIP)</para>
+  <para xml:id="para_41985c34-c780-4420-9621-22a686fd7e0a">RFC5424 The Syslog Protocol</para>
+  <para xml:id="para_51a1c04a-bcaa-42db-8654-01dcb5240952">RFC5425 Transport Layer Security (TLS) Transport Mapping for Syslog</para>
+  <para xml:id="para_d89cf1fa-937e-4248-86a9-2168b1cec25d">RFC5426 Transmission of Syslog Messages over UDP</para>
   <note>
     <para xml:id="para_7a3fb8ed-7510-486c-b790-d36c06e0b0b9">Normative RFC's are frequently updated by issuance of subsequent RFC's. The original older RFC is not modified to include references to the newer RFC.</para>
   </note>
@@ -1130,10 +1134,10 @@
   <section label="A.5.1" status="3" xml:id="sect_A.5.1">
     <title>DICOM Audit Message Schema</title>
   
-  <para xml:id="para_ab1c570c-b825-4c01-8cc7-2f5991feb846">Implementations claiming conformance to this profile shall use the following XML schema to format audit trail messages. This schema is derived from the schema specified in RFC 3881 IETF draft internet standard "Security Audit and Access Accountability XML Message Data Definitions for Healthcare Applications", according to W3C Recommendation "XML Schema Part 1: Structures," version 1.0, May 2001, and incorporates the DICOM extensions and restrictions outlined in <xref linkend="sect_A.5.2" xrefstyle="select: label"/>.</para>
+  <para xml:id="para_ab1c570c-b825-4c01-8cc7-2f5991feb846">Implementations claiming conformance to this profile shall use the following XML schema to format audit trail messages. This schema is derived from the schema specified in RFC3881 IETF draft internet standard "Security Audit and Access Accountability XML Message Data Definitions for Healthcare Applications", according to W3C Recommendation "XML Schema Part 1: Structures," version 1.0, May 2001, and incorporates the DICOM extensions and restrictions outlined in <xref linkend="sect_A.5.2" xrefstyle="select: label"/>.</para>
   <para xml:id="para_5fad4d2b-2b02-40d1-8aa9-6b5013d39042">This schema is provided in Relax NG Compact format.</para>
   <note>
-    <para xml:id="para_f7aec1d3-858b-4a0b-af2c-d497a108517a">This schema can be converted into an equivalent XML schema or other electronic format. It includes some modifications to the RFC 3881 schema that reflect field experience with audit message requirements. It extends the RFC 3881 schema.</para>
+    <para xml:id="para_f7aec1d3-858b-4a0b-af2c-d497a108517a">This schema can be converted into an equivalent XML schema or other electronic format. It includes some modifications to the RFC3881 schema that reflect field experience with audit message requirements. It extends the RFC3881 schema.</para>
   </note>
     <section label="A.5.1-1" xml:id="para_A.5.1-1">
       <title>Audit Message Schema</title>
@@ -1177,12 +1181,17 @@ EventIdentificationContents =
   element EventOutcomeDescription { text }?
   
 # Define AuditSourceIdentification, used later
-#  Note: This includes one constraint that cannot be represented yet in RNC.  The use
-#        of a token other than the specified codes is permitted only if the codeSystemName
-#        is present.
-#  Note: This has no elements, only attributes.
 
 AuditSourceIdentificationContents =
+  attribute AuditEnterpriseSiteID { token }?,
+  attribute AuditSourceID { token },
+  element AuditSourceTypeCode { AuditSourceTypeCodeContent }*
+
+# Define AuditSourceTypeCodeContent so that an isolated single digit
+# value is acceptable, or a token with other csd attributes so that
+# any controlled terminology can also be used.
+
+AuditSourceTypeCodeContent = 
   attribute code {
     "1" |                 ## End-user display device, diagnostic device
     "2" |                 ## Data acquisition device or instrument
@@ -1194,12 +1203,8 @@ AuditSourceIdentificationContents =
     "8" |                 ## ISO level 4-6 operating software
     "9" |                 ## other
     token },              ## other values are allowed if a codeSystemName is present
-  other-csd-attributes?,  ## If these are present, they define the meaning of code
+  other-csd-attributes?  ## If these are present, they define the meaning of code
   
-  attribute AuditEnterpriseSiteID { token }?,
-  attribute AuditSourceID { token },
-  element AuditSourceTypeCode { token }*
-
 # Define ActiveParticipantType, used later
 
 ActiveParticipantContents =
@@ -1263,9 +1268,7 @@ ParticipantObjectIdentificationContents =
   element ParticipantObjectQuery { xsd:base64Binary }),  # a query ID field,
   element ParticipantObjectDetail { ValuePair }*,   # optional details, these can be extensive
                                                     # and large
-  element ParticipantObjectDescription { token }*,  # optional descriptive text
-  DICOMObjectDescriptionContents,                   # These are extensions made by DICOM to RFC-
-                                                    # 3881 schema for use describing DICOM objects
+  element ParticipantObjectDescription { DICOMObjectDescriptionContents }*,
   attribute ParticipantObjectID { token },          # mandatory ID
   attribute ParticipantObjectTypeCode {             # optional type
     "1" | #3 Person
@@ -1342,7 +1345,7 @@ start = message
 <section label="A.5.2" status="3" xml:id="sect_A.5.2">
     <title>General Message Format Conventions</title>
   
-  <para xml:id="para_4764a4fc-01bc-48ba-921b-fd7eb84abf41">The following table lists the primary fields from the message schema specified in A.5.1, with additional instructions, conventions, and restrictions on how DICOM applications shall fill in the field values. Please refer to RFC 3881 for the complete definition and specification of fields taken from the schema specified therein. In addition, the following table lists the additional fields that are part of DICOM-specific extensions in the DICOM Audit Message Schema (see <xref linkend="sect_A.5.1" xrefstyle="select: label"/>). The fields names are only those leaf elements and attributes that are specialized or extended for this profile. Note that these fields may be enclosed in other XML elements, as specified by the schema.</para>
+  <para xml:id="para_4764a4fc-01bc-48ba-921b-fd7eb84abf41">The following table lists the primary fields from the message schema specified in A.5.1, with additional instructions, conventions, and restrictions on how DICOM applications shall fill in the field values. Please refer to RFC3881 for the complete definition and specification of fields taken from the schema specified therein. In addition, the following table lists the additional fields that are part of DICOM-specific extensions in the DICOM Audit Message Schema (see <xref linkend="sect_A.5.1" xrefstyle="select: label"/>). The fields names are only those leaf elements and attributes that are specialized or extended for this profile. Note that these fields may be enclosed in other XML elements, as specified by the schema.</para>
     <table frame="box" label="A.5.2-1" rules="all" xml:id="table_A.5.2-1">
     <caption>General Message Format</caption>
     <thead>
@@ -1355,7 +1358,7 @@ start = message
           <para xml:id="para_7b784edc-c9ff-4321-a2fd-3dc819196755">Opt.</para>
         </th>
         <th align="center" colspan="1" rowspan="1">
-          <para xml:id="para_0a3d7c06-c980-4040-b2cf-3fb4a82d1b19">Description from RFC 3881</para>
+          <para xml:id="para_0a3d7c06-c980-4040-b2cf-3fb4a82d1b19">Description from RFC3881</para>
         </th>
         <th align="center" colspan="1" rowspan="1">
           <para xml:id="para_84ced2d9-55b1-4047-b30f-d18bd104c3d5">Additional Conditions on Field Format/Value</para>
@@ -1586,7 +1589,7 @@ start = message
         <para xml:id="para_3af1282e-57c5-47c8-a6b6-6825fb5dbe80">"Code specifying the type of source …"</para>
       </td>
       <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_1c9733d9-8d2b-4ca6-8e68-aa9be47e2866">Used as defined in RFC 3881.</para>
+        <para xml:id="para_1c9733d9-8d2b-4ca6-8e68-aa9be47e2866">Used as defined in RFC3881.</para>
         <para xml:id="para_2531abb4-bd0a-4350-bfd4-f6e82c1c1ccf">E.g., an acquisition device might use "2" (data acquisition device), a PACS/RIS system might use "4 "(application server process).</para>
       </td>
     </tr>
@@ -1604,7 +1607,7 @@ start = message
         <para xml:id="para_453d51b5-f6f2-4d08-a97a-f152e9694f50">"Code for the participant object type being audited. This value is distinct from the user's role or any user relationship to the participant object."</para>
       </td>
       <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_0081a151-58a8-45b9-a863-b18aa11c0403">Used as defined in RFC 3881</para>
+        <para xml:id="para_0081a151-58a8-45b9-a863-b18aa11c0403">Used as defined in RFC3881</para>
       </td>
     </tr>
     <tr valign="top">
@@ -1618,7 +1621,7 @@ start = message
         <para xml:id="para_36cd0006-1dd5-4380-9bea-6f62a8757134">"Code representing the functional application role of Participant Object being audited."</para>
       </td>
       <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_a0de1edf-ad90-444e-b5df-26331e013397">Used as defined in RFC 3881</para>
+        <para xml:id="para_a0de1edf-ad90-444e-b5df-26331e013397">Used as defined in RFC3881</para>
       </td>
     </tr>
     <tr valign="top">
@@ -1632,7 +1635,7 @@ start = message
         <para xml:id="para_5330b033-3791-4ad1-a449-daf348c2e1f1">"Identifier for the data life-cycle stage for the participant object. This can be used to provide an audit trail for data, over time, as it passes through the system."</para>
       </td>
       <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_3116a5d7-6ad1-4639-b205-59608a8f9ed1">Used as defined in RFC 3881.</para>
+        <para xml:id="para_3116a5d7-6ad1-4639-b205-59608a8f9ed1">Used as defined in RFC3881.</para>
       </td>
     </tr>
     <tr valign="top">
@@ -1646,7 +1649,7 @@ start = message
         <para xml:id="para_29d33046-fed7-44a6-bb40-acb07a3ff8da">"Describes the identifier that is contained in Participant Object ID."</para>
       </td>
       <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_3084b452-694e-4830-b803-1e22f4b7704f">Values may be drawn from those listed in RFC 3881 and DCID (404), as specified in the individual message descriptions.</para>
+        <para xml:id="para_3084b452-694e-4830-b803-1e22f4b7704f">Values may be drawn from those listed in RFC3881 and DCID (404), as specified in the individual message descriptions.</para>
       </td>
     </tr>
     <tr valign="top">
@@ -1660,7 +1663,7 @@ start = message
         <para xml:id="para_e5a40829-24e6-4064-9026-2d88eb8a503c">"Denotes policy-defined sensitivity for the Participant Object ID such as VIP, HIV status, mental health status, or similar topics."</para>
       </td>
       <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_e36acc7d-1062-42f7-a1d0-5cafa1898f07">Used as defined in RFC 3881.</para>
+        <para xml:id="para_e36acc7d-1062-42f7-a1d0-5cafa1898f07">Used as defined in RFC3881.</para>
       </td>
     </tr>
     <tr valign="top">
@@ -1716,7 +1719,7 @@ start = message
         <para xml:id="para_a5ee031c-014a-41e8-83d0-cb2e32c218a6">"Implementation-defined data about specific details of the object accessed or used."</para>
       </td>
       <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_fd2ecc89-3bf7-47ef-8479-43e18d375ca8">Used as defined in RFC 3881.</para>
+        <para xml:id="para_fd2ecc89-3bf7-47ef-8479-43e18d375ca8">Used as defined in RFC3881.</para>
         <note>
 <para xml:id="para_41e8307b-f970-4e0b-9821-a76559d28c42">The value field is xs:base64Binary encoded, making this attribute suitable for conveying binary data.</para>
 </note>
@@ -3231,7 +3234,7 @@ start = message
     </tr>
     <tr valign="top">
       <td align="left" colspan="1" rowspan="7">
-        <para xml:id="para_7cf74550-7e8f-4a7d-918e-4ed21474b7b4">Participating Object:</para>
+        <para xml:id="para_7cf74550-7e8f-4a7d-918e-4ed21474b7b4">Active Participant:</para>
         <para xml:id="para_922f080d-9f24-490d-a833-f55b2c55ec93">Remote Users and Processes (0..n)</para>
       </td>
       <td align="left" colspan="1" rowspan="1">
@@ -3313,7 +3316,7 @@ start = message
     </tr>
     <tr valign="top">
       <td align="left" colspan="1" rowspan="7">
-        <para xml:id="para_8fc658a5-0178-42a4-87a9-d54bdc3d2a05">Participating Object:</para>
+        <para xml:id="para_8fc658a5-0178-42a4-87a9-d54bdc3d2a05">Active Participant:</para>
         <para xml:id="para_60ebee1e-13c1-4a0b-b0c8-b76eea5303c3">User or Process Exporting the data(1..2)</para>
       </td>
       <td align="left" colspan="1" rowspan="1">
@@ -3896,7 +3899,7 @@ start = message
     </tr>
     <tr valign="top">
       <td align="left" colspan="1" rowspan="7">
-        <para xml:id="para_b198d486-9183-47f9-a0cb-5bb1d699fccb">Participating Object:</para>
+        <para xml:id="para_b198d486-9183-47f9-a0cb-5bb1d699fccb">Active Participant:</para>
         <para xml:id="para_163b5df9-81b8-4b30-bebd-4de48364adfc">User or Process Importing the data (1..n)</para>
       </td>
       <td align="left" colspan="1" rowspan="1">
@@ -4056,7 +4059,7 @@ start = message
         <para xml:id="para_ffda41da-6f8d-496b-bf31-0c1d3463fc57">MC</para>
       </td>
       <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_94a796cf-1399-4f36-bc5e-e40293e342a6">Shall be present if Net Access Point Type Code is present. Shall use fields as specified in RFC 3881.</para>
+        <para xml:id="para_94a796cf-1399-4f36-bc5e-e40293e342a6">Shall be present if Net Access Point Type Code is present. Shall use fields as specified in RFC3881.</para>
       </td>
     </tr>
     <tr valign="top">
@@ -7412,36 +7415,36 @@ start = message
 <section label="A.6" status="2" xml:id="sect_A.6">
     <title>Audit Trail Message Transmission Profile - SYSLOG-TLS</title>
   
-  <para xml:id="para_09d57897-eca4-4316-bb9d-d5c890d65d2a">This profile defines the transmission of audit trail messages. Transport Layer Security (TLS) Transport Mapping for Syslog (RFC 5425) provides the mechanisms for reliable transport, buffering, acknowledgement, authentication, identification, and encryption. The RFC5424 states that the TLS used MUST be TLS version 1.2. For this DICOM profile TLS MUST be used, and version 1.2 or later is RECOMMENDED.</para>
+  <para xml:id="para_09d57897-eca4-4316-bb9d-d5c890d65d2a">This profile defines the transmission of audit trail messages. Transport Layer Security (TLS) Transport Mapping for Syslog (RFC5425) provides the mechanisms for reliable transport, buffering, acknowledgement, authentication, identification, and encryption. The RFC5424 states that the TLS used MUST be TLS version 1.2. For this DICOM profile TLS MUST be used, and version 1.2 or later is RECOMMENDED.</para>
   <note>
     <para xml:id="para_5664cfde-d7c4-423e-84e0-afdd7ae8f847">The words MUST and RECOMMENDED are used in accordance with the IETF specification for normative requirements.</para>
   </note>
-  <para xml:id="para_23569c75-5e1a-49fb-845a-2fba1ee28d70">Any implementation that claims conformance to this profile shall also conform to the Audit Trail Message Format Profile. XML audit trail messages created using the format defined in Audit Trail Message Format Profile shall be transmitted to a collection point using the syslog over TLS mechanism, defined in RFC 5425. Systems that comply with this profile shall support message sizes of at least 32768 octets.</para>
+  <para xml:id="para_23569c75-5e1a-49fb-845a-2fba1ee28d70">Any implementation that claims conformance to this profile shall also conform to the Audit Trail Message Format Profile. XML audit trail messages created using the format defined in Audit Trail Message Format Profile shall be transmitted to a collection point using the syslog over TLS mechanism, defined in RFC5425. Systems that comply with this profile shall support message sizes of at least 32768 octets.</para>
   <note>
     <orderedlist numeration="arabic">
       <listitem>
         <para xml:id="para_71175f35-37fd-4df9-a4ed-08d61d0974fb">Audit messages for other purposes may also be transferred on the same syslog connection. These messages might not conform to the Audit Trail Message Format.</para>
       </listitem>
       <listitem>
-        <para xml:id="para_2fe61cfa-7825-4df4-909e-172e4b910c48">RFC 5425 specifies mandatory support for 2KB messages, strongly recommends support for at least 8KB, and does not restrict the maximum size.</para>
+        <para xml:id="para_2fe61cfa-7825-4df4-909e-172e4b910c48">RFC5425 specifies mandatory support for 2KB messages, strongly recommends support for at least 8KB, and does not restrict the maximum size.</para>
       </listitem>
       <listitem>
         <para xml:id="para_d03b0acf-8981-429b-b204-e841212a65a2">When a received message is longer than the receiving application supports, the message might be discarded or truncated. The sending application will not be notified.</para>
       </listitem>
     </orderedlist>
   </note>
-  <para xml:id="para_d275117b-0794-4395-a866-eaf0b27c4a02">The XML audit trail message shall be inserted into the MSG portion of the SYSLOG-MSG element of the syslog message as defined in RFC 5424 "The Syslog Protocol".The XML audit message may contain Unicode characters that are encoded using the UTF-8 encoding rules.</para>
+  <para xml:id="para_d275117b-0794-4395-a866-eaf0b27c4a02">The XML audit trail message shall be inserted into the MSG portion of the SYSLOG-MSG element of the syslog message as defined in RFC5424 "The Syslog Protocol".The XML audit message may contain Unicode characters that are encoded using the UTF-8 encoding rules.</para>
   <note>
     <para xml:id="para_1e01796a-916c-4065-ae3b-adbb746612c9">UTF-8 avoids utilizing the control characters that are reserved by the syslog protocol, but a system that is not prepared for UTF-8 may not be able to display these messages correctly.</para>
   </note>
   <para xml:id="para_e9fb7e42-c64e-45bc-b8e5-efee041fbb22">The PRI field shall be set using the facility value of 10 (security/authorization messages). Most messages should have the severity value of 5 (normal but significant), although applications may choose other values if that is appropriate to the more detailed information in the audit message. This means that for most audit messages the PRI field will contain the value "&lt;85&gt;".</para>
   <para xml:id="para_6d32aeb9-7ff0-416e-ab17-1a0afd1816a1">The MSGID field in the HEADER of the SYSLOG-MSG shall be set. The value "DICOM+RFC3881" may be used for messages that comply with this profile.</para>
-  <para xml:id="para_b8a55fdd-0a95-423f-addc-ed02a0e661f5">The MSG field of the SYSLOG-MSG shall be present and shall be an XML structure following the RFC 3881 format, as extended in the audit trail message format profile.</para>
-  <para xml:id="para_7c3c0f0e-b0c1-4cff-9eef-09368f73b3ae">The syslog message shall be created and transmitted as described in RFC 5424.</para>
+  <para xml:id="para_b8a55fdd-0a95-423f-addc-ed02a0e661f5">The MSG field of the SYSLOG-MSG shall be present and shall be an XML structure following the RFC3881 format, as extended in the audit trail message format profile.</para>
+  <para xml:id="para_7c3c0f0e-b0c1-4cff-9eef-09368f73b3ae">The syslog message shall be created and transmitted as described in RFC5424.</para>
   <para xml:id="para_682c6207-727e-46af-8fb6-94cc1fc9bc26">Any implementation that claims conformance to this Security Profile shall describe in its conformance statement:</para>
   <orderedlist numeration="loweralpha">
 <listitem>
-<para xml:id="para_ca8c0157-48f9-4e56-9d31-c273de126ea8">any configuration parameters relevant to RFC 5424 and RFC 5425.</para>
+<para xml:id="para_ca8c0157-48f9-4e56-9d31-c273de126ea8">any configuration parameters relevant to RFC5424 and RFC5425.</para>
 </listitem>
 <listitem>
 <para xml:id="para_fd6e8ac2-e309-4405-83fd-45cb819770da">Any STRUCTURED-DATA that is generated or processed.</para>
@@ -7462,12 +7465,12 @@ start = message
   <para xml:id="para_e8649e42-cad6-4f90-9ab4-d07e8384a694">The underlying UDP transport might not accept messages longer than the MTU size minus the UDP header length. This may result in longer syslog messages being truncated. When these messages are truncated the resulting XML may be incorrect. Because of this potential for truncated messages and other security concerns, the transmission of syslog messages over TLS may be preferred (see <xref linkend="sect_A.6" xrefstyle="select: label"/>).</para>
   <para xml:id="para_f235e963-dfeb-4e2e-8e44-f73980f0187b">The PRI field shall be set using the facility value of 10 (security/authorization messages). Most messages should have the severity value of 5 (normal but significant), although applications may choose values of 4 (warning condition) if that is appropriate to the more detailed information in the audit message. This means that for most audit messages the PRI field will contain the value "&lt;85&gt;". Audit repositories shall be prepared to deal appropriately with any incoming PRI value.</para>
   <para xml:id="para_e5faa060-4af1-41ea-923e-e3ceed479b2d">The MSGID field in the HEADER of the SYSLOG-MSG shall be set. The value "DICOM+RFC3881" may be used for messages that comply with this profile.</para>
-  <para xml:id="para_a89bdb4b-efcb-4bc0-8532-ffcec32cd8b9">The MSG field of the SYSLOG-MSG shall be present and shall be an XML structure following the RFC 3881 format, as extended in this profile.</para>
-  <para xml:id="para_826f25d8-71f8-4f3d-9784-2d5081ff2706">The syslog message shall be created and transmitted as described in RFC 5424.</para>
+  <para xml:id="para_a89bdb4b-efcb-4bc0-8532-ffcec32cd8b9">The MSG field of the SYSLOG-MSG shall be present and shall be an XML structure following the RFC3881 format, as extended in this profile.</para>
+  <para xml:id="para_826f25d8-71f8-4f3d-9784-2d5081ff2706">The syslog message shall be created and transmitted as described in RFC5424.</para>
   <para xml:id="para_e22f58f0-913f-4f9d-bdfb-97e437aa6701">Any implementation that claims conformance to this Security Profile shall describe in its conformance statement:</para>
   <orderedlist numeration="loweralpha">
 <listitem>
-<para xml:id="para_ce3f1478-37c8-41db-8853-f4a42e397ca6">any configuration parameters relevant to RFC 5424 and RFC 5426.</para>
+<para xml:id="para_ce3f1478-37c8-41db-8853-f4a42e397ca6">any configuration parameters relevant to RFC5424 and RFC5426.</para>
 </listitem>
 <listitem>
 <para xml:id="para_b7ea17c4-6ed5-4494-950f-9c3252743e68">Any STRUCTURED-DATA that is generated or processed.</para>
@@ -7780,10 +7783,10 @@ start = message
 <para xml:id="para_d7346797-e5dd-4135-8ecd-bbcd13c240e1">The File Set shall be an attachment to the email body.</para>
 </listitem>
 <listitem>
-<para xml:id="para_6ee85f8b-41a3-4efc-9198-e151efac339d">The entire email (body, File Set attachment, and any other attachments) shall be encrypted using AES, in accordance with RFC 3851 and RFC 3853.</para>
+<para xml:id="para_6ee85f8b-41a3-4efc-9198-e151efac339d">The entire email (body, File Set attachment, and any other attachments) shall be encrypted using AES, in accordance with RFC3851 and RFC3853.</para>
 </listitem>
 <listitem>
-<para xml:id="para_d62c79c1-5eaf-4fd3-b21a-55dada0a3d7d">The email body and attachments may be compressed in accordance with RFC 3851.</para>
+<para xml:id="para_d62c79c1-5eaf-4fd3-b21a-55dada0a3d7d">The email body and attachments may be compressed in accordance with RFC3851.</para>
 </listitem>
 <listitem>
 <para xml:id="para_ffeabc55-9352-4347-95de-f1aba4c6e378">The email shall be digitally signed by the sender. The signing may be applied before or after encryption. This digital signature shall be interpreted to mean that the sender is attesting to his authorization to disclose the information in this email to the recipient.</para>
@@ -7814,7 +7817,7 @@ start = message
       <note>
         <para xml:id="para_a679419f-e24d-431e-8206-feadd996f817">The use of MD5 is not recommended by its inventors, RSA. See:ftp://ftp.rsasecurity.com/pub/pdfs/bulletn4.pdf</para>
       </note>
-      <para xml:id="para_68a93cf3-a67a-4e55-8043-254be06350b8">The MAC to be signed shall be padded to a block size matching the RSA key size, as directed in RFC 2437 (PKCS #1). The Value of MAC Algorithm (0400,0015) shall be set to either "RIPEMD160", "MD5", "SHA1", "SHA256", "SHA384" or "SHA512". The public key associated with the private key as well as the identity of the Application Entity or equipment manufacturer that owns the RSA key pair shall be transmitted in an X.509 (1993) signature certificate. The Value of the Certificate Type (0400,0110) Attribute shall be set to "X509_1993_SIG". A site-specific policy determines how the X.509 certificates are generated, authenticated, and distributed. A site may issue and distribute X.509 certificates directly, may utilize the services of a Certificate Authority, or use any reasonable method for certificate generation and verification.</para>
+      <para xml:id="para_68a93cf3-a67a-4e55-8043-254be06350b8">The MAC to be signed shall be padded to a block size matching the RSA key size, as directed in RFC2437 (PKCS #1). The Value of MAC Algorithm (0400,0015) shall be set to either "RIPEMD160", "MD5", "SHA1", "SHA256", "SHA384" or "SHA512". The public key associated with the private key as well as the identity of the Application Entity or equipment manufacturer that owns the RSA key pair shall be transmitted in an X.509 (1993) signature certificate. The Value of the Certificate Type (0400,0110) Attribute shall be set to "X509_1993_SIG". A site-specific policy determines how the X.509 certificates are generated, authenticated, and distributed. A site may issue and distribute X.509 certificates directly, may utilize the services of a Certificate Authority, or use any reasonable method for certificate generation and verification.</para>
       <para xml:id="para_73404a12-dfab-4acb-a939-c348f2211709">If an implementation utilizes timestamps, it shall use a Certified Timestamp Type (0400,0305) of "CMS_TSP". The Certified Timestamp (0400,0310) shall be generated as described in "Internet X.509 Public Key Infrastructure; Time Stamp Protocols; March 2000".</para>
     </section>
     <section label="C.2" status="2" xml:id="sect_C.2">
@@ -7905,10 +7908,10 @@ start = message
           <para xml:id="para_d5533c9d-1e14-43b4-9ab2-0c0cbf514200">any attributes of the Enhanced Mammography Image Module that are present</para>
         </listitem>
         <listitem>
-          <para>any attributes of the Tractography Results Module that are present</para>
+          <para xml:id="para_a6c1eede-c6dc-4de6-9f45-dfbe0bb2f47a">any attributes of the Tractography Results Module that are present</para>
         </listitem>
         <listitem>
-          <para>any attributes of the Volumetric Graphic Annotation Module that are present</para>
+          <para xml:id="para_f8bc28ff-78e3-4ed6-ad3a-0e2a7ee440df">any attributes of the Volumetric Graphic Annotation Module that are present</para>
         </listitem>
       </orderedlist>
       <para xml:id="para_7b29820b-c225-48ad-9275-6f56a9f584ea"/>
@@ -8000,7 +8003,7 @@ start = message
           <para xml:id="para_b031487c-918d-4f87-bbc2-07888ecefa1d">any attributes of the Enhanced Mammography Image module that are present</para>
         </listitem>
         <listitem>
-          <para>any attributes of the Volumetric Graphic Annotation Module that are present</para>
+          <para xml:id="para_c1231dd2-cca5-4e6f-8150-16c16289e26d">any attributes of the Volumetric Graphic Annotation Module that are present</para>
         </listitem>
       </orderedlist>
       <para xml:id="para_e07aabe9-bf80-45e1-81cf-3f87565e2af1">The Digital Signature shall be created using the methodology described in the Base RSA Digital Signature Profile. The Application Entity shall determine the identity of the technician or physician and obtain their certificate through a site-specific procedure such as a login mechanism or a smart card.</para>
@@ -8097,7 +8100,7 @@ start = message
   <section label="D.1.1" status="3" xml:id="sect_D.1.1">
     <title>Encapsulation of A DICOM File in a Secure DICOM File</title>
   
-  <para xml:id="para_cb472c66-70ca-45fd-9a45-4889f167ed7e">A Secure DICOM File conforming to this security profile shall contain an Enveloped-data content type of the Cryptographic Message Syntax defined in RFC 3852, 3370 and 3565. The enveloped data shall use RSA [RFC 3447], or password-based encryption using PBKDF2 [RFC 2898] for the key derivation algorithm and either AES or Triple-DES [RFC 3211], for the key transport of the content-encryption keys. Creators of a Secure DICOM File conforming to this security profile may use either AES or Triple-DES for content-encryption. Readers claiming conformance to this profile shall be capable of decrypting Secure DICOM Files using either AES or Triple-DES. The AES key length may be any length allowed by the RFCs. The Triple-DES key length is 168 bits as defined by ANSI X9.52. Encoding shall be performed according to the specifications for RSA Key Transport and Triple DES Content Encryption in RFC-3370, and for AES Content Encryption in RFC-3565.</para>
+  <para xml:id="para_cb472c66-70ca-45fd-9a45-4889f167ed7e">A Secure DICOM File conforming to this security profile shall contain an Enveloped-data content type of the Cryptographic Message Syntax defined in RFC3852, RFC3370 and RFC3565. The enveloped data shall use RSA [RFC3447], or password-based encryption using PBKDF2 [RFC2898] for the key derivation algorithm and either AES or Triple-DES [RFC3211], for the key transport of the content-encryption keys. Creators of a Secure DICOM File conforming to this security profile may use either AES or Triple-DES for content-encryption. Readers claiming conformance to this profile shall be capable of decrypting Secure DICOM Files using either AES or Triple-DES. The AES key length may be any length allowed by the RFCs. The Triple-DES key length is 168 bits as defined by ANSI X9.52. Encoding shall be performed according to the specifications for RSA Key Transport and Triple DES Content Encryption in RFC3370, and for AES Content Encryption in RFC3565.</para>
   <para xml:id="para_53d860aa-cd3d-4599-8f5a-054c01596339">The encrypted content of the Enveloped-data content type shall be of the following choices:</para>
 <itemizedlist>
   <listitem>
@@ -8107,7 +8110,7 @@ start = message
 <para xml:id="para_957e38f9-56d3-457a-a641-987f80ecd8d3">Digested-data content type.</para>
 </listitem>
 </itemizedlist>
-<para xml:id="para_7cc1bbb8-fcb0-4e52-aac1-7f0c14c323d5">In both cases, SHA-1 [SHA-1], SHA256, SHA384, or SHA512 [SHA-2] shall be used as the digest algorithm. In case of the Signed-data content type, RSA [RFC 2313] shall be used as the signature algorithm.</para>
+<para xml:id="para_7cc1bbb8-fcb0-4e52-aac1-7f0c14c323d5">In both cases, SHA-1 [SHA-1], SHA256, SHA384, or SHA512 [SHA-2] shall be used as the digest algorithm. In case of the Signed-data content type, RSA [RFC2313] shall be used as the signature algorithm.</para>
   <para xml:id="para_ecf84ba0-c931-42e0-b377-47629228e291">In the case of password-based encryption using PBKDF2, the octet string that contains the password used to generate the key shall be limited to the encoding and the graphic character representation defined by the Default Character Repertoire.</para>
   <note>
     <orderedlist numeration="arabic">
@@ -8121,10 +8124,10 @@ start = message
         <para xml:id="para_17adc060-ae93-47e4-a98c-ab2c72286ec6">No requirements or restrictions on the use of the SignedAttributes element of the Signed-data content type's SignerInfo structure are defined in this profile. SignedAttributes might for example be used to specify the signing time or SMIME capabilities, as required by ENV 13608-2.</para>
       </listitem>
       <listitem>
-        <para xml:id="para_fc6e1360-6f44-40f3-8f86-3e3232275d79">The use of password-based encryption for key transport of content encryption keys is potentially less secure than certificate-based encryption, but may be useful when the list of recipients is not known a priori or when there is no public key infrastructure deployed. The security depends on the entropy of the password, which if user-selected can be quite low. RFC 3211 strongly recommends the use of a pass "phrase" rather than a single word, and RFC 2898 does not impose any practical length limit. Also, the method used to exchange the password or pass phrase also could have a significant impact on the level of security.</para>
+        <para xml:id="para_fc6e1360-6f44-40f3-8f86-3e3232275d79">The use of password-based encryption for key transport of content encryption keys is potentially less secure than certificate-based encryption, but may be useful when the list of recipients is not known a priori or when there is no public key infrastructure deployed. The security depends on the entropy of the password, which if user-selected can be quite low. RFC3211 strongly recommends the use of a pass "phrase" rather than a single word, and RFC2898 does not impose any practical length limit. Also, the method used to exchange the password or pass phrase also could have a significant impact on the level of security.</para>
       </listitem>
       <listitem>
-        <para xml:id="para_19ec7036-7683-41df-8d08-740b9fc8c014">PBKDF2 as defined in RFC 2898 specifies the password to be "an octet string of arbitrary length whose interpretation as a text string is unspecified". For interoperability between the sender and recipient, both a character encoding scheme and a graphic character representation needs to be defined. ISO IR6 (US-ASCII), being the Default Character Repertoire for DICOM (see <olink targetdoc="PS3.5" targetptr="PS3.5" xrefstyle="select: labelnumber"/>), is specified in order to avoid any potential ambiguity caused by the use of other character sets (such as UTF-8) that do not necessarily result in the same binary values for particular graphic character representation.</para>
+        <para xml:id="para_19ec7036-7683-41df-8d08-740b9fc8c014">PBKDF2 as defined in RFC2898 specifies the password to be "an octet string of arbitrary length whose interpretation as a text string is unspecified". For interoperability between the sender and recipient, both a character encoding scheme and a graphic character representation needs to be defined. ISO IR6 (US-ASCII), being the Default Character Repertoire for DICOM (see <olink targetdoc="PS3.5" targetptr="PS3.5" xrefstyle="select: labelnumber"/>), is specified in order to avoid any potential ambiguity caused by the use of other character sets (such as UTF-8) that do not necessarily result in the same binary values for particular graphic character representation.</para>
       </listitem>
     </orderedlist>
   </note>
@@ -8211,7 +8214,7 @@ start = message
 </note>
     </listitem>
     <listitem>
-      <para xml:id="para_1c3d937e-b42b-4cd7-80db-092f09622605">If used, all instances of the Encrypted Attributes Data Set shall be encoded with a DICOM Transfer Syntax, encrypted, and stored in the dataset to be protected as an Item of the Encrypted Attributes Sequence (0400,0500). The encryption shall be done using RSA [RFC 2313] for the key transport of the content-encryption keys. A de-identifier conforming to this security profile may use either AES or Triple-DES for content-encryption. The AES key length may be any length allowed by the RFCs. The Triple-DES key length is 168 bits as defined by ANSI X9.52. Encoding shall be performed according to the specifications for RSA Key Transport and Triple DES Content Encryption in RFC-3370 and for AES Content Encryption in RFC-3565.</para>
+      <para xml:id="para_1c3d937e-b42b-4cd7-80db-092f09622605">If used, all instances of the Encrypted Attributes Data Set shall be encoded with a DICOM Transfer Syntax, encrypted, and stored in the dataset to be protected as an Item of the Encrypted Attributes Sequence (0400,0500). The encryption shall be done using RSA [RFC2313] for the key transport of the content-encryption keys. A de-identifier conforming to this security profile may use either AES or Triple-DES for content-encryption. The AES key length may be any length allowed by the RFCs. The Triple-DES key length is 168 bits as defined by ANSI X9.52. Encoding shall be performed according to the specifications for RSA Key Transport and Triple DES Content Encryption in RFC3370 and for AES Content Encryption in RFC3565.</para>
     <note>
       <orderedlist numeration="arabic">
         <listitem>
@@ -13219,23 +13222,23 @@ start = message
     </tr>   
       <tr valign="top">
         <td align="left" colspan="1" rowspan="1">
-          <para>Presentation Display Collection UID</para>
+          <para xml:id="para_3f15e6b2-bc70-4626-80bf-f258dd153f12">Presentation Display Collection UID</para>
         </td>
         <td align="center" colspan="1" rowspan="1">
-          <para>(0070,1101)</para>
+          <para xml:id="para_5dd55c75-ff1c-418a-9320-ff60cf7c138c">(0070,1101)</para>
         </td>
         <td align="center" colspan="1" rowspan="1">
-          <para>N</para>
+          <para xml:id="para_16b37613-bef9-4df0-8e31-f4ba3fd13b2a">N</para>
         </td>
         <td align="center" colspan="1" rowspan="1">
-          <para>Y</para>
+          <para xml:id="para_40d4fb18-7858-489e-8d72-1fa21d3fd0a0">Y</para>
         </td>
         <td align="center" colspan="1" rowspan="1">
-          <para>U</para>
+          <para xml:id="para_e19c24d8-378f-4f7f-8596-bb41b4b38f36">U</para>
         </td>
         <td align="center" colspan="1" rowspan="1"/>
         <td align="center" colspan="1" rowspan="1">
-          <para>K</para>
+          <para xml:id="para_392df5f8-eee5-4e79-9cd7-841c87489bdf">K</para>
         </td>
         <td align="center" colspan="1" rowspan="1"/>
         <td align="center" colspan="1" rowspan="1"/>
@@ -13247,23 +13250,23 @@ start = message
       </tr>
       <tr valign="top">
         <td align="left" colspan="1" rowspan="1">
-          <para>Presentation Sequence Collection UID</para>
+          <para xml:id="para_5a0c166a-fa03-4b8f-b14f-30a1f848cd16">Presentation Sequence Collection UID</para>
         </td>
         <td align="center" colspan="1" rowspan="1">
-          <para>(0070,1102)</para>
+          <para xml:id="para_f0c8200c-1e97-4bfe-a48c-abc755f264cb">(0070,1102)</para>
         </td>
         <td align="center" colspan="1" rowspan="1">
-          <para>N</para>
+          <para xml:id="para_cf9de110-1918-4a9d-9ea2-8f32c090c5aa">N</para>
         </td>
         <td align="center" colspan="1" rowspan="1">
-          <para>Y</para>
+          <para xml:id="para_ce694f53-94ee-48cf-8004-2f7d25d480ca">Y</para>
         </td>
         <td align="center" colspan="1" rowspan="1">
-          <para>U</para>
+          <para xml:id="para_9cbe03b8-d948-45bd-86d1-dce7d7b057a0">U</para>
         </td>
         <td align="center" colspan="1" rowspan="1"/>
         <td align="center" colspan="1" rowspan="1">
-          <para>K</para>
+          <para xml:id="para_04b8a673-6bf0-4b7e-b2b8-94e2645a8028">K</para>
         </td>
         <td align="center" colspan="1" rowspan="1"/>
         <td align="center" colspan="1" rowspan="1"/>
@@ -15789,23 +15792,23 @@ start = message
     </tr>
       <tr valign="top">
         <td align="left" colspan="1" rowspan="1">
-          <para>Tracking UID</para>
+          <para xml:id="para_fc0bfb81-7ef2-49d0-90a1-29d6a79514b6">Tracking UID</para>
         </td>
         <td align="center" colspan="1" rowspan="1">
-          <para>(0062,0021)</para>
+          <para xml:id="para_e6f90a5f-acdc-4455-9bdf-5f715047f1d0">(0062,0021)</para>
         </td>
         <td align="center" colspan="1" rowspan="1">
-          <para>N</para>
+          <para xml:id="para_60a7efaa-39a9-44bd-9103-cc1eff79289a">N</para>
         </td>
         <td align="center" colspan="1" rowspan="1">
-          <para>Y</para>
+          <para xml:id="para_64ad86cf-b568-4843-81c7-a2e0d8c0e1f5">Y</para>
         </td>
         <td align="center" colspan="1" rowspan="1">
-          <para>U</para>
+          <para xml:id="para_4c532826-88e9-48b9-bcf6-3a0049ba6fa4">U</para>
         </td>
         <td align="center" colspan="1" rowspan="1"/>
         <td align="center" colspan="1" rowspan="1">
-          <para>K</para>
+          <para xml:id="para_1b046899-00ff-4d51-98ee-d600ac413e49">K</para>
         </td>
         <td align="center" colspan="1" rowspan="1"/>
         <td align="center" colspan="1" rowspan="1"/>
@@ -18306,9 +18309,9 @@ start = message
 <section label="F.1.3.3" status="4" xml:id="sect_F.1.3.3">
     <title>Referenced Standards</title>
   
-  <para xml:id="para_6b738506-a7ea-4629-bcee-f9a3e25a4287">RFC-2131 DHCP Protocol</para>
-  <para xml:id="para_3f5e16cd-a076-4e88-bd2e-fba21eed0084">RFC-2132 DHCP Options</para>
-  <para xml:id="para_f909057c-d781-46b0-b499-c2cb5a305647">RFC-2563 Auto Configuration control</para>
+  <para xml:id="para_6b738506-a7ea-4629-bcee-f9a3e25a4287">RFC2131 DHCP Protocol</para>
+  <para xml:id="para_3f5e16cd-a076-4e88-bd2e-fba21eed0084">RFC2132 DHCP Options</para>
+  <para xml:id="para_f909057c-d781-46b0-b499-c2cb5a305647">RFC2563 Auto Configuration control</para>
   </section>
 <section label="F.1.3.4" status="4" xml:id="sect_F.1.3.4">
     <title>Interaction Diagram</title>
@@ -18324,7 +18327,7 @@ start = message
     </mediaobject>
   </figure>
 </para>
-  <para xml:id="para_cdcfd115-d2ac-4c7e-a777-14aff4db98b5">The DHCP client shall comply with RFC-2131 (DHCP Protocol), RFC-2132 (DHCP Options), RFC-2563 (Auto Configuration Control), and their referenced RFCs.</para>
+  <para xml:id="para_cdcfd115-d2ac-4c7e-a777-14aff4db98b5">The DHCP client shall comply with RFC2131 (DHCP Protocol), RFC2132 (DHCP Options), RFC2563 (Auto Configuration Control), and their referenced RFCs.</para>
   <para xml:id="para_7014e8c8-c024-49e7-9ce3-b38358e21ca7">The DHCP client shall query for available DHCP servers. It shall select the DHCP server to use.</para>
   <para xml:id="para_6dc42b56-361f-4268-8966-057d2510bf7e">The DHCP client shall query for an IP assignment. The DHCP Server shall determine the IP parameters in accordance with the current DHCP configuration, establish a lease for these parameters, and respond with this information. (See below for lease maintenance and expiration.) The DHCP client shall apply these parameters to the TCP/IP stack. The DHCP client shall establish internal lease maintenance activities.</para>
   <para xml:id="para_27145fe0-f084-4b94-b0d9-54ca7df272f7">The DHCP client shall query for the optional information listed in <xref linkend="table_F.1-2" xrefstyle="select: label"/> when required by additional profiles used by the client system. If the DHCP server does not provide this information, the default values shall be used by the DHCP client.</para>
@@ -18515,13 +18518,13 @@ start = message
 <section label="F.1.4.3" status="4" xml:id="sect_F.1.4.3">
     <title>Referenced Standards</title>
   
-  <para xml:id="para_ffa844a4-0b19-445d-ba3c-69e0251e36ae">RFC-2131 DHCP Protocol</para>
-  <para xml:id="para_ebee716b-d0a9-4ded-846b-e9eaddf5da54">RFC-2132 DHCP Options</para>
+  <para xml:id="para_ffa844a4-0b19-445d-ba3c-69e0251e36ae">RFC2131 DHCP Protocol</para>
+  <para xml:id="para_ebee716b-d0a9-4ded-846b-e9eaddf5da54">RFC2132 DHCP Options</para>
   </section>
 <section label="F.1.4.4" status="4" xml:id="sect_F.1.4.4">
     <title>Normal Interaction</title>
   
-  <para xml:id="para_e4678ad5-b5e0-4b0c-aa73-384a3905914f">The DHCP client shall maintain a lease on the IP address in accordance with the DHCP protocol as specified in RFC-2131 and RFC-2132. There is a possibility that the DHCP Server may fail, or may choose not to renew the lease.</para>
+  <para xml:id="para_e4678ad5-b5e0-4b0c-aa73-384a3905914f">The DHCP client shall maintain a lease on the IP address in accordance with the DHCP protocol as specified in RFC2131 and RFC2132. There is a possibility that the DHCP Server may fail, or may choose not to renew the lease.</para>
   <para xml:id="para_df165db7-dbc9-4e5b-89af-73007dea833d">In the event that the DHCP lease expires without being renewed, any still active DICOM connections may be aborted (AP-Abort).</para>
   <note>
     <para xml:id="para_2be61abd-b08b-4a3f-9f7a-42ebf40e9f75">There is usually a period (typically between several minutes and several days) between the request for lease extension and actual expiration of the lease. The application might take advantage of this to perform a graceful association release rather than the abrupt shutdown of an AP-Abort.</para>
@@ -18581,7 +18584,7 @@ start = message
 <section label="F.1.5.3" status="4" xml:id="sect_F.1.5.3">
     <title>Referenced Standards</title>
   
-  <para xml:id="para_958fff00-ae68-4da0-886b-472c7ec16c2b">RFC-2136 Dynamic Updates in the Domain Name System</para>
+  <para xml:id="para_958fff00-ae68-4da0-886b-472c7ec16c2b">RFC2136 Dynamic Updates in the Domain Name System</para>
   </section>
 <section label="F.1.5.4" status="4" xml:id="sect_F.1.5.4">
     <title>Basic Course of Events</title>
@@ -18816,13 +18819,13 @@ start = message
 <section label="G.1.1.3" status="4" xml:id="sect_G.1.1.3">
     <title>Referenced Standards</title>
   
-  <para xml:id="para_aa1a8df0-22e8-4b64-a236-b999d74a57ed">RFC-1305 Network Time Protocol (NTP) standard specification</para>
-  <para xml:id="para_372e551e-8da1-4d2b-b42f-6baffb829f8a">RFC-2030 Simple NTP</para>
+  <para xml:id="para_aa1a8df0-22e8-4b64-a236-b999d74a57ed">RFC1305 Network Time Protocol (NTP) standard specification</para>
+  <para xml:id="para_372e551e-8da1-4d2b-b42f-6baffb829f8a">RFC2030 Simple NTP</para>
   </section>
 <section label="G.1.1.4" status="4" xml:id="sect_G.1.1.4">
     <title>Basic Course of Events.</title>
   
-  <para xml:id="para_03d27d8a-246d-477f-b694-bc64144615b0">The DHCP server may have provided a list of NTP servers or one may be obtained through optional NTP discovery mechanisms. If this list is empty and no manually configured NTP server address is present, the client shall select its internal clock as the time source (see below). If the list is not empty, the client shall attempt to maintain time synchronization with all those NTP servers. The client may attempt to use the multi-cast, manycast, and broadcast options as defined in RFC-1305. It shall utilize the point to point synchronization option if these are not available. The synchronization shall be in compliance with either RFC-1305 (NTP) or RFC-2030 (SNTP).</para>
+  <para xml:id="para_03d27d8a-246d-477f-b694-bc64144615b0">The DHCP server may have provided a list of NTP servers or one may be obtained through optional NTP discovery mechanisms. If this list is empty and no manually configured NTP server address is present, the client shall select its internal clock as the time source (see below). If the list is not empty, the client shall attempt to maintain time synchronization with all those NTP servers. The client may attempt to use the multi-cast, manycast, and broadcast options as defined in RFC1305. It shall utilize the point to point synchronization option if these are not available. The synchronization shall be in compliance with either RFC1305 (NTP) or RFC2030 (SNTP).</para>
   <para xml:id="para_951a0deb-40b1-47a3-8792-7510dccca8fd">If the application requires time synchronization of better than 1s mean error, the client should use NTP. SNTP cannot ensure a more accurate time synchronization.</para>
   <para xml:id="para_fab75851-df8a-4c2d-a25a-9ca747d8ddc8">The DHCP server may have provided a UTC offset between the local time at the machine and UTC. If this is missing, the UTC offset will be obtained in a device specific manner (e.g., service, CMOS). If the UTC offset is provided, the client shall use this offset for converting between UTC and local time.</para>
   </section>
@@ -18883,13 +18886,13 @@ start = message
 <section label="G.1.2.3" status="4" xml:id="sect_G.1.2.3">
     <title>Referenced Standards</title>
   
-  <para xml:id="para_3cedce94-3713-4ac5-a03a-aac08697a067">RFC-1305 Network Time Protocol (NTP) standard specification</para>
-  <para xml:id="para_e5646722-26ef-46b7-8d77-b7c0fff25aa2">RFC-2030 Simple NTP</para>
+  <para xml:id="para_3cedce94-3713-4ac5-a03a-aac08697a067">RFC1305 Network Time Protocol (NTP) standard specification</para>
+  <para xml:id="para_e5646722-26ef-46b7-8d77-b7c0fff25aa2">RFC2030 Simple NTP</para>
   </section>
 <section label="G.1.2.4" status="4" xml:id="sect_G.1.2.4">
     <title>Basic Course of Events.</title>
   
-  <para xml:id="para_a4409ba6-9707-4fb3-b790-0dda3f158551">All the full detail is in RFC-1305 and RFC-2030. The most common and mandatory minimum mode for NTP operation establishes a ping pong of messages between client and servers. The client sends requests to the servers, which fill in time related fields in a response, and the client performs optimal estimation of the present time. The RFCs deal with issues of lost messages, estimation formulae, etc. Once the clocks are in synchronization these ping pong exchanges typically stabilize at roughly 1000 second intervals.</para>
+  <para xml:id="para_a4409ba6-9707-4fb3-b790-0dda3f158551">All the full detail is in RFC1305 and RFC2030. The most common and mandatory minimum mode for NTP operation establishes a ping pong of messages between client and servers. The client sends requests to the servers, which fill in time related fields in a response, and the client performs optimal estimation of the present time. The RFCs deal with issues of lost messages, estimation formulae, etc. Once the clocks are in synchronization these ping pong exchanges typically stabilize at roughly 1000 second intervals.</para>
   <para xml:id="para_483906c6-fd0d-4bfc-8d5c-bbb986cf8163">The client machine typically uses the time estimate to maintain the internal operating system clock. This clock is then used by applications that need time information. This approach eliminates the application visible difference between synchronized and unsynchronized time. The RFCs provide guidance on proper implementations.</para>
   </section>
 </section>
@@ -18912,7 +18915,7 @@ start = message
     <title>NTP Implementation Considerations (Informative)</title>
   
   <para xml:id="para_72aa46a6-0514-45b6-8ceb-2bdb644b4b9d">NTP servers always support both NTP and SNTP clients. The difference is one of synchronization accuracy, not communications compatibility. Although in theory both NTP and SNTP clients could run at the same time on a client this is not recommended. The SNTP updates will simply degrade the time accuracy. When other time protocol clients, such as IRIG, are also being used these clients must be coordinated with the NTP client to avoid synchronization problems.</para>
-  <para xml:id="para_680f2382-0521-437b-a53a-f81a30806f43">RFC-1305 includes specifications for management of intermittent access to the NTP servers, broken servers, etc. The NTP servers do not need to be present and operational when the NTP process begins. NTP supports the use of multiple servers to provide backup and better accuracy. RFC-1305 specifies the mechanisms used by the NTP client. The site www.ntp.org provides extensive guidance and references regarding the most effective configurations for backups and multiple server configurations.</para>
+  <para xml:id="para_680f2382-0521-437b-a53a-f81a30806f43">RFC1305 includes specifications for management of intermittent access to the NTP servers, broken servers, etc. The NTP servers do not need to be present and operational when the NTP process begins. NTP supports the use of multiple servers to provide backup and better accuracy. RFC1305 specifies the mechanisms used by the NTP client. The site www.ntp.org provides extensive guidance and references regarding the most effective configurations for backups and multiple server configurations.</para>
   <para xml:id="para_ecc586e7-0f09-413b-b17d-ea56d66865d9">The local battery clock and client operating system must be properly UTC aware. NTP synchronization is in UTC. This can be a source of confusion because some computers are configured with their hardware clocks set to local time and the operating system set (incorrectly) to UTC. This is a common error that only becomes apparent when the devices attempt to synchronize clocks.</para>
   </section>
 <section label="G.1.5" status="3" xml:id="sect_G.1.5">
@@ -19042,929 +19045,928 @@ start = message
     </tr>
   </tbody>
   </table>
-  <section label="H.1.1" status="3" xml:id="sect_H.1.1">
-    <title>Data Modelcomponent Objects</title>
-  
-  <para xml:id="para_dd0dd583-a450-4b1e-82e0-7c0faf1125c2">The normative definition of the schema can be found in <xref linkend="sect_H.1.3" xrefstyle="select: label"/>. This section gives additional informative descriptions of the objects and information defined in that schema and makes normative statements regarding DICOM system behavior.</para>
-  <para xml:id="para_3aa716dd-97df-4ecf-9369-1948a07933bb">The Application Configuration Data Model has the following component objects:</para>
-    <variablelist>
-      <varlistentry>
-<term>Device</term>
-<listitem>
-<para xml:id="para_5738f59e-6889-4e0b-a3d2-289a86225262">The description of the device</para>
-</listitem>
-</varlistentry>
-      <varlistentry>
-<term>Network AE</term>
-<listitem>
-<para xml:id="para_eee0be0e-6370-4a64-9a50-e695a21f44eb">The description of the network application entity</para>
-</listitem>
-</varlistentry>
-      <varlistentry>
-<term>Network Connection</term>
-<listitem>
-<para xml:id="para_6e07ad4f-c93a-4648-b417-15d2aec9051e">The description of the network interface</para>
-</listitem>
-</varlistentry>
-      <varlistentry>
-<term>Transfer Capability</term>
-<listitem>
-<para xml:id="para_0ea49187-c8f9-491b-8ff2-6fcaa07458fd">The description of the SOP classes and syntaxes supported by a Network AE.</para>
-</listitem>
-</varlistentry>
-  </variablelist>
-    <para xml:id="para_accc596d-3ee0-4516-818e-22e2f9dda4fa">
-  <figure label="H.1-1" pgwide="1" xml:id="figure_H.1-1">
-    <title>Application Configuration Data Model</title>
-    <mediaobject>
-      <imageobject>
-        <imagedata fileref="figures/PS3.15_H.1-1.svg"/>
-        <!--<imagedata fileref="part15_fromword_files/image022.png"/>-->
-      </imageobject>
-    </mediaobject>
-  </figure>
-</para>
-  <para xml:id="para_666ac4bf-5f5c-4569-86a5-1e54b9452a62">In addition there are a number of other objects used in the LDAP schema (see <xref linkend="sect_H.1.2" xrefstyle="select: label"/> and <xref linkend="figure_H.1-2" xrefstyle="select: label"/>) :</para>
-    <variablelist>
-      <varlistentry>
-<term>DICOM Configuration Root</term>
-<listitem>
-<para xml:id="para_4c4674ed-b56f-4e9f-8f67-1ea723b67519">- The root of DICOM Configuration Hierarchy</para>
-</listitem>
-</varlistentry>
-  <varlistentry>
-<term>DICOM Devices Root</term>
-<listitem>
-<para xml:id="para_17ee104b-5150-4b22-a1b4-b3a0a37da3ed">- The root of the DICOM Devices Hierarchy</para>
-</listitem>
-</varlistentry>
-  <varlistentry>
-<term>DICOM Unique AE-Title Registry Root</term>
-<listitem>
-<para xml:id="para_760b9932-affe-4931-86c4-a538e9a7e529">- The root of the Unique DICOM AE-Title Registry</para>
-</listitem>
-</varlistentry>
-  <varlistentry>
-<term>DICOM Unique AE Title</term>
-<listitem>
-<para xml:id="para_212ee0ae-9f2c-4ec8-89e7-37b62858a1fe">- A unique AE Title within the AE Title Registry</para>
-</listitem>
-</varlistentry>
-  </variablelist>
-    <para xml:id="para_86986a82-0ce0-4369-9cc3-e9e3820f97f0">LDAP permits extensions to schema to support local needs (i.e., an object may implement a single structural and multiple auxiliary LDAP classes). DICOM does not mandate client support for such extensions. Servers may support such extensions for local purposes. DICOM Clients may accept or ignore extensions and shall not consider their presence an error.</para>
-  <section label="H.1.1.1" status="4" xml:id="sect_H.1.1.1">
-    <title>Device</title>
-  
-  <para xml:id="para_2b919f9b-dcac-4d89-bab5-29daf7900644">The "device" is set of components organized to perform a task rather than a specific physical instance. For simple devices there may be one physical device corresponding to the Data Model device. But for complex equipment there may be many physical parts to one "device".</para>
-  <para xml:id="para_fc77cec7-e069-463d-ab58-de09c61a4b33">The "device" is the collection of physical entities that supports a collection of Application Entities. It is uniquely associated with these entities and vice versa. It is also uniquely associated with the network connections and vice versa. In a simple workstation with one CPU, power connection, and network connection the "device" is the workstation.</para>
-  <para xml:id="para_9b186490-30fe-49e0-9033-603e1518eaeb">An example of a complex device is a server built from a network of multiple computers that have multiple network connections and independent power connections. This would be one device with one application entity and multiple network connections. Servers like this are designed so that individual component computers can be replaced without disturbing operations. The Application Configuration Data Model does not describe any of this internal structure. It describes the network connections and the network visible Application Entities. These complex devices are usually designed for very high availability, but in the unusual event of a system shutdown the "device" corresponds to all the parts that get shut down.</para>
-    <table frame="box" label="H.1-2" rules="all" xml:id="table_H.1-2">
-    <caption>Attributes of Device Object</caption>
-    <thead>
-    <tr valign="top">
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_66876e12-4bcb-4e3a-889a-d9e76a1807e3">Information Field</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_5078d807-be9d-45c0-be0d-3329b731dcec">Multiplicity</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_8cc89263-2649-42dd-a545-83846a7b9c32">Description</para>
-      </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_ab34af22-6668-4920-8a36-7197b43190b1">Device Name</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_9f6463e6-0f11-4764-a7ba-04426baa9b17">1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_4211ae65-81d0-493d-98b4-fcecb4c98fcf">A unique name (within the scope of the LDAP database) for this device. It is restricted to legal LDAP names, and not constrained by DICOM AE Title limitations.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_32c4af66-2b4b-4b3f-ad99-22c132ce650d">Description</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_f6ceca81-3ae5-467d-89f9-165e2a97185b">0..1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_2e3df658-c9a5-4e1d-886b-992c227e077d">Unconstrained text description of the device.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_e2cdb745-9c62-4fe9-8aec-290df0c37591">Manufacturer</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_1c361b85-d0ea-4230-8b88-f3bb3eabcd69">0..1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_36601945-b059-478b-98ea-1fea5c426ffb">Should be the same as the value of Manufacturer (0008,0070) in SOP instances created by this device.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_846d723e-9312-4422-9a26-a69c71e954ee">Manufacturer Model Name</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_4b9c75e9-d17b-411a-be1a-ef4e7e98fb60">0..1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_4f3bb153-ce54-4c44-85ad-94f87a0c2e04">Should be the same as the value of Manufacturer Model Name (0008,1090) in SOP instances created by this device.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_65344439-2baf-4fa9-a5be-e68e5742c05b">Software Version</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_e3a937c3-bffe-4e2c-a6b7-5fa504d33c00">0..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_2e58e00b-72e1-4651-ad60-69b0ba44a64f">Should be the same as the values of Software Versions (0018,1020) in SOP instances created by this device.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_5c9a890d-3136-4cff-9123-761df059fe89">Station Name</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_77d7f945-8ac9-4835-b2ea-408b36e5fb89">0..1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_2dc8d8bb-a6a8-49f6-a6e2-26b4e63c6a5a">Should be the same as the value of Station Name (0008,1010) in SOP instances created by this device.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_57da2665-ad95-421a-95f7-d144a5865538">Device Serial Number</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_f99a4953-dbee-4a5d-ad5e-da5080fc4bef">0..1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_3379fc4c-b726-48d1-ae81-ee41fe45a47c">Should be the same as the value of Device Serial Number (0018,1000) in SOP instances created by this device.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_e222fae0-0d12-4f32-8ac9-8d6af69cd63d">Primary Device Type</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_9d96c7c6-8553-42df-80ec-1324d4b21373">0..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_79ac6be7-e6d5-4779-8956-98a81036c3df">Represents the kind of device and is most applicable for acquisition modalities. Types should be selected from the list of code values (0008,0100) for <olink targetdoc="PS3.16" targetptr="sect_CID_30" xrefstyle="select: labelnumber quotedtitle"/> when applicable.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_419528d1-2f31-489c-be2c-56f084443182">Institution Name</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_7f291a47-714d-4bff-b0f7-2f5a5ef8e921">0..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_0423e838-dd4e-40e6-992d-6914c8c540b8">Should be the same as the value of Institution Name (0008,0080) in SOP Instances created by this device.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_e4350538-2f1e-4a66-9744-3bf5be79a7e6">Institution Address</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_47a2a108-22ea-4ea4-89ac-7747c9af8e41">0..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_03edc028-35f4-4cdb-8369-406dad324564">Should be the same as the value of Institution Address (0008,0081) attribute in SOP Instances created by this device.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_9dd3f61d-8b30-4ea9-b8ff-d8610321e088">Institutional Department Name</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_56822193-2bef-4b25-9c8f-ec31e96b4ce1">0..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_96e3d265-e67a-4288-88f9-f447c757c640">Should be the same as the value of Institutional Department Name (0008,1040) in SOP Instances created by this device.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_f5f55274-51d0-408b-b6e6-f12bac3cf0f6">Issuer of Patient ID</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_fcd6a1e2-c1e4-4e1f-b47f-31bda2ede847">0..1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_81042308-43ef-47f6-b374-274521ce2f25">Default value for the Issuer of Patient ID (0010,0021) for SOP Instances created by this device. May be overridden by the values received in a worklist or other source.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_c3f032df-06a9-429c-a078-0daef1839432">Related Device Reference</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_c29dba06-1c89-414d-adb3-e08adf0952a2">0..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_49f23819-c476-49b3-9622-675e1c2ddbab">The DNs of related device descriptions outside the DICOM Configuration hierarchy. Can be used to link the DICOM Device object to additional LDAP objects instantiated from other schema and used for separate administrative purposes.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_05c6b4cd-45c9-4ef2-a150-577e68b5b081">Authorized Node Certificate Reference</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_90d528b2-b975-441a-872e-ed64acf25c9f">0..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_d78160dc-b7ee-45a2-8466-0a56866d1b1a">The DNs for the certificates of nodes that are authorized to connect to this device. The DNs need not be within the DICOM configuration hierarchy.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_438b7f2f-d289-4c9d-9315-887ed76999fa">This Node Certificate Reference</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_1d3dfd1b-505b-465b-b322-bbc76f0ecefa">0..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_133c322a-fe35-4b14-ae33-3053efe7b01e">The DNs of the public certificate(s) for this node. The DNs need not be within the DICOM configuration hierarchy.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_8e778be3-0f09-40fe-83ed-05a3d02acb0e">Vendor Device Data</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_9ee420ba-9577-4b58-9a86-b877c4210634">0..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_fc42d3aa-e0fc-45c5-bef3-58f5b1b82bf7">Device specific vendor configuration information</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_60d9c26d-9b51-47e9-86e7-c3fb89ecec66">Installed</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_120c984a-89b2-4aa1-8d45-5642c3aa3f66">1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_bb4956d1-46b8-494d-acc4-b5695b326ff3">Boolean to indicate whether this device is presently installed on the network. (This is useful for pre-configuration, mobile vans, and similar situations.)</para>
-      </td>
-    </tr>
-  </tbody>
-  </table>
-  <para xml:id="para_c4fb88b6-73ce-4679-b4a5-d51aa97aa53a">The "Authorized Node Certificate Reference" is intended to allow the LDAP server to provide the list of certificates for nodes that are authorized to communicate with this device. These should be the public certificates only. This list need not be complete. Other network peers may be authorized by other mechanisms.</para>
-  <para xml:id="para_59d92cff-f7f5-4b21-8ce7-127e3b2b558e">The "This Node Certificate Reference" is intended to allow the LDAP server to provide the certificate(s) for this node. These may also be handled independently of LDAP.</para>
-  <note>
-    <para xml:id="para_9f97ed2f-51a0-4574-acfc-dfd696b88d4f">A device may have multiple Primary Device Type entries. It may be a multifunctional device, e.g., combined PET and CT. It may be a cascaded device, e.g., image capture and ultrasound.</para>
-  </note>
-    <table frame="box" label="H.1-3" rules="all" xml:id="table_H.1-3">
-    <caption>Child Objects of Device Object</caption>
-    <thead>
-    <tr valign="top">
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_96f8ddc6-33e2-4133-b90b-9a131e86ba23">Information Field</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_f31523f3-bcc2-45e4-95b9-789c13e6adb6">Multiplicity</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_66ec93f6-5a07-4832-b4b8-0ee965240bde">Description</para>
-      </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_96e18e9c-6c1f-4819-93a0-e10a015ae95a">Network Application Entity</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_70e29d81-1d5e-4e53-9958-e78f6ac3f31b">1..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_e6c3b254-43de-4a35-a145-1c2d65e2f411">The application entities available on this device (see <xref linkend="sect_H.1.1.2" xrefstyle="select: label"/>)</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_d3b8d4ae-9a2c-46b7-a0d8-53d9adce6d22">Network Connection</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_77bb69a5-62cb-4529-b578-941952ff3432">1..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_c441a044-de88-4987-9ac1-0f173094e04d">The network connections for this device (see <xref linkend="sect_H.1.1.3" xrefstyle="select: label"/>)</para>
-      </td>
-    </tr>
-  </tbody>
-  </table>
-  </section>
-<section label="H.1.1.2" status="4" xml:id="sect_H.1.1.2">
-    <title>Network Application Entity</title>
-  
-  <para xml:id="para_032dc9f6-6785-4844-aa4c-d819dd956b42">A Network AE is an application entity that provides services on a network. A Network AE will have the same functional capability regardless of the particular network connection used. If there are functional differences based on selected network connection, then these are separate Network AEs. If there are functional differences based on other internal structures, then these are separate Network AEs.</para>
-    <table frame="box" label="H.1-4" rules="all" xml:id="table_H.1-4">
-    <caption>Attributes of Network AE Object</caption>
-    <thead>
-    <tr valign="top">
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_d79db747-f878-4afa-aa94-89efa5e4b73d">Information Field</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_29e62967-0cf0-4c4b-8087-51cdd0dc1809">Multiplicity</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_3684ad7f-6cc4-4af0-ad9d-3dede9383aaa">Description</para>
-      </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_75c34f4a-b53c-402a-8bb7-662831441527">AE Title</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_32debed6-c941-4232-947d-9220aabc525e">1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_c74f4009-5d17-4a7b-b376-8844b5f2bee0">Unique AE title for this Network AE</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_381cc58b-0e60-490c-af1d-6210275de4ee">Description</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_e5837f59-f7aa-496e-b4d4-6051a75f2330">0..1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_67641d25-8ced-490d-855a-06a45bb69892">Unconstrained text description of the application entity.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_916ef157-2887-41b3-90ed-7d1e0e521281">Vendor Data</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_8f97f423-342e-4994-b95d-eee70a9cd3ee">0..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_bfe68335-1b5d-458f-a554-3bfb1637e2ae">AE specific vendor configuration information</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_5f1a7474-88bf-49ee-a2bd-e34dbf97ec5e">Application Cluster</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_13446c42-c54f-401f-a29e-735dbe21e576">0..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_87ab27c5-c765-4cda-a6da-943ec828d628">Locally defined names for a subset of related applications. E.g. "neuroradiology".</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_27b6c32c-d970-4be1-b5fc-4e20fc0509b5">Preferred Called AE Title</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_1397d8bf-2f9a-49da-924d-82e49810734d">0..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_202fd525-b371-47cc-a3a6-7603e2fc50d8">AE Title(s) that are preferred for initiating associations.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_e010d20c-f22f-4edb-8bbf-5a6af9aed763">Preferred Calling AE Title</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_9e1b905f-60cb-4be7-9ef4-c95c0ab69ba8">0..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_c47791f9-6d8f-4503-ba63-7576f48eac01">AE Title(s) that are preferred for accepting associations.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_0deaa0bf-fbd0-44f2-9a5a-71b199cf93a1">Association Acceptor</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_535772fa-25b7-416a-a316-379e158e0be1">1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_9ea61bf5-3a45-4d9d-ba51-9a6215a32850">A Boolean value. True if the Network AE can accept associations, false otherwise.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_73078bb9-6a2d-4036-8a37-ec363f1195ab">Association Initiator</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_d985020a-17ad-4541-adba-47be0911f6c3">1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_01c2893a-0017-4a62-a063-2a4d32507db4">A Boolean value. True if the Network AE can accept associations, false otherwise.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_1d0cf42f-1012-47dc-b9ff-939514a2bf71">Network Connection Reference</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_3a6e93a7-fc91-4d17-93e7-df814628e9aa">1..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_6691fd00-0bb5-48c0-8a54-df752cf9f5c4">The DNs of the Network Connection objects for this AE</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_24fcd8d9-bb00-4334-aa67-dff877074186">Supported Character Set</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_c36fabde-5528-4ab4-8bed-c405ce6c9b5a">0..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_10c6fa0e-d306-44d8-92c1-aeee9d30cba7">The Character Set(s) supported by the Network AE for data sets it receives. The value shall be selected from the Defined Terms for Specific Character Set (0008,0005) in <olink targetdoc="PS3.3" targetptr="PS3.3" xrefstyle="select: labelnumber"/>. If no values are present, this implies that the Network AE supports only the default character repertoire(ISO IR 6).</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_93138650-7e9a-4cee-af01-92fbf8b127c4">Installed</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_609aec0e-7c9b-4285-b74f-dcfaea7e9278">0..1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_d6906c8f-5d49-4d24-b868-c72f516da4d0">A Boolean value. True if the AE is installed on network. If not present, information about the installed status of the AE is inherited from the device</para>
-      </td>
-    </tr>
-  </tbody>
-  </table>
-  <para xml:id="para_b2098324-c30f-45a8-ab87-aec09bd6ff79">The "Application Cluster" concept provides the mechanism to define local clusters of systems. The use cases for Configuration Management require a "domain" capability for DICOM applications that would be independent of the network topology and administrative domains that are used by DNS and other TCP level protocols. The Application Cluster is multi-valued to permit multiple clustering concepts for different purposes. It is expected to be used as part of a query to limit the scope of the query.</para>
-  <para xml:id="para_b69675a4-770d-48d1-ac0e-08016bfc8d84">The "Preferred Called AE Title" concept is intended to allow a site administrator to define a limited default set of AEs that are preferred for use as communication partners when initiating associations. This capability is particularly useful for large centrally administered sites to simplify the configuration possibilities and restrict the number of configured AEs for specific workflow scenarios. For example, the set of AEs might contain the AE Titles of assigned Printer, Archive, RIS and QA Workstations so that the client device could adapt its configuration preferences accordingly. The "Preferred Called AE Title" concept does not prohibit association initiation to unlisted AEs. Associations to unlisted AEs can be initiated if necessary.</para>
-  <para xml:id="para_7008e72c-1af0-421c-893c-bc18e9a11dd3">The "Preferred Calling AE Title" concept is intended to allow a site administrator to define a default set of AEs that are preferred when accepting assocations. The "Preferred Calling AE Title" concept does not prohibit accepting associations from unlisted AEs.</para>
-  <para xml:id="para_3ce27882-44c6-418c-8a37-1a854aac2154">The "Network Connection Reference" is a link to a separate Network Connection object. The referenced Network Connection object is a sibling the AE object (i.e., both are children of the same Device object).</para>
-    <table frame="box" label="H.1-5" rules="all" xml:id="table_H.1-5">
-    <caption>Child Objects of Network AE Object</caption>
-    <thead>
-    <tr valign="top">
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_a4867a30-b2b0-480a-b71e-debd11df1a78">Information Field</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_434b5a85-9953-4af3-9f3b-10525b25ef3d">Multiplicity</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_037bd1cd-2bc4-47cb-8598-855f6bb511d0">Description</para>
-      </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_a8144f9e-baf9-404b-8d6d-185d0b73233d">Transfer Capability</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_afc9395b-9856-4ba9-8842-d5e30086b654">1..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_49b2263d-93e7-49a3-a642-7602da361fbd">The Transfer Capabilities for this Network AE. See <xref linkend="sect_H.1.4" xrefstyle="select: label"/>
-</para>
-      </td>
-    </tr>
-  </tbody>
-  </table>
-  </section>
-<section label="H.1.1.3" status="4" xml:id="sect_H.1.1.3">
-    <title>Network Connection</title>
-  
-  <para xml:id="para_19adbcd8-3ae6-40da-b8b8-402552ad1aa0">The "network connection" describes one TCP port on one network device. This can be used for a TCP connection over which a DICOM association can be negotiated with one or more Network AEs. It specifies the hostname and TCP port number. A network connection may support multiple Network AEs. The Network AE selection takes place during association negotiation based on the called and calling AE-titles.</para>
-    <table frame="box" label="H.1-6" rules="all" xml:id="table_H.1-6">
-    <caption>Attributes of Network Connection Object</caption>
-    <thead>
-    <tr valign="top">
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_ff68eed9-a2a4-4f06-95fa-87be52eac29a">Information Field</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_9841149f-cbc4-48ae-8718-27ce6916fa87">Multiplicity</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_a4be364d-af0b-46c7-aed6-ef0b8e6d66f2">Description</para>
-      </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_8920cb0c-ee49-43d0-91f3-2c95928a6096">Common Name</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_6194be9c-53b1-42c9-adb6-4147baf3f1a4">0..1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_0012c0f8-e158-4d86-a0d4-01fe1577d276">An arbitrary name for the Network Connections object. Can be a meaningful name or any unique sequence of characters. Can be used as the RDN.</para>
-        <note>
-<para xml:id="para_feb0a802-89b6-44a9-9930-1feb3f3e27b8">The "cn" attribute type is a basic LDAP defined type and is a synonym for Common Name.</para>
-</note>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_29061735-61bd-4463-ac71-2badc82138ce">Hostname</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_0faf275c-4e63-4d64-9dc4-f92990a014cb">1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_d800d1bf-7680-48ae-9aa0-1e0b08e83d1a">This is the DNS name for this particular connection. This is used to obtain the current IP address for connections. Hostname must be sufficiently qualified to be unambiguous for any client DNS user.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_d79564ec-d82e-409d-9f82-96a59a42fd40">Port</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_757ad479-c0bc-4105-a74f-552cb190c198">0..1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_19ff7944-4726-4dd6-af6e-2f02b02d5a36">The TCP port that the AE is listening on. (This may be missing for a network connection that only initiates associations.)</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_dd74452c-789e-4c11-b97a-20a802eadd02">TLS CipherSuite</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_6ec005cd-d61a-41df-ab63-9541120e0103">0..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_1de9c436-4d82-460c-851a-6fc443420032">The TLS CipherSuites that are supported on this particular connection. TLS CipherSuites shall be described using an RFC-2246 string representation (e.g., "TLS_RSA_WITH_RC4_128_SHA")</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_1479acaf-00bf-43b7-9b58-eb72823b32c4">Installed</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_7153e289-66f9-4a4e-a88f-449fdc3e0fb5">0..1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_0ac5562a-aeba-497b-ad75-87e7177a0b9b">A Boolean value. True if the Network Connection is installed on the network. If not present, information about the installed status of the Network Connection is inherited from the device.</para>
-      </td>
-    </tr>
-  </tbody>
-  </table>
-  <para xml:id="para_4362234d-91ac-4810-832b-b48772638e2f">Inclusion of a TLS CipherSuite in a Network Connection capable of accepting associations implies that the TLS protocol must be used to successfully establish an association on the Network Connection.</para>
-  <para xml:id="para_a585d181-6d7f-4c0a-9c67-6d829adf4557">A single Network AE may be available on multiple network connections. This is often done at servers for availability or performance reasons. For example, at a hospital where each floor is networked to a single hub per floor, the major servers may have direct connections to each of the hubs. This provides better performance and reliability. If the server does not change behavior based on the particular physical network connection, then it can be described as having Network AEs that are available on all of these multiple network connections. A Network AE may also be visible on multiple TCP ports on the same network hardware port, with each TCP port represented as a separate network connection. This would allow, e.g., a TLS-secured DICOM port and a classical un-secured DICOM port to be supported by the same AE.</para>
-  </section>
-<section label="H.1.1.4" status="4" xml:id="sect_H.1.1.4">
-    <title>Transfer Capabilities</title>
-  
-  <para xml:id="para_e36ae422-7084-4338-a9e2-67b4aebda522">Each Network AE object has one or more Transfer Capabilities. Each transfer capability specifies the SOP class that the Network AE can support, the mode that it can utilize (SCP or SCU), and the Transfer Syntax(es) that it can utilize. A Network AE that supports the same SOP class in both SCP and SCU modes will have two Transfer Capabilities objects for that SOP class.</para>
-    <table frame="box" label="H.1-7" rules="all" xml:id="table_H.1-7">
-    <caption>Attributes of Transfer Capability Object</caption>
-    <thead>
-    <tr valign="top">
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_d32d9534-cb78-4449-a20c-7910a0332711">Information Field</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_647919d0-20ad-433a-b110-4de54279cad3">Multiplicity</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_a320624f-ab8b-48af-a224-6eafab58839c">Description</para>
-      </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_4cf5225c-3d3f-4db1-8202-aa9556952835">Common Name</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_f3f4522a-3045-4ca3-8f2f-050c385ad500">0..1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_5c0ff5bd-f666-4af4-a55f-69a1ec733c2e">An arbitrary name for the Transfer Capability object. Can be a meaningful name or any unqiue sequence of characters. Can be used as the RDN.</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_7aae9bb3-bb98-4656-9e40-104b147064de">SOP Class</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_f260f23c-c301-4635-a4b1-77ab19e5652b">1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_1d1892b9-d09e-4336-a427-3c004f591c71">SOP Class UID</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_6ac7352a-fba6-4b37-88e6-61cd276b330c">Role</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_69ca0a70-3fbb-4e3b-bcc6-195cc6dd8d33">1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_188ae63a-9b9f-426d-863b-459d8cbc76a7">Either "SCU" or "SCP"</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_47562cfd-0342-490c-bde7-560a4a3d4ba3">Transfer Syntax</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_a4fc3694-ede9-401f-b5ed-6732a54d2805">1..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_ef9ac817-e102-41f1-8708-78d06fab155d">The transfer syntax(es) that may be requested as an SCU or that are offered as an SCP.</para>
-      </td>
-    </tr>
-  </tbody>
-  </table>
-  </section>
-<section label="H.1.1.5" status="4" xml:id="sect_H.1.1.5">
-    <title>DICOM Configuration Root</title>
-  
-  <para xml:id="para_99407ec8-07a8-4a08-adcf-e9b917021b0d">This structural object class represents the root of the DICOM Configuration Hierarchy. Only a single object of this type should exist within an organizational domain. Clients can search for an object of this class to locate the root of the DICOM Configuration Hierarchy.</para>
-    <table frame="box" label="H.1-8" rules="all" xml:id="table_H.1-8">
-    <caption>Attributes of the DICOM Configuration Root Object</caption>
-    <thead>
-    <tr valign="top">
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_dc14986d-eeda-45ed-a97b-726dffbd65e2">Information Field</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_76beb8c2-8909-423e-845b-8bfe8fc487f6">Multiplicity</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_45ef52f4-d185-4e9f-aad3-ff1fd318d6fc">Description</para>
-      </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_13fbd3b7-44e1-497e-9cb1-770487a7c750">Common Name</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_ca982e59-b94d-46db-855e-94510367f4b2">1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_0e4c567b-6f58-4b59-8f5a-4abe6ca6dc7b">The Name for the Configuration Root. Should be used as the RDN. The name shall be "DICOM Configuration".</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_90e30ed4-2e3b-4630-9e91-7b86ee129e96">Description</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_e3c4fd46-b06a-4610-b437-7fa50d1def44">0..1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_4596152d-f59d-4188-bc05-816e081a56b7">Unconstrained text description.</para>
-      </td>
-    </tr>
-  </tbody>
-  </table>
-    <table frame="box" label="H.1-9" rules="all" xml:id="table_H.1-9">
-    <caption>Child Objects of DICOM Configuration Root Object</caption>
-    <thead>
-    <tr valign="top">
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_b0fed0db-c0af-41b3-82db-188526e48ef6">Information Field</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_79088e5d-ed27-44c6-b859-218697f2710e">Multiplicity</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_8a525c99-cdac-4a04-bb9e-b55a90300bfa">Description</para>
-      </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_fff70ab0-2bd2-4be0-a4e8-239241cc2cc1">Devices Root</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_2d97fe96-3c39-4a24-87ba-b064d75ca850">1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_91adcf7a-2c66-45ea-920a-81948a3d5a2c">The root of the DICOM Devices Hierarchy</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_c01ffa01-cf80-4d5c-b449-ac440cff45ba">Unique AE Titles Registry Root</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_ea3570d0-f246-420d-a33b-896dee22a908">1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_420bd3fb-fe09-4c3c-bfee-008752605eeb">The root of the Unique AE Titles Registry</para>
-      </td>
-    </tr>
-  </tbody>
-  </table>
-  </section>
-<section label="H.1.1.6" status="4" xml:id="sect_H.1.1.6">
-    <title>Devices Root</title>
-  
-  <para xml:id="para_eddba9a0-7373-466a-adf7-37d6dee1e891">This structural object class represents the root of the DICOM Devices Hierarchy. Only a single object of this type should exist as a child of DICOM Configuration Root. Clients can search for an object of this class to locate the root of the DICOM Devices Hierarchy.</para>
-    <table frame="box" label="H.1-10" rules="all" xml:id="table_H.1-10">
-    <caption>Attributes of the Devices Root Object</caption>
-    <thead>
-    <tr valign="top">
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_d63cefcf-469a-4a34-a55b-3acc1275ee09">Information Field</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_f9afc451-dd5c-4b48-8623-1fadecec896f">Multiplicity</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_779ff568-a69f-4547-aed1-458eecec4d92">Description</para>
-      </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_e82ef4d8-54d0-422d-9f8e-3e09b7ec27d3">Common Name</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_da7faaea-0f60-41b2-a3c2-c313d572623e">1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_c254d168-dc77-434c-8606-23421bff76fb">The Name for the Devices Root. Should be used as the RDN. The name shall be "Devices".</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_8ca7cdd8-c5a1-423c-a8f6-4c36f6639c08">Description</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_1340d616-4fae-41fb-826f-3481e098060e">0..1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_775a1264-fa0d-472a-8fad-5b3b6d8ba098">Unconstrained text description.</para>
-      </td>
-    </tr>
-  </tbody>
-  </table>
-    <table frame="box" label="H.1-11" rules="all" xml:id="table_H.1-11">
-    <caption>Child Objects of Devices Root Object</caption>
-    <thead>
-    <tr valign="top">
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_419e9704-35c0-4a66-9f98-1d95944f00f7">Information Field</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_7bc333f2-8554-4dbd-950f-dc8732b3d698">Multiplicity</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_032aeb28-d533-4357-9388-7c965fa5b81d">Description</para>
-      </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_a82d3d5b-90ab-476f-98cb-0586dd10bfb3">Device</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_e3220240-af86-41ae-80b5-b4a5e2e65d06">0..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_f3a31668-6ef9-4cc1-bd4b-3d1e6a0757ae">The individual devices installed within this organizational domain.</para>
-      </td>
-    </tr>
-  </tbody>
-  </table>
-  </section>
-<section label="H.1.1.7" status="4" xml:id="sect_H.1.1.7">
-    <title>Unique AE Titles Registry Root</title>
-  
-  <para xml:id="para_19d25c42-b617-4984-bacc-cfc8d6cd0624">This structural object class represents the root of the Unique AE-Titles Registry Hierarchy. Only a single object of this type should exist as a child of the DICOM Configuration Root. Clients can search for an object of this class to locate the root of the Unique AE Titles Registry.</para>
-    <table frame="box" label="H.1-12" rules="all" xml:id="table_H.1-12">
-    <caption>Attributes of the Unique AE Titles Registry Root Object</caption>
-    <thead>
-    <tr valign="top">
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_731fa1eb-ee1e-40f8-976f-0043caf76ad8">Information Field</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_8f0d39bb-f3a3-487f-92e3-ef3406f39637">Multiplicity</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_147ea895-2d71-4a07-ace4-21e010aa9942">Description</para>
-      </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_930397f0-91b6-4c10-88b6-1326023e6144">Common Name</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_5e00e7c4-f90e-411a-9ea0-3c396e91e5e9">1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_abd90b80-dbc6-4549-b592-b6eaa649ccf3">The Name for the Unique AE Titles Registry Root. Should be used as the RDN. The name shall be "Unique AE Titles Registry".</para>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_1442072a-4e3e-4879-8694-efcc52a779c4">Description</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_1e252efc-ec85-495c-a3af-85a48859ca42">0..1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_828c7508-0f41-43f0-9778-b36eef4b7b7c">Unconstrained text description.</para>
-      </td>
-    </tr>
-  </tbody>
-  </table>
-    <table frame="box" label="H.1-13" rules="all" xml:id="table_H.1-13">
-    <caption>Child Objects of Unique AE Titles Registry Root Object</caption>
-    <thead>
-    <tr valign="top">
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_ecd7e31e-b343-4480-b820-1cc1f42c4b2d">Information Field</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_e467aa9d-7772-4261-a1ae-91541d230c29">Multiplicity</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_384a17d9-a6bc-451a-8566-1e6564455413">Description</para>
-      </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_e8196f0d-fe2e-4f70-a761-bb6ca714a86d">Unique AE Title</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_ee9febbc-85cd-40df-b8cf-bed8dfc84854">0..N</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_11fbe637-b923-4690-9cce-c735f827223a">The unique AE Titles installed within this organizational domain (see <xref linkend="sect_H.1.1.8" xrefstyle="select: label"/>)</para>
-      </td>
-    </tr>
-  </tbody>
-  </table>
-  </section>
-<section label="H.1.1.8" status="4" xml:id="sect_H.1.1.8">
-    <title>Unique AE Title</title>
-  
-  <para xml:id="para_cf846c01-64b7-4a2d-afcf-d2a09b19c301">This structural object class represents a Unique Application Entity Title. Objects of this type should only exist as children of the Unique AE-Titles Registry Root. The sole purpose of this object class is to enable allocation of unique AE Titles. All operational information associated with an AE Title is maintained within a separate Network AE object.</para>
-    <table frame="box" label="H.1-14" rules="all" xml:id="table_H.1-14">
-    <caption>Attributes of the Unique AE Title Object</caption>
-    <thead>
-    <tr valign="top">
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_dbc2876e-76f0-4bd8-8c34-3762514ea07e">Information Field</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_e2649d4f-b0ef-4dd3-93cb-c72bd458d3cc">Multiplicity</para>
-      </th>
-      <th align="center" colspan="1" rowspan="1">
-        <para xml:id="para_a6f3f63c-043e-4a85-9216-5401d9c37a4a">Description</para>
-      </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr valign="top">
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_dceeea18-20f2-4f9e-a172-ced1d1f91135">AE Title</para>
-      </td>
-      <td align="center" colspan="1" rowspan="1">
-        <para xml:id="para_c589431c-415b-4593-bb68-cfaa6bc5b2e4">1</para>
-      </td>
-      <td align="left" colspan="1" rowspan="1">
-        <para xml:id="para_e1f33fb5-9650-4d8c-9625-7e0c96727754">The Unique AE Titles.</para>
-      </td>
-    </tr>
-  </tbody>
-  </table>
-  </section>
-</section>
+      <section label="H.1.1" status="3" xml:id="sect_H.1.1">
+        <title>Data Model Component Objects</title>
+        <para xml:id="para_dd0dd583-a450-4b1e-82e0-7c0faf1125c2">The normative definition of the schema can be found in <xref linkend="sect_H.1.3" xrefstyle="select: label"/>. This section gives additional informative descriptions of the objects and information defined in that schema and makes normative statements regarding DICOM system behavior.</para>
+        <para xml:id="para_3aa716dd-97df-4ecf-9369-1948a07933bb">The Application Configuration Data Model has the following component objects:</para>
+        <variablelist>
+          <varlistentry>
+            <term>Device</term>
+            <listitem>
+              <para xml:id="para_5738f59e-6889-4e0b-a3d2-289a86225262">The description of the device</para>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term>Network AE</term>
+            <listitem>
+              <para xml:id="para_eee0be0e-6370-4a64-9a50-e695a21f44eb">The description of the network application entity</para>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term>Network Connection</term>
+            <listitem>
+              <para xml:id="para_6e07ad4f-c93a-4648-b417-15d2aec9051e">The description of the network interface</para>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term>Transfer Capability</term>
+            <listitem>
+              <para xml:id="para_0ea49187-c8f9-491b-8ff2-6fcaa07458fd">The description of the SOP classes and syntaxes supported by a Network AE.</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+        <para xml:id="para_accc596d-3ee0-4516-818e-22e2f9dda4fa">
+          <figure label="H.1-1" pgwide="1" xml:id="figure_H.1-1">
+            <title>Application Configuration Data Model</title>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="figures/PS3.15_H.1-1.svg"/>
+                <!--<imagedata fileref="part15_fromword_files/image022.png"/>-->
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </para>
+        <para xml:id="para_666ac4bf-5f5c-4569-86a5-1e54b9452a62">In addition there are a number of other objects used in the LDAP schema (see <xref linkend="sect_H.1.2" xrefstyle="select: label"/> and <xref linkend="figure_H.1-2" xrefstyle="select: label"/>) :</para>
+        <variablelist>
+          <varlistentry>
+            <term>DICOM Configuration Root</term>
+            <listitem>
+              <para xml:id="para_4c4674ed-b56f-4e9f-8f67-1ea723b67519">The root of DICOM Configuration Hierarchy</para>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term>DICOM Devices Root</term>
+            <listitem>
+              <para xml:id="para_17ee104b-5150-4b22-a1b4-b3a0a37da3ed">The root of the DICOM Devices Hierarchy</para>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term>DICOM Unique AE-Title Registry Root</term>
+            <listitem>
+              <para xml:id="para_760b9932-affe-4931-86c4-a538e9a7e529">The root of the Unique DICOM AE-Title Registry</para>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term>DICOM Unique AE Title</term>
+            <listitem>
+              <para xml:id="para_212ee0ae-9f2c-4ec8-89e7-37b62858a1fe">A unique AE Title within the AE Title Registry</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+        <para xml:id="para_86986a82-0ce0-4369-9cc3-e9e3820f97f0">LDAP permits extensions to schema to support local needs (i.e., an object may implement a single structural and multiple auxiliary LDAP classes). DICOM does not mandate client support for such extensions. Servers may support such extensions for local purposes. DICOM Clients may accept or ignore extensions and shall not consider their presence an error.</para>
+        <section label="H.1.1.1" status="4" xml:id="sect_H.1.1.1">
+          <title>Device</title>
+
+          <para xml:id="para_2b919f9b-dcac-4d89-bab5-29daf7900644">The "device" is set of components organized to perform a task rather than a specific physical instance. For simple devices there may be one physical device corresponding to the Data Model device. But for complex equipment there may be many physical parts to one "device".</para>
+          <para xml:id="para_fc77cec7-e069-463d-ab58-de09c61a4b33">The "device" is the collection of physical entities that supports a collection of Application Entities. It is uniquely associated with these entities and vice versa. It is also uniquely associated with the network connections and vice versa. In a simple workstation with one CPU, power connection, and network connection the "device" is the workstation.</para>
+          <para xml:id="para_9b186490-30fe-49e0-9033-603e1518eaeb">An example of a complex device is a server built from a network of multiple computers that have multiple network connections and independent power connections. This would be one device with one application entity and multiple network connections. Servers like this are designed so that individual component computers can be replaced without disturbing operations. The Application Configuration Data Model does not describe any of this internal structure. It describes the network connections and the network visible Application Entities. These complex devices are usually designed for very high availability, but in the unusual event of a system shutdown the "device" corresponds to all the parts that get shut down.</para>
+          <table frame="box" label="H.1-2" rules="all" xml:id="table_H.1-2">
+            <caption>Attributes of Device Object</caption>
+            <thead>
+              <tr valign="top">
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_66876e12-4bcb-4e3a-889a-d9e76a1807e3">Information Field</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_5078d807-be9d-45c0-be0d-3329b731dcec">Multiplicity</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_8cc89263-2649-42dd-a545-83846a7b9c32">Description</para>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_ab34af22-6668-4920-8a36-7197b43190b1">Device Name</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_9f6463e6-0f11-4764-a7ba-04426baa9b17">1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_4211ae65-81d0-493d-98b4-fcecb4c98fcf">A unique name (within the scope of the LDAP database) for this device. It is restricted to legal LDAP names, and not constrained by DICOM AE Title limitations.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_32c4af66-2b4b-4b3f-ad99-22c132ce650d">Description</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_f6ceca81-3ae5-467d-89f9-165e2a97185b">0..1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_2e3df658-c9a5-4e1d-886b-992c227e077d">Unconstrained text description of the device.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_e2cdb745-9c62-4fe9-8aec-290df0c37591">Manufacturer</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_1c361b85-d0ea-4230-8b88-f3bb3eabcd69">0..1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_36601945-b059-478b-98ea-1fea5c426ffb">Should be the same as the value of Manufacturer (0008,0070) in SOP instances created by this device.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_846d723e-9312-4422-9a26-a69c71e954ee">Manufacturer Model Name</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_4b9c75e9-d17b-411a-be1a-ef4e7e98fb60">0..1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_4f3bb153-ce54-4c44-85ad-94f87a0c2e04">Should be the same as the value of Manufacturer Model Name (0008,1090) in SOP instances created by this device.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_65344439-2baf-4fa9-a5be-e68e5742c05b">Software Version</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_e3a937c3-bffe-4e2c-a6b7-5fa504d33c00">0..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_2e58e00b-72e1-4651-ad60-69b0ba44a64f">Should be the same as the values of Software Versions (0018,1020) in SOP instances created by this device.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_5c9a890d-3136-4cff-9123-761df059fe89">Station Name</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_77d7f945-8ac9-4835-b2ea-408b36e5fb89">0..1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_2dc8d8bb-a6a8-49f6-a6e2-26b4e63c6a5a">Should be the same as the value of Station Name (0008,1010) in SOP instances created by this device.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_57da2665-ad95-421a-95f7-d144a5865538">Device Serial Number</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_f99a4953-dbee-4a5d-ad5e-da5080fc4bef">0..1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_3379fc4c-b726-48d1-ae81-ee41fe45a47c">Should be the same as the value of Device Serial Number (0018,1000) in SOP instances created by this device.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_e222fae0-0d12-4f32-8ac9-8d6af69cd63d">Primary Device Type</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_9d96c7c6-8553-42df-80ec-1324d4b21373">0..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_79ac6be7-e6d5-4779-8956-98a81036c3df">Represents the kind of device and is most applicable for acquisition modalities. Types should be selected from the list of code values (0008,0100) for <olink targetdoc="PS3.16" targetptr="sect_CID_30" xrefstyle="select: labelnumber quotedtitle"/> when applicable.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_419528d1-2f31-489c-be2c-56f084443182">Institution Name</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_7f291a47-714d-4bff-b0f7-2f5a5ef8e921">0..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_0423e838-dd4e-40e6-992d-6914c8c540b8">Should be the same as the value of Institution Name (0008,0080) in SOP Instances created by this device.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_e4350538-2f1e-4a66-9744-3bf5be79a7e6">Institution Address</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_47a2a108-22ea-4ea4-89ac-7747c9af8e41">0..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_03edc028-35f4-4cdb-8369-406dad324564">Should be the same as the value of Institution Address (0008,0081) attribute in SOP Instances created by this device.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_9dd3f61d-8b30-4ea9-b8ff-d8610321e088">Institutional Department Name</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_56822193-2bef-4b25-9c8f-ec31e96b4ce1">0..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_96e3d265-e67a-4288-88f9-f447c757c640">Should be the same as the value of Institutional Department Name (0008,1040) in SOP Instances created by this device.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_f5f55274-51d0-408b-b6e6-f12bac3cf0f6">Issuer of Patient ID</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_fcd6a1e2-c1e4-4e1f-b47f-31bda2ede847">0..1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_81042308-43ef-47f6-b374-274521ce2f25">Default value for the Issuer of Patient ID (0010,0021) for SOP Instances created by this device. May be overridden by the values received in a worklist or other source.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_c3f032df-06a9-429c-a078-0daef1839432">Related Device Reference</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_c29dba06-1c89-414d-adb3-e08adf0952a2">0..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_49f23819-c476-49b3-9622-675e1c2ddbab">The DNs of related device descriptions outside the DICOM Configuration hierarchy. Can be used to link the DICOM Device object to additional LDAP objects instantiated from other schema and used for separate administrative purposes.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_05c6b4cd-45c9-4ef2-a150-577e68b5b081">Authorized Node Certificate Reference</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_90d528b2-b975-441a-872e-ed64acf25c9f">0..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_d78160dc-b7ee-45a2-8466-0a56866d1b1a">The DNs for the certificates of nodes that are authorized to connect to this device. The DNs need not be within the DICOM configuration hierarchy.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_438b7f2f-d289-4c9d-9315-887ed76999fa">This Node Certificate Reference</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_1d3dfd1b-505b-465b-b322-bbc76f0ecefa">0..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_133c322a-fe35-4b14-ae33-3053efe7b01e">The DNs of the public certificate(s) for this node. The DNs need not be within the DICOM configuration hierarchy.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_8e778be3-0f09-40fe-83ed-05a3d02acb0e">Vendor Device Data</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_9ee420ba-9577-4b58-9a86-b877c4210634">0..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_fc42d3aa-e0fc-45c5-bef3-58f5b1b82bf7">Device specific vendor configuration information</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_60d9c26d-9b51-47e9-86e7-c3fb89ecec66">Installed</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_120c984a-89b2-4aa1-8d45-5642c3aa3f66">1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_bb4956d1-46b8-494d-acc4-b5695b326ff3">Boolean to indicate whether this device is presently installed on the network. (This is useful for pre-configuration, mobile vans, and similar situations.)</para>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <para xml:id="para_c4fb88b6-73ce-4679-b4a5-d51aa97aa53a">The "Authorized Node Certificate Reference" is intended to allow the LDAP server to provide the list of certificates for nodes that are authorized to communicate with this device. These should be the public certificates only. This list need not be complete. Other network peers may be authorized by other mechanisms.</para>
+          <para xml:id="para_59d92cff-f7f5-4b21-8ce7-127e3b2b558e">The "This Node Certificate Reference" is intended to allow the LDAP server to provide the certificate(s) for this node. These may also be handled independently of LDAP.</para>
+          <note>
+            <para xml:id="para_9f97ed2f-51a0-4574-acfc-dfd696b88d4f">A device may have multiple Primary Device Type entries. It may be a multifunctional device, e.g., combined PET and CT. It may be a cascaded device, e.g., image capture and ultrasound.</para>
+          </note>
+          <table frame="box" label="H.1-3" rules="all" xml:id="table_H.1-3">
+            <caption>Child Objects of Device Object</caption>
+            <thead>
+              <tr valign="top">
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_96f8ddc6-33e2-4133-b90b-9a131e86ba23">Information Field</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_f31523f3-bcc2-45e4-95b9-789c13e6adb6">Multiplicity</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_66ec93f6-5a07-4832-b4b8-0ee965240bde">Description</para>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_96e18e9c-6c1f-4819-93a0-e10a015ae95a">Network Application Entity</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_70e29d81-1d5e-4e53-9958-e78f6ac3f31b">1..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_e6c3b254-43de-4a35-a145-1c2d65e2f411">The application entities available on this device (see <xref linkend="sect_H.1.1.2" xrefstyle="select: label"/>)</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_d3b8d4ae-9a2c-46b7-a0d8-53d9adce6d22">Network Connection</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_77bb69a5-62cb-4529-b578-941952ff3432">1..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_c441a044-de88-4987-9ac1-0f173094e04d">The network connections for this device (see <xref linkend="sect_H.1.1.3" xrefstyle="select: label"/>)</para>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section label="H.1.1.2" status="4" xml:id="sect_H.1.1.2">
+          <title>Network Application Entity</title>
+
+          <para xml:id="para_032dc9f6-6785-4844-aa4c-d819dd956b42">A Network AE is an application entity that provides services on a network. A Network AE will have the same functional capability regardless of the particular network connection used. If there are functional differences based on selected network connection, then these are separate Network AEs. If there are functional differences based on other internal structures, then these are separate Network AEs.</para>
+          <table frame="box" label="H.1-4" rules="all" xml:id="table_H.1-4">
+            <caption>Attributes of Network AE Object</caption>
+            <thead>
+              <tr valign="top">
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_d79db747-f878-4afa-aa94-89efa5e4b73d">Information Field</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_29e62967-0cf0-4c4b-8087-51cdd0dc1809">Multiplicity</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_3684ad7f-6cc4-4af0-ad9d-3dede9383aaa">Description</para>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_75c34f4a-b53c-402a-8bb7-662831441527">AE Title</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_32debed6-c941-4232-947d-9220aabc525e">1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_c74f4009-5d17-4a7b-b376-8844b5f2bee0">Unique AE title for this Network AE</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_381cc58b-0e60-490c-af1d-6210275de4ee">Description</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_e5837f59-f7aa-496e-b4d4-6051a75f2330">0..1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_67641d25-8ced-490d-855a-06a45bb69892">Unconstrained text description of the application entity.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_916ef157-2887-41b3-90ed-7d1e0e521281">Vendor Data</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_8f97f423-342e-4994-b95d-eee70a9cd3ee">0..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_bfe68335-1b5d-458f-a554-3bfb1637e2ae">AE specific vendor configuration information</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_5f1a7474-88bf-49ee-a2bd-e34dbf97ec5e">Application Cluster</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_13446c42-c54f-401f-a29e-735dbe21e576">0..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_87ab27c5-c765-4cda-a6da-943ec828d628">Locally defined names for a subset of related applications. E.g. "neuroradiology".</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_27b6c32c-d970-4be1-b5fc-4e20fc0509b5">Preferred Called AE Title</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_1397d8bf-2f9a-49da-924d-82e49810734d">0..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_202fd525-b371-47cc-a3a6-7603e2fc50d8">AE Title(s) that are preferred for initiating associations.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_e010d20c-f22f-4edb-8bbf-5a6af9aed763">Preferred Calling AE Title</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_9e1b905f-60cb-4be7-9ef4-c95c0ab69ba8">0..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_c47791f9-6d8f-4503-ba63-7576f48eac01">AE Title(s) that are preferred for accepting associations.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_0deaa0bf-fbd0-44f2-9a5a-71b199cf93a1">Association Acceptor</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_535772fa-25b7-416a-a316-379e158e0be1">1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_9ea61bf5-3a45-4d9d-ba51-9a6215a32850">A Boolean value. True if the Network AE can accept associations, false otherwise.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_73078bb9-6a2d-4036-8a37-ec363f1195ab">Association Initiator</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_d985020a-17ad-4541-adba-47be0911f6c3">1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_01c2893a-0017-4a62-a063-2a4d32507db4">A Boolean value. True if the Network AE can accept associations, false otherwise.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_1d0cf42f-1012-47dc-b9ff-939514a2bf71">Network Connection Reference</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_3a6e93a7-fc91-4d17-93e7-df814628e9aa">1..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_6691fd00-0bb5-48c0-8a54-df752cf9f5c4">The DNs of the Network Connection objects for this AE</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_24fcd8d9-bb00-4334-aa67-dff877074186">Supported Character Set</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_c36fabde-5528-4ab4-8bed-c405ce6c9b5a">0..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_10c6fa0e-d306-44d8-92c1-aeee9d30cba7">The Character Set(s) supported by the Network AE for data sets it receives. The value shall be selected from the Defined Terms for Specific Character Set (0008,0005) in <olink targetdoc="PS3.3" targetptr="PS3.3" xrefstyle="select: labelnumber"/>. If no values are present, this implies that the Network AE supports only the default character repertoire(ISO IR 6).</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_93138650-7e9a-4cee-af01-92fbf8b127c4">Installed</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_609aec0e-7c9b-4285-b74f-dcfaea7e9278">0..1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_d6906c8f-5d49-4d24-b868-c72f516da4d0">A Boolean value. True if the AE is installed on network. If not present, information about the installed status of the AE is inherited from the device</para>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <para xml:id="para_b2098324-c30f-45a8-ab87-aec09bd6ff79">The "Application Cluster" concept provides the mechanism to define local clusters of systems. The use cases for Configuration Management require a "domain" capability for DICOM applications that would be independent of the network topology and administrative domains that are used by DNS and other TCP level protocols. The Application Cluster is multi-valued to permit multiple clustering concepts for different purposes. It is expected to be used as part of a query to limit the scope of the query.</para>
+          <para xml:id="para_b69675a4-770d-48d1-ac0e-08016bfc8d84">The "Preferred Called AE Title" concept is intended to allow a site administrator to define a limited default set of AEs that are preferred for use as communication partners when initiating associations. This capability is particularly useful for large centrally administered sites to simplify the configuration possibilities and restrict the number of configured AEs for specific workflow scenarios. For example, the set of AEs might contain the AE Titles of assigned Printer, Archive, RIS and QA Workstations so that the client device could adapt its configuration preferences accordingly. The "Preferred Called AE Title" concept does not prohibit association initiation to unlisted AEs. Associations to unlisted AEs can be initiated if necessary.</para>
+          <para xml:id="para_7008e72c-1af0-421c-893c-bc18e9a11dd3">The "Preferred Calling AE Title" concept is intended to allow a site administrator to define a default set of AEs that are preferred when accepting assocations. The "Preferred Calling AE Title" concept does not prohibit accepting associations from unlisted AEs.</para>
+          <para xml:id="para_3ce27882-44c6-418c-8a37-1a854aac2154">The "Network Connection Reference" is a link to a separate Network Connection object. The referenced Network Connection object is a sibling the AE object (i.e., both are children of the same Device object).</para>
+          <table frame="box" label="H.1-5" rules="all" xml:id="table_H.1-5">
+            <caption>Child Objects of Network AE Object</caption>
+            <thead>
+              <tr valign="top">
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_a4867a30-b2b0-480a-b71e-debd11df1a78">Information Field</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_434b5a85-9953-4af3-9f3b-10525b25ef3d">Multiplicity</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_037bd1cd-2bc4-47cb-8598-855f6bb511d0">Description</para>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_a8144f9e-baf9-404b-8d6d-185d0b73233d">Transfer Capability</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_afc9395b-9856-4ba9-8842-d5e30086b654">1..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_49b2263d-93e7-49a3-a642-7602da361fbd">The Transfer Capabilities for this Network AE. See <xref linkend="sect_H.1.4" xrefstyle="select: label"/>
+                  </para>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section label="H.1.1.3" status="4" xml:id="sect_H.1.1.3">
+          <title>Network Connection</title>
+
+          <para xml:id="para_19adbcd8-3ae6-40da-b8b8-402552ad1aa0">The "network connection" describes one TCP port on one network device. This can be used for a TCP connection over which a DICOM association can be negotiated with one or more Network AEs. It specifies the hostname and TCP port number. A network connection may support multiple Network AEs. The Network AE selection takes place during association negotiation based on the called and calling AE-titles.</para>
+          <table frame="box" label="H.1-6" rules="all" xml:id="table_H.1-6">
+            <caption>Attributes of Network Connection Object</caption>
+            <thead>
+              <tr valign="top">
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_ff68eed9-a2a4-4f06-95fa-87be52eac29a">Information Field</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_9841149f-cbc4-48ae-8718-27ce6916fa87">Multiplicity</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_a4be364d-af0b-46c7-aed6-ef0b8e6d66f2">Description</para>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_8920cb0c-ee49-43d0-91f3-2c95928a6096">Common Name</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_6194be9c-53b1-42c9-adb6-4147baf3f1a4">0..1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_0012c0f8-e158-4d86-a0d4-01fe1577d276">An arbitrary name for the Network Connections object. Can be a meaningful name or any unique sequence of characters. Can be used as the RDN.</para>
+                  <note>
+                    <para xml:id="para_feb0a802-89b6-44a9-9930-1feb3f3e27b8">The "cn" attribute type is a basic LDAP defined type and is a synonym for Common Name.</para>
+                  </note>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_29061735-61bd-4463-ac71-2badc82138ce">Hostname</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_0faf275c-4e63-4d64-9dc4-f92990a014cb">1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_d800d1bf-7680-48ae-9aa0-1e0b08e83d1a">This is the DNS name for this particular connection. This is used to obtain the current IP address for connections. Hostname must be sufficiently qualified to be unambiguous for any client DNS user.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_d79564ec-d82e-409d-9f82-96a59a42fd40">Port</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_757ad479-c0bc-4105-a74f-552cb190c198">0..1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_19ff7944-4726-4dd6-af6e-2f02b02d5a36">The TCP port that the AE is listening on. (This may be missing for a network connection that only initiates associations.)</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_dd74452c-789e-4c11-b97a-20a802eadd02">TLS CipherSuite</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_6ec005cd-d61a-41df-ab63-9541120e0103">0..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_1de9c436-4d82-460c-851a-6fc443420032">The TLS CipherSuites that are supported on this particular connection. TLS CipherSuites shall be described using an RFC2246 string representation (e.g., "TLS_RSA_WITH_RC4_128_SHA")</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_1479acaf-00bf-43b7-9b58-eb72823b32c4">Installed</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_7153e289-66f9-4a4e-a88f-449fdc3e0fb5">0..1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_0ac5562a-aeba-497b-ad75-87e7177a0b9b">A Boolean value. True if the Network Connection is installed on the network. If not present, information about the installed status of the Network Connection is inherited from the device.</para>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <para xml:id="para_4362234d-91ac-4810-832b-b48772638e2f">Inclusion of a TLS CipherSuite in a Network Connection capable of accepting associations implies that the TLS protocol must be used to successfully establish an association on the Network Connection.</para>
+          <para xml:id="para_a585d181-6d7f-4c0a-9c67-6d829adf4557">A single Network AE may be available on multiple network connections. This is often done at servers for availability or performance reasons. For example, at a hospital where each floor is networked to a single hub per floor, the major servers may have direct connections to each of the hubs. This provides better performance and reliability. If the server does not change behavior based on the particular physical network connection, then it can be described as having Network AEs that are available on all of these multiple network connections. A Network AE may also be visible on multiple TCP ports on the same network hardware port, with each TCP port represented as a separate network connection. This would allow, e.g., a TLS-secured DICOM port and a classical un-secured DICOM port to be supported by the same AE.</para>
+        </section>
+        <section label="H.1.1.4" status="4" xml:id="sect_H.1.1.4">
+          <title>Transfer Capabilities</title>
+
+          <para xml:id="para_e36ae422-7084-4338-a9e2-67b4aebda522">Each Network AE object has one or more Transfer Capabilities. Each transfer capability specifies the SOP class that the Network AE can support, the mode that it can utilize (SCP or SCU), and the Transfer Syntax(es) that it can utilize. A Network AE that supports the same SOP class in both SCP and SCU modes will have two Transfer Capabilities objects for that SOP class.</para>
+          <table frame="box" label="H.1-7" rules="all" xml:id="table_H.1-7">
+            <caption>Attributes of Transfer Capability Object</caption>
+            <thead>
+              <tr valign="top">
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_d32d9534-cb78-4449-a20c-7910a0332711">Information Field</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_647919d0-20ad-433a-b110-4de54279cad3">Multiplicity</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_a320624f-ab8b-48af-a224-6eafab58839c">Description</para>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_4cf5225c-3d3f-4db1-8202-aa9556952835">Common Name</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_f3f4522a-3045-4ca3-8f2f-050c385ad500">0..1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_5c0ff5bd-f666-4af4-a55f-69a1ec733c2e">An arbitrary name for the Transfer Capability object. Can be a meaningful name or any unqiue sequence of characters. Can be used as the RDN.</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_7aae9bb3-bb98-4656-9e40-104b147064de">SOP Class</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_f260f23c-c301-4635-a4b1-77ab19e5652b">1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_1d1892b9-d09e-4336-a427-3c004f591c71">SOP Class UID</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_6ac7352a-fba6-4b37-88e6-61cd276b330c">Role</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_69ca0a70-3fbb-4e3b-bcc6-195cc6dd8d33">1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_188ae63a-9b9f-426d-863b-459d8cbc76a7">Either "SCU" or "SCP"</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_47562cfd-0342-490c-bde7-560a4a3d4ba3">Transfer Syntax</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_a4fc3694-ede9-401f-b5ed-6732a54d2805">1..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_ef9ac817-e102-41f1-8708-78d06fab155d">The transfer syntax(es) that may be requested as an SCU or that are offered as an SCP.</para>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section label="H.1.1.5" status="4" xml:id="sect_H.1.1.5">
+          <title>DICOM Configuration Root</title>
+
+          <para xml:id="para_99407ec8-07a8-4a08-adcf-e9b917021b0d">This structural object class represents the root of the DICOM Configuration Hierarchy. Only a single object of this type should exist within an organizational domain. Clients can search for an object of this class to locate the root of the DICOM Configuration Hierarchy.</para>
+          <table frame="box" label="H.1-8" rules="all" xml:id="table_H.1-8">
+            <caption>Attributes of the DICOM Configuration Root Object</caption>
+            <thead>
+              <tr valign="top">
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_dc14986d-eeda-45ed-a97b-726dffbd65e2">Information Field</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_76beb8c2-8909-423e-845b-8bfe8fc487f6">Multiplicity</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_45ef52f4-d185-4e9f-aad3-ff1fd318d6fc">Description</para>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_13fbd3b7-44e1-497e-9cb1-770487a7c750">Common Name</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_ca982e59-b94d-46db-855e-94510367f4b2">1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_0e4c567b-6f58-4b59-8f5a-4abe6ca6dc7b">The Name for the Configuration Root. Should be used as the RDN. The name shall be "DICOM Configuration".</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_90e30ed4-2e3b-4630-9e91-7b86ee129e96">Description</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_e3c4fd46-b06a-4610-b437-7fa50d1def44">0..1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_4596152d-f59d-4188-bc05-816e081a56b7">Unconstrained text description.</para>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table frame="box" label="H.1-9" rules="all" xml:id="table_H.1-9">
+            <caption>Child Objects of DICOM Configuration Root Object</caption>
+            <thead>
+              <tr valign="top">
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_b0fed0db-c0af-41b3-82db-188526e48ef6">Information Field</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_79088e5d-ed27-44c6-b859-218697f2710e">Multiplicity</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_8a525c99-cdac-4a04-bb9e-b55a90300bfa">Description</para>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_fff70ab0-2bd2-4be0-a4e8-239241cc2cc1">Devices Root</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_2d97fe96-3c39-4a24-87ba-b064d75ca850">1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_91adcf7a-2c66-45ea-920a-81948a3d5a2c">The root of the DICOM Devices Hierarchy</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_c01ffa01-cf80-4d5c-b449-ac440cff45ba">Unique AE Titles Registry Root</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_ea3570d0-f246-420d-a33b-896dee22a908">1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_420bd3fb-fe09-4c3c-bfee-008752605eeb">The root of the Unique AE Titles Registry</para>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section label="H.1.1.6" status="4" xml:id="sect_H.1.1.6">
+          <title>Devices Root</title>
+
+          <para xml:id="para_eddba9a0-7373-466a-adf7-37d6dee1e891">This structural object class represents the root of the DICOM Devices Hierarchy. Only a single object of this type should exist as a child of DICOM Configuration Root. Clients can search for an object of this class to locate the root of the DICOM Devices Hierarchy.</para>
+          <table frame="box" label="H.1-10" rules="all" xml:id="table_H.1-10">
+            <caption>Attributes of the Devices Root Object</caption>
+            <thead>
+              <tr valign="top">
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_d63cefcf-469a-4a34-a55b-3acc1275ee09">Information Field</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_f9afc451-dd5c-4b48-8623-1fadecec896f">Multiplicity</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_779ff568-a69f-4547-aed1-458eecec4d92">Description</para>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_e82ef4d8-54d0-422d-9f8e-3e09b7ec27d3">Common Name</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_da7faaea-0f60-41b2-a3c2-c313d572623e">1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_c254d168-dc77-434c-8606-23421bff76fb">The Name for the Devices Root. Should be used as the RDN. The name shall be "Devices".</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_8ca7cdd8-c5a1-423c-a8f6-4c36f6639c08">Description</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_1340d616-4fae-41fb-826f-3481e098060e">0..1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_775a1264-fa0d-472a-8fad-5b3b6d8ba098">Unconstrained text description.</para>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table frame="box" label="H.1-11" rules="all" xml:id="table_H.1-11">
+            <caption>Child Objects of Devices Root Object</caption>
+            <thead>
+              <tr valign="top">
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_419e9704-35c0-4a66-9f98-1d95944f00f7">Information Field</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_7bc333f2-8554-4dbd-950f-dc8732b3d698">Multiplicity</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_032aeb28-d533-4357-9388-7c965fa5b81d">Description</para>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_a82d3d5b-90ab-476f-98cb-0586dd10bfb3">Device</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_e3220240-af86-41ae-80b5-b4a5e2e65d06">0..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_f3a31668-6ef9-4cc1-bd4b-3d1e6a0757ae">The individual devices installed within this organizational domain.</para>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section label="H.1.1.7" status="4" xml:id="sect_H.1.1.7">
+          <title>Unique AE Titles Registry Root</title>
+
+          <para xml:id="para_19d25c42-b617-4984-bacc-cfc8d6cd0624">This structural object class represents the root of the Unique AE-Titles Registry Hierarchy. Only a single object of this type should exist as a child of the DICOM Configuration Root. Clients can search for an object of this class to locate the root of the Unique AE Titles Registry.</para>
+          <table frame="box" label="H.1-12" rules="all" xml:id="table_H.1-12">
+            <caption>Attributes of the Unique AE Titles Registry Root Object</caption>
+            <thead>
+              <tr valign="top">
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_731fa1eb-ee1e-40f8-976f-0043caf76ad8">Information Field</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_8f0d39bb-f3a3-487f-92e3-ef3406f39637">Multiplicity</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_147ea895-2d71-4a07-ace4-21e010aa9942">Description</para>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_930397f0-91b6-4c10-88b6-1326023e6144">Common Name</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_5e00e7c4-f90e-411a-9ea0-3c396e91e5e9">1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_abd90b80-dbc6-4549-b592-b6eaa649ccf3">The Name for the Unique AE Titles Registry Root. Should be used as the RDN. The name shall be "Unique AE Titles Registry".</para>
+                </td>
+              </tr>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_1442072a-4e3e-4879-8694-efcc52a779c4">Description</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_1e252efc-ec85-495c-a3af-85a48859ca42">0..1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_828c7508-0f41-43f0-9778-b36eef4b7b7c">Unconstrained text description.</para>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table frame="box" label="H.1-13" rules="all" xml:id="table_H.1-13">
+            <caption>Child Objects of Unique AE Titles Registry Root Object</caption>
+            <thead>
+              <tr valign="top">
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_ecd7e31e-b343-4480-b820-1cc1f42c4b2d">Information Field</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_e467aa9d-7772-4261-a1ae-91541d230c29">Multiplicity</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_384a17d9-a6bc-451a-8566-1e6564455413">Description</para>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_e8196f0d-fe2e-4f70-a761-bb6ca714a86d">Unique AE Title</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_ee9febbc-85cd-40df-b8cf-bed8dfc84854">0..N</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_11fbe637-b923-4690-9cce-c735f827223a">The unique AE Titles installed within this organizational domain (see <xref linkend="sect_H.1.1.8" xrefstyle="select: label"/>)</para>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section label="H.1.1.8" status="4" xml:id="sect_H.1.1.8">
+          <title>Unique AE Title</title>
+
+          <para xml:id="para_cf846c01-64b7-4a2d-afcf-d2a09b19c301">This structural object class represents a Unique Application Entity Title. Objects of this type should only exist as children of the Unique AE-Titles Registry Root. The sole purpose of this object class is to enable allocation of unique AE Titles. All operational information associated with an AE Title is maintained within a separate Network AE object.</para>
+          <table frame="box" label="H.1-14" rules="all" xml:id="table_H.1-14">
+            <caption>Attributes of the Unique AE Title Object</caption>
+            <thead>
+              <tr valign="top">
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_dbc2876e-76f0-4bd8-8c34-3762514ea07e">Information Field</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_e2649d4f-b0ef-4dd3-93cb-c72bd458d3cc">Multiplicity</para>
+                </th>
+                <th align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_a6f3f63c-043e-4a85-9216-5401d9c37a4a">Description</para>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr valign="top">
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_dceeea18-20f2-4f9e-a172-ced1d1f91135">AE Title</para>
+                </td>
+                <td align="center" colspan="1" rowspan="1">
+                  <para xml:id="para_c589431c-415b-4593-bb68-cfaa6bc5b2e4">1</para>
+                </td>
+                <td align="left" colspan="1" rowspan="1">
+                  <para xml:id="para_e1f33fb5-9650-4d8c-9625-7e0c96727754">The Unique AE Titles.</para>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </section>
 <section label="H.1.2" status="3" xml:id="sect_H.1.2">
     <title>Application Configuration Data Model Hierarchy</title>
   
@@ -20721,7 +20723,7 @@ objectclass ( 1.2.840.10008.15.0.4.8
   <section label="H.1.4.1.1" status="5" xml:id="sect_H.1.4.1.1">
     <title>Scope</title>
   
-  <para xml:id="para_43a6bd97-ebe9-4467-977d-9545c4190e6f">The RFC-2782
+  <para xml:id="para_43a6bd97-ebe9-4467-977d-9545c4190e6f">The RFC2782
   <emphasis role="italic">A DNS RR for specifying the location of services (DNS SRV)</emphasis>specifies a mechanism for requesting the names and rudimentary descriptions for machines that provide network services. The DNS client requests the descriptions for all machines that are registered as offering a particular service name. In this case the service name requested will be "LDAP". The DNS server may respond with multiple names for a single request.</para>
   </section>
 <section label="H.1.4.1.2" status="5" xml:id="sect_H.1.4.1.2">
@@ -20756,10 +20758,10 @@ objectclass ( 1.2.840.10008.15.0.4.8
 <section label="H.1.4.1.3" status="5" xml:id="sect_H.1.4.1.3">
     <title>Referenced Standards</title>
   
-  <para xml:id="para_21519421-9bbd-43c4-8a9d-7e77acdf3fed">RFC-2181 Clarifications to the DNS Specification</para>
-  <para xml:id="para_c87570e3-9cb4-419f-9777-f86fa994c119">RFC-2219 Use of DNS Aliases for Network Services</para>
-  <para xml:id="para_00f1248d-93f5-4f70-a269-a1b64eeef77a">RFC-2782 A DNS RR for specifying the location of services (DNS SRV)</para>
-  <para xml:id="para_482df8e0-6222-4ddf-82df-1ee6ff74d8d5">other RFC's are included by reference from RFC-2181, RFC-2219, and RFC-2782.</para>
+  <para xml:id="para_21519421-9bbd-43c4-8a9d-7e77acdf3fed">RFC2181 Clarifications to the DNS Specification</para>
+  <para xml:id="para_c87570e3-9cb4-419f-9777-f86fa994c119">RFC2219 Use of DNS Aliases for Network Services</para>
+  <para xml:id="para_00f1248d-93f5-4f70-a269-a1b64eeef77a">RFC2782 A DNS RR for specifying the location of services (DNS SRV)</para>
+  <para xml:id="para_482df8e0-6222-4ddf-82df-1ee6ff74d8d5">other RFC's are included by reference from RFC2181, RFC2219, and RFC2782.</para>
   </section>
 <section label="H.1.4.1.4" status="5" xml:id="sect_H.1.4.1.4">
     <title>Interaction Diagram</title>
@@ -20775,7 +20777,7 @@ objectclass ( 1.2.840.10008.15.0.4.8
     </mediaobject>
   </figure>
 </para>
-  <para xml:id="para_27f13bd9-56d6-4e79-8a83-e0bc1dbd34eb">The DNS client shall request a list of all the LDAP servers available. It will use the priority, capacity, and location information provided by DNS to select a server. (RFC-2782 recommends the proper use of these parameters.) It is possible that there is no LDAP server, or that the DNS server does not support the SRV RR request.</para>
+  <para xml:id="para_27f13bd9-56d6-4e79-8a83-e0bc1dbd34eb">The DNS client shall request a list of all the LDAP servers available. It will use the priority, capacity, and location information provided by DNS to select a server. (RFC2782 recommends the proper use of these parameters.) It is possible that there is no LDAP server, or that the DNS server does not support the SRV RR request.</para>
   <note>
     <orderedlist numeration="arabic">
       <listitem>
@@ -20799,7 +20801,7 @@ objectclass ( 1.2.840.10008.15.0.4.8
   <section label="H.1.4.2.1" status="5" xml:id="sect_H.1.4.2.1">
     <title>Scope</title>
   
-  <para xml:id="para_6c144d7a-eacb-4830-b1ea-b4b06ac9c8e3">The RFC-2251 "Lightweight Directory Access Protocol (v3) " specifies a mechanism for making queries of a database corresponding to an LDAP schema. The LDAP client can compose requests in the LDAP query language, and the LDAP server will respond with the results for a single request.</para>
+  <para xml:id="para_6c144d7a-eacb-4830-b1ea-b4b06ac9c8e3">The RFC2251 "Lightweight Directory Access Protocol (v3) " specifies a mechanism for making queries of a database corresponding to an LDAP schema. The LDAP client can compose requests in the LDAP query language, and the LDAP server will respond with the results for a single request.</para>
   </section>
 <section label="H.1.4.2.2" status="5" xml:id="sect_H.1.4.2.2">
     <title>Use Case Roles</title>
@@ -20833,7 +20835,7 @@ objectclass ( 1.2.840.10008.15.0.4.8
 <section label="H.1.4.2.3" status="5" xml:id="sect_H.1.4.2.3">
     <title>Referenced Standards</title>
   
-  <para xml:id="para_3b5fe4d3-ea86-49af-8b3b-2cf960bc1959">RFC-2251 Lightweight Directory Access Protocol (v3). LDAP support requires compliance with other RFC's invoked by reference.</para>
+  <para xml:id="para_3b5fe4d3-ea86-49af-8b3b-2cf960bc1959">RFC2251 Lightweight Directory Access Protocol (v3). LDAP support requires compliance with other RFC's invoked by reference.</para>
   </section>
 <section label="H.1.4.2.4" status="5" xml:id="sect_H.1.4.2.4">
     <title>Interaction Description</title>
@@ -20850,7 +20852,7 @@ objectclass ( 1.2.840.10008.15.0.4.8
   <section label="H.1.4.3.1" status="5" xml:id="sect_H.1.4.3.1">
     <title>Scope</title>
   
-  <para xml:id="para_1f53eca9-d8c8-4116-bff0-86c83b772b4d">The RFC-2251 "Lightweight Directory Access Protocol (v3) " specifies a mechanism for making updates to a database corresponding to an LDAP schema. The LDAP client can compose updates in the LDAP query language, and the LDAP server will respond with the results for a single request. Update requests may be refused for security reasons.</para>
+  <para xml:id="para_1f53eca9-d8c8-4116-bff0-86c83b772b4d">The RFC2251 "Lightweight Directory Access Protocol (v3) " specifies a mechanism for making updates to a database corresponding to an LDAP schema. The LDAP client can compose updates in the LDAP query language, and the LDAP server will respond with the results for a single request. Update requests may be refused for security reasons.</para>
   </section>
 <section label="H.1.4.3.2" status="5" xml:id="sect_H.1.4.3.2">
     <title>Use Case Roles</title>
@@ -20884,7 +20886,7 @@ objectclass ( 1.2.840.10008.15.0.4.8
 <section label="H.1.4.3.3" status="5" xml:id="sect_H.1.4.3.3">
     <title>Referenced Standards</title>
   
-  <para xml:id="para_14e48267-aa30-4bcd-8d58-36e0368ae692">RFC-2251 Lightweight Directory Access Protocol (v3). LDAP support requires compliance with other RFC's invoked by reference.</para>
+  <para xml:id="para_14e48267-aa30-4bcd-8d58-36e0368ae692">RFC2251 Lightweight Directory Access Protocol (v3). LDAP support requires compliance with other RFC's invoked by reference.</para>
   </section>
 <section label="H.1.4.3.4" status="5" xml:id="sect_H.1.4.3.4">
     <title>Interaction Description</title>
@@ -20917,8 +20919,8 @@ objectclass ( 1.2.840.10008.15.0.4.8
 <section label="H.1.4.4" status="4" xml:id="sect_H.1.4.4">
     <title>Maintain LDAP Server</title>
   
-  <para xml:id="para_bb119c87-43bb-4ad5-bce8-288ad9ac8014">The LDAP server shall support a separate manual or automated means of maintaining the LDAP database contents. The LDAP server shall support the RFC-2849 file format mechanism for updating the LDAP database. The LDAP Client or service installation tools shall provide RFC-2849 formatted files to update LDAP server databases manually. The LDAP server may refuse client network updates for security reasons. If this is the case, then the maintenance process will be used to maintain the LDAP database.</para>
-  <para xml:id="para_0bcdca24-d4b0-4656-8382-4f72e5055d4a">The manual update procedures are not specified other than the requirement above that at least the minimal LDAP information exchange file format from RFC 2849 be supported. The exact mechanisms for transferring this information remain vendor and site specific. In some situations, for example the creation of AE-titles, a purely manual update mechanism may be easier than exchanging files.</para>
+  <para xml:id="para_bb119c87-43bb-4ad5-bce8-288ad9ac8014">The LDAP server shall support a separate manual or automated means of maintaining the LDAP database contents. The LDAP server shall support the RFC2849 file format mechanism for updating the LDAP database. The LDAP Client or service installation tools shall provide RFC2849 formatted files to update LDAP server databases manually. The LDAP server may refuse client network updates for security reasons. If this is the case, then the maintenance process will be used to maintain the LDAP database.</para>
+  <para xml:id="para_0bcdca24-d4b0-4656-8382-4f72e5055d4a">The manual update procedures are not specified other than the requirement above that at least the minimal LDAP information exchange file format from RFC2849 be supported. The exact mechanisms for transferring this information remain vendor and site specific. In some situations, for example the creation of AE-titles, a purely manual update mechanism may be easier than exchanging files.</para>
   <para xml:id="para_419e1fa2-9f50-4eca-b428-a7532f48496a">The conformance statement shall document the mechanisms available for transferring this information. Typical mechanisms include:</para>
   <orderedlist numeration="loweralpha">
 <listitem>
@@ -20946,7 +20948,7 @@ objectclass ( 1.2.840.10008.15.0.4.8
   <note>
     <orderedlist numeration="arabic">
       <listitem>
-        <para xml:id="para_241fba00-1fd8-4d78-9809-f2959badcc26">There are many automated and semi-automatic tools for maintaining LDAP databases. Many LDAP servers provide GUI interfaces and updating tools. The specifics of these tools are outside the scope of DICOM. The LDAP RFC-2849 requires at least a minimal data exchange capability. There are also XML based tools for creating and maintaining these files.</para>
+        <para xml:id="para_241fba00-1fd8-4d78-9809-f2959badcc26">There are many automated and semi-automatic tools for maintaining LDAP databases. Many LDAP servers provide GUI interfaces and updating tools. The specifics of these tools are outside the scope of DICOM. The LDAP RFC2849 requires at least a minimal data exchange capability. There are also XML based tools for creating and maintaining these files.</para>
       </listitem>
       <listitem>
         <para xml:id="para_90e6e85f-66ca-4b3c-978c-21b5d363960f">This mechanism may also be highly effective for preparing a new network installation by means of a single pre-planned network configuration setup rather than individual machine updates.</para>
@@ -21311,17 +21313,17 @@ objectclass ( 1.2.840.10008.15.0.4.8
 <section label="H.2.3" status="3" xml:id="sect_H.2.3">
     <title>Referenced Standards</title>
   
-  <para xml:id="para_34b6e767-ea16-4db3-af31-8a5c2cd1aabf">RFC 2136 DNS Dynamic Updates <link xl:href="http://tools.ietf.org/html/rfc2136"/>
+  <para xml:id="para_34b6e767-ea16-4db3-af31-8a5c2cd1aabf">RFC2136 DNS Dynamic Updates <link xl:href="http://tools.ietf.org/html/rfc2136"/>
 </para>
-  <para xml:id="para_a620f0d5-02c5-4543-a057-7299af7b010c">RFC 2181 Clarifications to the DNS Specification <link xl:href="http://tools.ietf.org/html/rfc2181"/>
+  <para xml:id="para_a620f0d5-02c5-4543-a057-7299af7b010c">RFC2181 Clarifications to the DNS Specification <link xl:href="http://tools.ietf.org/html/rfc2181"/>
 </para>
-  <para xml:id="para_08fa6e11-8bc2-4bbc-a788-29ce47262885">RFC 2219 Use of DNS Aliases for Network Services <link xl:href="http://tools.ietf.org/html/rfc2219"/>
+  <para xml:id="para_08fa6e11-8bc2-4bbc-a788-29ce47262885">RFC2219 Use of DNS Aliases for Network Services <link xl:href="http://tools.ietf.org/html/rfc2219"/>
 </para>
-  <para xml:id="para_a3bd3b28-8e2c-4918-bfbd-da44226ec0f5">RFC 2782 A DNS RR for specifying the location of services (DNS SRV) <link xl:href="http://tools.ietf.org/html/rfc2782"/>
+  <para xml:id="para_a3bd3b28-8e2c-4918-bfbd-da44226ec0f5">RFC2782 A DNS RR for specifying the location of services (DNS SRV) <link xl:href="http://tools.ietf.org/html/rfc2782"/>
 </para>
-  <para xml:id="para_4176f1ce-179f-4920-9df5-317b294f09be">RFC 6762 Multicast DNS <link xl:href="http://tools.ietf.org/html/rfc6762"/>
+  <para xml:id="para_4176f1ce-179f-4920-9df5-317b294f09be">RFC6762 Multicast DNS <link xl:href="http://tools.ietf.org/html/rfc6762"/>
 </para>
-  <para xml:id="para_1bc7caba-1c2b-4509-87bc-3ca1cdbaed1a">RFC 6763 DNS-Based Service Discovery <link xl:href="http://tools.ietf.org/html/rfc6763"/>
+  <para xml:id="para_1bc7caba-1c2b-4509-87bc-3ca1cdbaed1a">RFC6763 DNS-Based Service Discovery <link xl:href="http://tools.ietf.org/html/rfc6763"/>
 </para>
   <para xml:id="para_0ed85e47-1f58-4f0c-83bf-5a330a6f521f">DNS Self-Discovery  <link xl:href="http://www.dns-sd.org/"/>
 </para>
@@ -21377,19 +21379,19 @@ objectclass ( 1.2.840.10008.15.0.4.8
     <para xml:id="para_f20e3ede-8d69-4ea5-b731-a8b4e215fb04">Example SRV record:</para>
     <itemizedlist>
       <listitem>
-        <para xml:id="para_e4eed3ab-e7ee-4936-abf5-607cb7154e68">_dicomweb-tls._tcp. examplehospital.org 86400 IN SRV 10 60 443 dicomweb. examplehospital.org.</para>
+        <para xml:id="para_e4eed3ab-e7ee-4936-abf5-607cb7154e68">_dicomweb-tls._tcp. examplehospital.org 86400 IN SRV 10 60 443 dicomweb.examplehospital.org.</para>
       </listitem>
     </itemizedlist>
     <para xml:id="para_018d57eb-13ca-4e2d-ad0c-b6a03b478574">Example TXT record:</para>
     <itemizedlist>
       <listitem>
-        <para xml:id="para_6b688cc4-27af-45eb-abb0-b05d2cfbd88e">dicomweb. examplehospital.org   IN   TXT   "DICOMWebPath=apps/dicom-rs"</para>
+        <para xml:id="para_6b688cc4-27af-45eb-abb0-b05d2cfbd88e">dicomweb.examplehospital.org   IN   TXT   "DICOMWebPath=apps/dicom-rs"</para>
       </listitem>
     </itemizedlist>
     <para xml:id="para_29936fa1-6814-40e7-8edb-b6085b55e13a">The above examples would combine to define a DICOM web service root of:</para>
     <itemizedlist>
       <listitem>
-        <para xml:id="para_d883e9ff-83a5-4b20-9804-80b0d874218a">"https://dicomweb. examplehospital.org:443/apps/dicom-rs"</para>
+        <para xml:id="para_d883e9ff-83a5-4b20-9804-80b0d874218a">"https://dicomweb.examplehospital.org:443/apps/dicom-rs"</para>
       </listitem>
     </itemizedlist>
   </section>

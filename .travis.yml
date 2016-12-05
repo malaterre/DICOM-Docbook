@@ -12,4 +12,4 @@ script:
   - sed -i -e "s@-jar /opt/local/share/java/saxon9he.jar@-classpath /usr/share/java/saxonb.jar net.sf.saxon.Transform -t -ext:on@" *.sh
   - sed -i -e "s:xep.extensions:fop1.extensions:" stylesheets/*.xsl
   # https://docs.travis-ci.com/user/common-build-problems/#My-builds-are-timing-out
-  - travis_wait 30 ./generateforrelease.sh
+  - travis_wait 70 ./generateforrelease.sh

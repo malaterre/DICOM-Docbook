@@ -1,6 +1,4 @@
-#!/bin/sh -e
-
-set -x
+#!/bin/sh
 
 release=`cat release.txt`
 

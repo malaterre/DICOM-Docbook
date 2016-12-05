@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xl="http://www.w3.org/1999/xlink" label="PS3.2" version="5.0" xml:id="PS3.2">
   <title>PS3.2</title>
-  <subtitle>DICOM PS3.2 2016a - Conformance</subtitle>
+  <subtitle>DICOM PS3.2 2016e - Conformance</subtitle>
   <info>
     <author>
       <orgname>DICOM Standards Committee</orgname>
@@ -49,11 +49,11 @@
   <chapter label="" status="1" xml:id="chapter_Foreword">
     <title>Foreword</title>
     <para xml:id="para_f6b752e0-d9ac-4380-a8f4-cb7c8b590e30">This DICOM Standard was developed according to the procedures of the DICOM Standards Committee.</para>
-    <para xml:id="para_b7bb9a5a-8369-4de2-9487-78006db40c35">The DICOM Standard is structured as a multi-part document using the guidelines established in <xref linkend="biblio_ISODirectives3"/>.</para>
-    <para>DICOM® is the registered trademark of the National Electrical Manufacturers Association for its standards publications relating to digital communications of medical information.</para>
-    <para>HL7® and CDA® are the registered trademarks of Health Level Seven International.</para>
-    <para>SNOMED®, SNOMED Clinical Terms®, SNOMED CT® are the registered trademarks of the International Health Terminology Standards Development <foreignphrase xml:lang="en-GB">Organisation</foreignphrase> (IHTSDO).</para>
-    <para>LOINC® is the registered trademark of Regenstrief Institute, Inc.</para>
+    <para xml:id="para_b7bb9a5a-8369-4de2-9487-78006db40c35">The DICOM Standard is structured as a multi-part document using the guidelines established in <xref linkend="biblio_ISODirectives2"/>.</para>
+    <para xml:id="para_92fd192b-1756-49de-a95a-6ce56be26c7d">DICOM® is the registered trademark of the National Electrical Manufacturers Association for its standards publications relating to digital communications of medical information, all rights reserved.</para>
+    <para xml:id="para_0c4b7c64-4ff1-43b5-8978-2d71fa426a2e">HL7® and CDA® are the registered trademarks of Health Level Seven International, all rights reserved.</para>
+    <para xml:id="para_125708f7-725b-41b0-9e3b-bf2ea16eb6b4">SNOMED®, SNOMED Clinical Terms®, SNOMED CT® are the registered trademarks of the International Health Terminology Standards Development <foreignphrase xml:lang="en-GB">Organisation</foreignphrase> (IHTSDO), all rights reserved.</para>
+    <para xml:id="para_59a05c95-e876-4f13-ba65-2671f2b2d9dc">LOINC® is the registered trademark of Regenstrief Institute, Inc, all rights reserved.</para>
   </chapter>
   <chapter label="1" xml:id="chapter_1">
     <title>Scope and Field of Application</title>
@@ -85,13 +85,17 @@
     <title>Normative References</title>
     <para xml:id="para_34485576-301f-4230-bb3c-3d48bb4d0b86">The following standards contain provisions, which, through reference in this text, constitute provisions of this Standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this Standard are encouraged to investigate the possibilities of applying the most recent editions of the standards indicated below.</para>
     <bibliography>
-      <biblioentry xml:id="biblio_ISODirectives3">
-        <abbrev>ISO/IEC Directives, Part 3</abbrev>
+      <biblioentry xml:id="biblio_ISODirectives2">
+        <abbrev>ISO/IEC Directives, Part 2</abbrev>
         <author>
           <orgname>ISO/IEC</orgname>
         </author>
-        <date>1989</date>
-        <title>Drafting and presentation of International Standards</title>
+        <date>2011/04</date>
+        <edition>6.0</edition>
+        <title>Rules for the structure and drafting of International Standards</title>
+        <bibliosource>
+          <link xl:href="http://www.iec.ch/members_experts/refdocs/iec/isoiec-dir2%7Bed6.0%7Den.pdf"/>
+        </bibliosource>
       </biblioentry>
     </bibliography>
     <para xml:id="para_d25645c2-e48c-4ec8-986a-7353f5cd8cff">ISO 7498-1 Information Processing Systems - Open Systems Interconnection - Basic Reference Model.</para>
@@ -1870,24 +1874,24 @@
           </tr>
           <tr valign="top">
             <td align="left" colspan="1" rowspan="1">
-              <para>1.2.840.10008.​5.​1.​4.​1.​1.​11.​6</para>
+              <para xml:id="para_a85daad7-e933-4341-b390-16145a8f1dbc">1.2.840.10008.​5.​1.​4.​1.​1.​11.​6</para>
             </td>
             <td align="left" colspan="1" rowspan="1">
-              <para>Grayscale Planar MPR Volumetric Presentation State Storage SOP Class</para>
+              <para xml:id="para_920d6a8f-f614-43b5-80c6-ca1525388c25">Grayscale Planar MPR Volumetric Presentation State Storage SOP Class</para>
             </td>
             <td align="left" colspan="1" rowspan="1">
-              <para>Transfer</para>
+              <para xml:id="para_342c9a5b-1939-44ff-b3c6-99fc2f72d656">Transfer</para>
             </td>
           </tr>
           <tr valign="top">
             <td align="left" colspan="1" rowspan="1">
-              <para>1.2.840.10008.​5.​1.​4.​1.​1.​11.​7</para>
+              <para xml:id="para_fd4d33ac-70b4-426e-9984-ab7123cebe4a">1.2.840.10008.​5.​1.​4.​1.​1.​11.​7</para>
             </td>
             <td align="left" colspan="1" rowspan="1">
-              <para>Compositing Planar MPR Volumetric Presentation State Storage SOP Class</para>
+              <para xml:id="para_3007e72c-ce7f-410f-a0a2-551e10ad055c">Compositing Planar MPR Volumetric Presentation State Storage SOP Class</para>
             </td>
             <td align="left" colspan="1" rowspan="1">
-              <para>Transfer</para>
+              <para xml:id="para_87924229-2a39-4b76-8c97-6d94b962254f">Transfer</para>
             </td>
           </tr>
           <tr valign="top">
@@ -2101,13 +2105,13 @@
           </tr>
           <tr valign="top">
             <td align="left" colspan="1" rowspan="1">
-              <para>1.2.840.10008.5.1.4.1.1.66.6</para>
+              <para xml:id="para_d6c34cbe-e159-4a6f-a890-814610d48481">1.2.840.10008.5.1.4.1.1.66.6</para>
             </td>
             <td align="left" colspan="1" rowspan="1">
-              <para>Tractography Results Storage</para>
+              <para xml:id="para_0f3410f3-8df0-49cd-bdd5-d9633d8cf192">Tractography Results Storage</para>
             </td>
             <td align="left" colspan="1" rowspan="1">
-              <para>Transfer</para>
+              <para xml:id="para_413e1be5-bf87-415e-9b38-cc82bbd27e72">Transfer</para>
             </td>
           </tr>          <tr valign="top">
             <td align="left" colspan="1" rowspan="1">
@@ -2562,13 +2566,35 @@
           </tr>
           <tr valign="top">
             <td align="left" colspan="1" rowspan="1">
-              <para>1.2.840.10008.5.​1.​4.​1.​1.​88.​71</para>
+              <para xml:id="para_2db94aa4-6945-4bc4-9e4e-d90fb5fb22d1">1.2.840.10008.5.​1.​4.​1.​1.​88.​71</para>
             </td>
             <td align="left" colspan="1" rowspan="1">
-              <para>Acquisition Context SR Storage SOP Class</para>
+              <para xml:id="para_34b16c2a-916b-4f12-ad00-e76f23f574d4">Acquisition Context SR Storage SOP Class</para>
             </td>
             <td align="left" colspan="1" rowspan="1">
-              <para>Transfer</para>
+              <para xml:id="para_a753a5c3-c3a4-4e5f-a78f-ee1bea75b496">Transfer</para>
+            </td>
+          </tr>
+          <tr valign="top">
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_211594e6-437c-44a3-b678-8943af76440a">1.2.840.10008.5.​1.​4.​1.​1.​88.​72</para>
+            </td>
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_476595d1-68c8-49bc-b44b-1d9bf74cccf4">Simplified Adult Echo SR Storage</para>
+            </td>
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_5f07c2ae-5f53-4586-842c-ae5e3411e77b">Transfer</para>
+            </td>
+          </tr>
+          <tr valign="top">
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_9e00674a-c1fe-4de9-91fb-053c5216e533">1.2.840.10008.5.1.4.1.1.90.1</para>
+            </td>
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_ff1c0f50-dff9-43ed-838d-5a3bc276e5aa">Content Assessment Results Storage SOP Class</para>
+            </td>
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_3faeeabc-7c92-4039-9863-38fd3c959b61">Transfer</para>
             </td>
           </tr>
           <tr valign="top">
@@ -2626,6 +2652,28 @@
               <para xml:id="para_2ab02da0-4ed0-4a35-acf7-90f304816b03">Transfer</para>
             </td>
           </tr>
+          <tr valign="top">
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_b5e19b35-f6d9-4d46-85e5-1970fc766e98">1.2.840.10008.5.1.4.1.1.200.1</para>
+            </td>
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_a638ce9f-7753-426d-85d2-06bec6fe728d">CT Defined Procedure Protocol Storage</para>
+            </td>
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_4116615f-70ed-4a9f-8950-c42fd53dbcb2">Transfer</para>
+            </td>
+          </tr>
+          <tr valign="top">
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_7c02a9cb-3650-4fb6-9b3f-57450ad76fca">1.2.840.10008.5.1.4.1.1.200.2</para>
+            </td>
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_e6d0babb-827b-4e38-a97e-55b513824ef5">CT Performed Procedure Protocol Storage</para>
+            </td>
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_3cc2e65f-68aa-416c-ae1c-5057a6cd49e1">Transfer</para>
+            </td>
+          </tr>     
           <tr valign="top">
             <td align="left" colspan="1" rowspan="1">
               <para xml:id="para_64eca0dd-e400-43c0-b56e-2d531ee29c50">1.2.840.10008.5.1.4.1.1.481.1</para>
@@ -2804,6 +2852,39 @@
           </tr>
           <tr valign="top">
             <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_f5d7a386-1403-4166-989d-cd2c0067692f">1.2.840.10008.5.1.4.20.1</para>
+            </td>
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_2b3e8c49-10ad-4dc1-9c3a-fbc457a26641">Defined Procedure Protocol Information Model - FIND</para>
+            </td>
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_08705b18-b611-4064-975a-bf70aa0cf54c">Query/Retrieve</para>
+            </td>
+          </tr>
+          <tr valign="top">
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_fa558e3d-3dc8-439b-b487-796c4a1bbf9a">1.2.840.10008.5.1.4.20.2</para>
+            </td>
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_4156c7f9-1780-4a97-99cb-97a06a704e6d">Defined Procedure Protocol Information Model - MOVE</para>
+            </td>
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_f0123603-bb76-423d-9fc9-1f6e0723acbf">Query/Retrieve</para>
+            </td>
+          </tr>
+          <tr valign="top">
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_e58f5fd5-40f6-4b2a-bc4b-e250a46f3eef">1.2.840.10008.5.1.4.20.3</para>
+            </td>
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_2f2fe0f8-59ed-408e-8a2e-8979bdc239d8">Defined Procedure Protocol Information Model - GET</para>
+            </td>
+            <td align="left" colspan="1" rowspan="1">
+              <para xml:id="para_db32d926-51ff-4cd4-8cc7-7c115ab6fc1c">Query/Retrieve</para>
+            </td>
+          </tr>
+          <tr valign="top">
+            <td align="left" colspan="1" rowspan="1">
               <para xml:id="para_5b70d2eb-7135-48b7-bac2-3468edbbc322">1.2.840.10008.5.1.4.31</para>
             </td>
             <td align="left" colspan="1" rowspan="1">
@@ -2971,13 +3052,13 @@
           </tr>
           <tr valign="top">
             <td align="left" colspan="1" rowspan="1">
-              <para>1.2.840.10008.5.1.4.34.10</para>
+              <para xml:id="para_a4c1a2fa-8286-4c0e-b46c-74f528b0a040">1.2.840.10008.5.1.4.34.10</para>
             </td>
             <td align="left" colspan="1" rowspan="1">
-              <para>RT Brachy Application Setup Delivery Instruction Storage</para>
+              <para xml:id="para_92908ac0-6177-426a-b16c-b2ba3966c1d2">RT Brachy Application Setup Delivery Instruction Storage</para>
             </td>
             <td align="left" colspan="1" rowspan="1">
-              <para>Transfer</para>
+              <para xml:id="para_13c8ccf8-0312-4691-a0cb-5b19b5355808">Transfer</para>
             </td>
           </tr>          
           <tr valign="top">
@@ -4015,7 +4096,8 @@
       <section label="A.3.7" xml:id="sect_A.3.7">
         <title>References</title>
         <para xml:id="para_b5b5bb55-1dff-4100-aa70-dab9b9c96952">Referenced documents should be listed here, including appropriate product manuals (such as service manuals that specify how to set DICOM communication parameters). References to the DICOM Standard should provide the URL for the free published version of the Standard, but should not specify a date of publication:</para>
-        <para xml:id="para_c2887d04-53c9-44c0-82dc-f6c5a9488257">NEMA PS3 Digital Imaging and Communications in Medicine (DICOM) Standard, available free at http://medical.nema.org/</para>
+        <para xml:id="para_c2887d04-53c9-44c0-82dc-f6c5a9488257">NEMA PS3 Digital Imaging and Communications in Medicine (DICOM) Standard, available free at <link xl:href="http://medical.nema.org/"/>
+</para>
       </section>
     </section>
     <section label="A.4" status="2" xml:id="sect_A.4">
@@ -7278,8 +7360,12 @@
                   <caption>Worklist Request Identifier</caption>
                   <thead>
                     <tr valign="top">
-                      <th align="center" colspan="1" rowspan="1">
+                      <th align="center" colspan="8" rowspan="1">
                         <para xml:id="para_5d8cd3ee-6074-4f3a-bd73-256606e4b270">Module Name</para>
+                      </th>
+                    </tr>
+                    <tr valign="top">
+                      <th align="center" colspan="1" rowspan="1">
                         <para xml:id="para_5a4516f3-2b81-4b68-9874-44a11a331eaf">Attribute Name</para>
                       </th>
                       <th align="center" colspan="1" rowspan="1">
@@ -7308,30 +7394,9 @@
                   <tbody>
                     <tr valign="top">
                       <td align="left" colspan="8" rowspan="1">
-                        <para xml:id="para_ebef1436-5537-4d0c-a8c1-b414f71a5854">SOP Common</para>
-                      </td>
-                    </tr>
-                    <tr valign="top">
-                      <td align="left" colspan="1" rowspan="1">
-                        <para xml:id="para_6648a7e7-57f5-4e13-8185-f07d938466c1">Specific Character Set</para>
-                      </td>
-                      <td align="center" colspan="1" rowspan="1">
-                        <para xml:id="para_e309b676-62f9-4144-8091-4c512502b365">(0008,0005)</para>
-                      </td>
-                      <td align="center" colspan="1" rowspan="1">
-                        <para xml:id="para_9da32a53-1dd1-450d-8ebc-d2c00c25a45f">CS</para>
-                      </td>
-                      <td align="center" colspan="1" rowspan="1"/>
-                      <td align="center" colspan="1" rowspan="1">
-                        <para xml:id="para_0007c132-6f90-4abe-88db-e72d14ed3c47">x</para>
-                      </td>
-                      <td align="center" colspan="1" rowspan="1"/>
-                      <td align="center" colspan="1" rowspan="1"/>
-                      <td align="center" colspan="1" rowspan="1"/>
-                    </tr>
-                    <tr valign="top">
-                      <td align="left" colspan="8" rowspan="1">
-                        <para xml:id="para_75b43001-101c-4615-9439-9a79dbe19a8e">Scheduled Procedure Step</para>
+                        <para xml:id="para_75b43001-101c-4615-9439-9a79dbe19a8e">
+<emphasis role="bold">Scheduled Procedure Step</emphasis>
+</para>
                       </td>
                     </tr>
                     <tr valign="top">
@@ -7341,7 +7406,9 @@
                       <td align="center" colspan="1" rowspan="1">
                         <para xml:id="para_e1380f4a-5515-4c37-ac04-a19bad7e1fab">(0040,0100)</para>
                       </td>
-                      <td align="center" colspan="1" rowspan="1"/>
+                      <td align="center" colspan="1" rowspan="1">
+                        <para xml:id="para_a4412783-7847-48ed-8b72-460d2e4a4778">SQ</para>
+                      </td>
                       <td align="center" colspan="1" rowspan="1"/>
                       <td align="center" colspan="1" rowspan="1"/>
                       <td align="center" colspan="1" rowspan="1"/>
@@ -7350,7 +7417,7 @@
                     </tr>
                     <tr valign="top">
                       <td align="left" colspan="1" rowspan="1">
-                        <para xml:id="para_2a943b3b-0116-40b3-98a0-3a8d9406d3a4">&gt;Scheduled Station AET</para>
+                        <para xml:id="para_2a943b3b-0116-40b3-98a0-3a8d9406d3a4">&gt;Scheduled Station AE Title</para>
                       </td>
                       <td align="center" colspan="1" rowspan="1">
                         <para xml:id="para_0d3d22a0-e26a-4669-935c-32a8ceb90b3a">(0040,0001)</para>
@@ -7594,7 +7661,9 @@
                     </tr>
                     <tr valign="top">
                       <td align="left" colspan="8" rowspan="1">
-                        <para xml:id="para_5533fc8a-4feb-4670-95d3-2706ad9ec760">Requested Procedure</para>
+                        <para xml:id="para_5533fc8a-4feb-4670-95d3-2706ad9ec760">
+<emphasis role="bold">Requested Procedure</emphasis>
+</para>
                       </td>
                     </tr>
                     <tr valign="top">
@@ -7741,7 +7810,9 @@
                     </tr>
                     <tr valign="top">
                       <td align="left" colspan="8" rowspan="1">
-                        <para xml:id="para_d210f179-5700-4ae8-bb1d-c30cef564964">Imaging Service Request</para>
+                        <para xml:id="para_d210f179-5700-4ae8-bb1d-c30cef564964">
+<emphasis role="bold">Imaging Service Request</emphasis>
+</para>
                       </td>
                     </tr>
                     <tr valign="top">
@@ -7816,7 +7887,9 @@
                     </tr>
                     <tr valign="top">
                       <td align="left" colspan="8" rowspan="1">
-                        <para xml:id="para_bb9b5874-b7e9-4c47-9cca-13fbea031742">Visit Identification</para>
+                        <para xml:id="para_bb9b5874-b7e9-4c47-9cca-13fbea031742">
+<emphasis role="bold">Visit Identification</emphasis>
+</para>
                       </td>
                     </tr>
                     <tr valign="top">
@@ -7839,7 +7912,9 @@
                     </tr>
                     <tr valign="top">
                       <td align="left" colspan="8" rowspan="1">
-                        <para xml:id="para_6c8bd790-5964-43d5-9368-b6dcc28b9013">Visit Status</para>
+                        <para xml:id="para_6c8bd790-5964-43d5-9368-b6dcc28b9013">
+<emphasis role="bold">Visit Status</emphasis>
+</para>
                       </td>
                     </tr>
                     <tr valign="top">
@@ -7864,7 +7939,9 @@
                     </tr>
                     <tr valign="top">
                       <td align="left" colspan="8" rowspan="1">
-                        <para xml:id="para_05a595a9-754a-4f73-8533-d0305783f7cf">Visit Admission</para>
+                        <para xml:id="para_05a595a9-754a-4f73-8533-d0305783f7cf">
+<emphasis role="bold">Visit Admission</emphasis>
+</para>
                       </td>
                     </tr>
                     <tr valign="top">
@@ -7889,12 +7966,14 @@
                     </tr>
                     <tr valign="top">
                       <td align="left" colspan="8" rowspan="1">
-                        <para xml:id="para_da24bd91-95bf-4076-9cff-37c2daa8caf0">Patient Identification</para>
+                        <para xml:id="para_da24bd91-95bf-4076-9cff-37c2daa8caf0">
+<emphasis role="bold">Patient Identification</emphasis>
+</para>
                       </td>
                     </tr>
                     <tr valign="top">
                       <td align="left" colspan="1" rowspan="1">
-                        <para xml:id="para_4a33b51d-1599-4e22-8951-67355f0dfe61">Patient Name</para>
+                        <para xml:id="para_4a33b51d-1599-4e22-8951-67355f0dfe61">Patient's Name</para>
                       </td>
                       <td align="center" colspan="1" rowspan="1">
                         <para xml:id="para_6d37f6e4-6701-45fa-bd12-43980a675a6b">(0010,0010)</para>
@@ -7942,7 +8021,9 @@
                     </tr>
                     <tr valign="top">
                       <td align="left" colspan="8" rowspan="1">
-                        <para xml:id="para_4d065123-a0e6-400c-b880-68d3d3113449">Patient Demographic</para>
+                        <para xml:id="para_4d065123-a0e6-400c-b880-68d3d3113449">
+<emphasis role="bold">Patient Demographic</emphasis>
+</para>
                       </td>
                     </tr>
                     <tr valign="top">
@@ -8017,7 +8098,7 @@
                     </tr>
                     <tr valign="top">
                       <td align="left" colspan="1" rowspan="1">
-                        <para xml:id="para_c6f1d33a-b1fd-46c4-8d06-e1258b15198f">Confidentiality constraint on patient data</para>
+                        <para xml:id="para_c6f1d33a-b1fd-46c4-8d06-e1258b15198f">Confidentiality Constraint on Patient Data Description</para>
                       </td>
                       <td align="center" colspan="1" rowspan="1">
                         <para xml:id="para_5278719c-caae-413e-8c67-c5e35aceee52">(0040,3001)</para>
@@ -8037,7 +8118,9 @@
                     </tr>
                     <tr valign="top">
                       <td align="left" colspan="8" rowspan="1">
-                        <para xml:id="para_9def0a5b-f40a-462a-8f0d-4a56d2204a7f">Patient Medical</para>
+                        <para xml:id="para_9def0a5b-f40a-462a-8f0d-4a56d2204a7f">
+<emphasis role="bold">Patient Medical</emphasis>
+</para>
                       </td>
                     </tr>
                     <tr valign="top">
@@ -8142,7 +8225,10 @@
                     </tr>
                   </tbody>
                 </table>
-                <para xml:id="para_59d0d8a4-c8ca-458c-a35c-7496552439ef">The above table should be read as follows:</para>
+                <note>
+                  <para xml:id="para_2d53a4b7-44a7-426b-b537-c6512273ea59">If an extended character set is used in the Request Identifier, Specific Character Set (0008,0005) will be included in the Identifier with the value "ISO_IR 100" or "ISO_IR 144" (see <xref linkend="sect_B.6" xrefstyle="select: label"/>). Otherwise, Specific Character Set (0008,0005) will not be sent</para>
+                </note>
+                <para xml:id="para_59d0d8a4-c8ca-458c-a35c-7496552439ef">The above tables should be read as follows:</para>
                 <variablelist>
                    <varlistentry>
 <term>Module Name</term>
@@ -11286,7 +11372,7 @@
           </section>
         </section>
       </section>
-      <section label="B.4.3" xml:id="sect_b.4.3">
+      <section label="B.4.3" xml:id="sect_B.4.3">
         <title>Network Interfaces</title>
         <section label="B.4.3.1" xml:id="sect_B.4.3.1">
           <title>Physical Network Interface</title>
@@ -16146,7 +16232,7 @@
               </tbody>
             </table>
             <table frame="box" label="B.8.1-18" rules="all" xml:id="table_B.8.1-18">
-              <caption>VOI LUT Module of Created Rf SOP Instances</caption>
+              <caption>VOI LUT Module of Created RF SOP Instances</caption>
               <thead>
                 <tr valign="top">
                   <th align="center" colspan="1" rowspan="1">
@@ -24988,10 +25074,10 @@
                   </thead>
                   <tbody>
                     <tr valign="top">
-                      <td align="left" colspan="1" rowspan="3">
+                      <td align="left" colspan="1" rowspan="2">
                         <para xml:id="para_43edbba6-a10a-41b6-880c-68f9aa5ab0af">Verification</para>
                       </td>
-                      <td align="left" colspan="1" rowspan="3">
+                      <td align="left" colspan="1" rowspan="2">
                         <para xml:id="para_6e212efd-5b14-44b5-b7ea-dab7ba853600">1.2.840.10008.1.1</para>
                       </td>
                       <td align="left" colspan="1" rowspan="1">
@@ -25000,10 +25086,10 @@
                       <td align="left" colspan="1" rowspan="1">
                         <para xml:id="para_80a86e72-d1bd-48bf-ab0a-2fa526672206">1.2.840.10008.1.2</para>
                       </td>
-                      <td align="left" colspan="1" rowspan="3">
+                      <td align="left" colspan="1" rowspan="2">
                         <para xml:id="para_3a3356fe-ba54-43d1-b74c-832bca5d70b5">SCP</para>
                       </td>
-                      <td align="left" colspan="1" rowspan="3">
+                      <td align="left" colspan="1" rowspan="2">
                         <para xml:id="para_ac019062-8ee6-4abd-9d29-4bb737431d53">None</para>
                       </td>
                     </tr>
@@ -25013,14 +25099,6 @@
                       </td>
                       <td align="left" colspan="1" rowspan="1">
                         <para xml:id="para_509426de-c863-4336-8ef6-e1a75e650092">1.2.840.10008.1.2.1</para>
-                      </td>
-                    </tr>
-                    <tr valign="top">
-                      <td align="left" colspan="1" rowspan="1">
-                        <para xml:id="para_2411888f-9ec0-4d6b-9416-ce1a568a1259">Explicit VR Big Endian</para>
-                      </td>
-                      <td align="left" colspan="1" rowspan="1">
-                        <para xml:id="para_bf67081c-1ae7-47c8-a933-b5626103460f">1.2.840.10008.1.2.2</para>
                       </td>
                     </tr>
                   </tbody>
@@ -25818,11 +25896,11 @@
                   </thead>
                   <tbody>
                     <tr valign="top">
-                      <td align="left" colspan="1" rowspan="3">
+                      <td align="left" colspan="1" rowspan="2">
                         <para xml:id="para_edaa5742-ea8e-4568-ba84-c0d6e0a1bbc5">See <xref linkend="table_D.4.2-6" xrefstyle="select: label"/>
 </para>
                       </td>
-                      <td align="left" colspan="1" rowspan="3">
+                      <td align="left" colspan="1" rowspan="2">
                         <para xml:id="para_dd7db941-3035-46f8-8a4a-9b40142163c5">See <xref linkend="table_D.4.2-6" xrefstyle="select: label"/>
 </para>
                       </td>
@@ -25832,10 +25910,10 @@
                       <td align="left" colspan="1" rowspan="1">
                         <para xml:id="para_e8670e06-86a0-4b89-bd96-b71b835380f7">1.2.840.10008.1.2</para>
                       </td>
-                      <td align="left" colspan="1" rowspan="3">
+                      <td align="left" colspan="1" rowspan="2">
                         <para xml:id="para_e1a19fb6-3a8d-460b-826f-aea506061ab2">SCP</para>
                       </td>
-                      <td align="left" colspan="1" rowspan="3">
+                      <td align="left" colspan="1" rowspan="2">
                         <para xml:id="para_f836b940-9e5c-4027-b715-b51d73cf630e">None</para>
                       </td>
                     </tr>
@@ -25845,14 +25923,6 @@
                       </td>
                       <td align="left" colspan="1" rowspan="1">
                         <para xml:id="para_bf67dc60-0d47-43e2-8951-d84901399834">1.2.840.10008.1.2.1</para>
-                      </td>
-                    </tr>
-                    <tr valign="top">
-                      <td align="left" colspan="1" rowspan="1">
-                        <para xml:id="para_327265a3-e3fa-4240-8f3e-a89686407aa4">Explicit VR Big Endian</para>
-                      </td>
-                      <td align="left" colspan="1" rowspan="1">
-                        <para xml:id="para_b07cf640-dd43-4258-9e6c-b0a7a7215ea6">1.2.840.10008.1.2.2</para>
                       </td>
                     </tr>
                   </tbody>
@@ -26773,11 +26843,11 @@
                   </thead>
                   <tbody>
                     <tr valign="top">
-                      <td align="left" colspan="1" rowspan="3">
+                      <td align="left" colspan="1" rowspan="2">
                         <para xml:id="para_e57831d6-f76c-4eba-aa56-cde601447fd9">See <xref linkend="table_D.4.2-12" xrefstyle="select: label"/>
 </para>
                       </td>
-                      <td align="left" colspan="1" rowspan="3">
+                      <td align="left" colspan="1" rowspan="2">
                         <para xml:id="para_a1d0524e-c5a5-4d90-b016-0509808d72fa">See <xref linkend="table_D.4.2-12" xrefstyle="select: label"/>
 </para>
                       </td>
@@ -26787,10 +26857,10 @@
                       <td align="left" colspan="1" rowspan="1">
                         <para xml:id="para_4ca08d78-0de4-4442-91ab-988e6a63ea43">1.2.840.10008.1.2</para>
                       </td>
-                      <td align="left" colspan="1" rowspan="3">
+                      <td align="left" colspan="1" rowspan="2">
                         <para xml:id="para_df7e3e10-12cf-4289-a3da-eba635a5116f">SCU</para>
                       </td>
-                      <td align="left" colspan="1" rowspan="3">
+                      <td align="left" colspan="1" rowspan="2">
                         <para xml:id="para_c795af2f-ac03-4cd3-b9fc-997c85cca2d9">None</para>
                       </td>
                     </tr>
@@ -26800,14 +26870,6 @@
                       </td>
                       <td align="left" colspan="1" rowspan="1">
                         <para xml:id="para_e958b1eb-5446-434c-a2d1-72f54fbf4937">1.2.840.10008.1.2.1</para>
-                      </td>
-                    </tr>
-                    <tr valign="top">
-                      <td align="left" colspan="1" rowspan="1">
-                        <para xml:id="para_05974283-2a74-40ca-bddc-699a68d9428b">Explicit VR Big Endian</para>
-                      </td>
-                      <td align="left" colspan="1" rowspan="1">
-                        <para xml:id="para_1e1bf8b0-e7d4-4d46-b836-a4bf5e1117c2">1.2.840.10008.1.2.2</para>
                       </td>
                     </tr>
                   </tbody>
@@ -27119,11 +27181,11 @@
                   </thead>
                   <tbody>
                     <tr valign="top">
-                      <td align="left" colspan="1" rowspan="3">
+                      <td align="left" colspan="1" rowspan="2">
                         <para xml:id="para_0eacbac9-9cf6-424c-854c-895f8ec559d0">See <xref linkend="table_D.4.2-18" xrefstyle="select: label"/>
 </para>
                       </td>
-                      <td align="left" colspan="1" rowspan="3">
+                      <td align="left" colspan="1" rowspan="2">
                         <para xml:id="para_c4f239d0-35f6-42f2-a77a-45973ab52082">See <xref linkend="table_D.4.2-18" xrefstyle="select: label"/>
 </para>
                       </td>
@@ -27133,10 +27195,10 @@
                       <td align="left" colspan="1" rowspan="1">
                         <para xml:id="para_323be121-497c-47c3-98e4-ff2c9a052a2c">1.2.840.10008.1.2</para>
                       </td>
-                      <td align="left" colspan="1" rowspan="3">
+                      <td align="left" colspan="1" rowspan="2">
                         <para xml:id="para_36b0cbbe-3337-4f3a-95ae-d3cde6b1de45">SCU</para>
                       </td>
-                      <td align="left" colspan="1" rowspan="3">
+                      <td align="left" colspan="1" rowspan="2">
                         <para xml:id="para_426a16e4-9558-4ddb-8d87-dd6bda2cf4cd">None</para>
                       </td>
                     </tr>
@@ -27146,14 +27208,6 @@
                       </td>
                       <td align="left" colspan="1" rowspan="1">
                         <para xml:id="para_f6dd945a-1ac5-4395-93de-21f0753bdfc4">1.2.840.10008.1.2.1</para>
-                      </td>
-                    </tr>
-                    <tr valign="top">
-                      <td align="left" colspan="1" rowspan="1">
-                        <para xml:id="para_96374ce8-64cb-465c-a8f0-e786da320b5b">Explicit VR Big Endian</para>
-                      </td>
-                      <td align="left" colspan="1" rowspan="1">
-                        <para xml:id="para_85bd879c-1aef-475f-acb2-bc7b2b6c4384">1.2.840.10008.1.2.2</para>
                       </td>
                     </tr>
                   </tbody>
@@ -28182,11 +28236,11 @@
                   </thead>
                   <tbody>
                     <tr valign="top">
-                      <td align="left" colspan="1" rowspan="3">
+                      <td align="left" colspan="1" rowspan="2">
                         <para xml:id="para_1059a3db-d930-46d5-8ac2-4722e28d2f50">See <xref linkend="table_D.4.2-25" xrefstyle="select: label"/>
 </para>
                       </td>
-                      <td align="left" colspan="1" rowspan="3">
+                      <td align="left" colspan="1" rowspan="2">
                         <para xml:id="para_51105056-c374-4064-9e38-36441045b49b">See <xref linkend="table_D.4.2-25" xrefstyle="select: label"/>
 </para>
                       </td>
@@ -28196,10 +28250,10 @@
                       <td align="left" colspan="1" rowspan="1">
                         <para xml:id="para_77c8069c-01c9-4ffa-9aa5-78071aecb529">1.2.840.10008.1.2</para>
                       </td>
-                      <td align="left" colspan="1" rowspan="3">
+                      <td align="left" colspan="1" rowspan="2">
                         <para xml:id="para_e214b70d-dee9-44fd-b9bf-77e9f37c6d9a">SCP</para>
                       </td>
-                      <td align="left" colspan="1" rowspan="3">
+                      <td align="left" colspan="1" rowspan="2">
                         <para xml:id="para_19058c39-8ee5-489e-93dc-cba16fb6e3dc">None</para>
                       </td>
                     </tr>
@@ -28209,14 +28263,6 @@
                       </td>
                       <td align="left" colspan="1" rowspan="1">
                         <para xml:id="para_7c2e368a-f1e4-4583-b427-699f1913641a">1.2.840.10008.1.2.1</para>
-                      </td>
-                    </tr>
-                    <tr valign="top">
-                      <td align="left" colspan="1" rowspan="1">
-                        <para xml:id="para_f8ab90d3-d58b-4fb3-9445-d404ea3ef9f0">Explicit VR Big Endian</para>
-                      </td>
-                      <td align="left" colspan="1" rowspan="1">
-                        <para xml:id="para_df926266-26c9-4edc-9bfa-63d5098f25d5">1.2.840.10008.1.2.2</para>
                       </td>
                     </tr>
                   </tbody>
@@ -48957,13 +49003,13 @@
               </mediaobject>
             </figure>
           </para>
-          <para xml:id="para_bee73518-58f3-4db5-87e8-bad65b2e60da">The STOW-RS Service Application receives STOW requests from a remote AE. These requests are HTTP/1.1 POST requests. It is associated with the local real-world activity "Store Instances". It converts these requests into internal functions to store the given SOP Instances. It returns a summary HTTP status line, including a status code and an associated textual phase, followed by an XML message indicating success, warning, or failure for each instance to the requesting remote AE.</para>
+          <para xml:id="para_bee73518-58f3-4db5-87e8-bad65b2e60da">The STOW-RS Service Application receives STOW requests from a remote AE. These requests are HTTP POST requests. It is associated with the local real-world activity "Store Instances". It converts these requests into internal functions to store the given SOP Instances. It returns a summary HTTP status line, including a status code and an associated textual phase, followed by an XML message indicating success, warning, or failure for each instance to the requesting remote AE.</para>
         </section>
         <section label="J.4.1.2" xml:id="sect_J.4.1.2">
           <title>Functional Definition of AEs</title>
           <section label="J.4.1.2.1" xml:id="sect_J.4.1.2.1">
             <title>Functional Definition of STOW Service Application</title>
-            <para xml:id="para_29774e76-ffef-4418-8cdc-c6d0b0bf5429">The reception of a STOW-RS POST request will activate the STOW-RS Service. The storage request is based upon the accept headers in the STOW-RS POST request. The response includes an HTTP/1.1 status line, including a status-code and its associated textual phrase, followed by an XML message indicating success, warning, or failure for each instance stored by the STOW-RS service.</para>
+            <para xml:id="para_29774e76-ffef-4418-8cdc-c6d0b0bf5429">The reception of a STOW-RS POST request will activate the STOW-RS Service. The storage request is based upon the accept headers in the STOW-RS POST request. The response includes an HTTP status line, including a status-code and its associated textual phrase, followed by an XML message indicating success, warning, or failure for each instance stored by the STOW-RS service.</para>
           </section>
         </section>
       </section>
@@ -49035,7 +49081,7 @@
             </section>
             <section label="J.4.2.2.4.2" xml:id="sect_J.4.2.2.4.2">
               <title>Number of Connections</title>
-              <para xml:id="para_870b3931-a815-4b3e-a444-65f89882072d">EXAMPLE-STOW-SERVICE limits the number of simultaneous RS requests. Additional requests will be queued after the HTTP/1.1 connection is accepted. When an earlier request completes, a pending request will proceed.</para>
+              <para xml:id="para_870b3931-a815-4b3e-a444-65f89882072d">EXAMPLE-STOW-SERVICE limits the number of simultaneous RS requests. Additional requests will be queued after the HTTP connection is accepted. When an earlier request completes, a pending request will proceed.</para>
               <table frame="box" label="J.4.2-4" rules="all" xml:id="table_J.4.2-4">
                 <caption>Number of HTTP Requests Supported</caption>
                 <tbody>
@@ -49056,17 +49102,17 @@
             </section>
             <section label="J.4.2.2.4.4" xml:id="sect_J.4.2.2.4.4">
               <title>SOP Specific Conformance for SOP Class(Es)</title>
-              <para xml:id="para_5cabfe08-9035-4d98-ae38-9fd980bda720">The EXAMPLE-STOW-SERVICE response message header contains status codes indicating success, warning, or failure as shown in the "HTTP/1.1 Standard Response Codes" below. No additional status codes are used.</para>
+              <para xml:id="para_5cabfe08-9035-4d98-ae38-9fd980bda720">The EXAMPLE-STOW-SERVICE response message header contains status codes indicating success, warning, or failure as shown in the "HTTP Standard Response Codes" below. No additional status codes are used.</para>
               <para xml:id="para_ae10c6f8-43ff-4190-b6ef-456d250602ae"/>
               <table frame="box" label="J.4.2.2.4.4-1" rules="all" xml:id="table_J.4.2.2.4.4">
-                <caption>HTTP/1.1 Standard Response Codes</caption>
+                <caption>HTTP Standard Response Codes</caption>
                 <thead>
                   <tr valign="top">
                     <th align="center" colspan="1" rowspan="1">
                       <para xml:id="para_aeb37fa9-bde9-40da-98b3-a5e08a75e05f">Service Status</para>
                     </th>
                     <th align="center" colspan="1" rowspan="1">
-                      <para xml:id="para_bbeb6c20-8f4f-416c-afa5-9de17991aa96">HTTP/1.1 Status Code</para>
+                      <para xml:id="para_bbeb6c20-8f4f-416c-afa5-9de17991aa96">HTTP Status Code</para>
                     </th>
                     <th align="center" colspan="1" rowspan="1">
                       <para xml:id="para_276426d5-2a6b-46d7-9c1b-782bf96979d9">STOW-RS Description</para>
@@ -49503,7 +49549,7 @@
               </mediaobject>
             </figure>
           </para>
-          <para xml:id="para_c422cdab-ee30-41f4-aa40-b797adeec4d9">The QIDO-RS Provider Application receives QIDO requests from a remote AE. These requests are HTTP/1.1 GET requests. It is associated with the local real-world activity "Query Remote Device". It uses the request to select matching Studies, Series or Instances. It then returns a set of matching Studies, Series or Instances or a response code indicating warning or failure back to the requesting device.</para>
+          <para xml:id="para_c422cdab-ee30-41f4-aa40-b797adeec4d9">The QIDO-RS Provider Application receives QIDO requests from a remote AE. These requests are HTTP GET requests. It is associated with the local real-world activity "Query Remote Device". It uses the request to select matching Studies, Series or Instances. It then returns a set of matching Studies, Series or Instances or a response code indicating warning or failure back to the requesting device.</para>
         </section>
         <section label="K.4.1.2" xml:id="sect_K.4.1.2">
           <title>Functional Definition of AEs</title>
@@ -49542,7 +49588,7 @@
                     <para xml:id="para_53044216-3303-462a-aaef-1f3cc989ebd0">Media Types</para>
                   </td>
                   <td align="left" colspan="1" rowspan="1">
-                    <para xml:id="para_7ce3eaac-35b7-4f62-9e84-1d26c957ac80">Restricted to "multipart/related; type=application/dicom+xml" or "application/json"</para>
+                    <para xml:id="para_7ce3eaac-35b7-4f62-9e84-1d26c957ac80">Restricted to "multipart/related; type=application/dicom+xml" or "application/dicom+json"</para>
                   </td>
                 </tr>
                 <tr valign="top">
@@ -49586,7 +49632,7 @@
               <thead>
                 <tr valign="top">
                   <th align="center" colspan="1" rowspan="1">
-                    <para xml:id="para_b60fbbf0-24ff-400a-8918-ca8924d87fed">Key Word</para>
+                    <para xml:id="para_b60fbbf0-24ff-400a-8918-ca8924d87fed">Keyword</para>
                   </th>
                   <th align="center" colspan="1" rowspan="1">
                     <para xml:id="para_f17e6643-f6d7-4ea2-98bf-9784e49447e6">Tag</para>
@@ -49859,7 +49905,7 @@
                     <para xml:id="para_7e876cb3-d171-4cf5-abf1-692a9f891ff9">Media Types</para>
                   </td>
                   <td align="left" colspan="1" rowspan="1">
-                    <para xml:id="para_0f0da6cb-15c0-4bfa-8869-4b7d729c6966">Restricted to "multipart/related; type=application/dicom+xml" or "application/json"</para>
+                    <para xml:id="para_0f0da6cb-15c0-4bfa-8869-4b7d729c6966">Restricted to "multipart/related; type=application/dicom+xml" or "application/dicom+json"</para>
                   </td>
                 </tr>
                 <tr valign="top">
@@ -49903,7 +49949,7 @@
               <thead>
                 <tr valign="top">
                   <th align="center" colspan="1" rowspan="1">
-                    <para xml:id="para_e4577e71-4872-4eed-b0e5-50194c25b96c">Key Word</para>
+                    <para xml:id="para_e4577e71-4872-4eed-b0e5-50194c25b96c">Keyword</para>
                   </th>
                   <th align="center" colspan="1" rowspan="1">
                     <para xml:id="para_39ed8c23-bc92-4a47-923e-0e47d49932f4">Tag</para>
@@ -50099,7 +50145,7 @@
                     <para xml:id="para_f969534c-9172-4a1e-becc-260251f15f78">Media Types</para>
                   </td>
                   <td align="left" colspan="1" rowspan="1">
-                    <para xml:id="para_4d2b67e3-9f3f-4040-9eb5-c7884d666419">Restricted to "multipart/related; type=application/dicom+xml" or "application/json"</para>
+                    <para xml:id="para_4d2b67e3-9f3f-4040-9eb5-c7884d666419">Restricted to "multipart/related; type=application/dicom+xml" or "application/dicom+json"</para>
                   </td>
                 </tr>
                 <tr valign="top">
@@ -50143,7 +50189,7 @@
               <thead>
                 <tr valign="top">
                   <th align="center" colspan="1" rowspan="1">
-                    <para xml:id="para_a366777a-45a2-4b68-b271-41d5c47328b4">Key Word</para>
+                    <para xml:id="para_a366777a-45a2-4b68-b271-41d5c47328b4">Keyword</para>
                   </th>
                   <th align="center" colspan="1" rowspan="1">
                     <para xml:id="para_15011f34-1964-4db6-b5b4-c06d73b32413">Tag</para>
@@ -50407,9 +50453,9 @@
             </section>
             <section label="K.4.2.1.4.2" xml:id="sect_K.4.2.1.4.2">
               <title>Number of Connections</title>
-              <para xml:id="para_e2f02851-9b1a-4b17-b187-b1f447a4a461">EXAMPLE-QIDO-SERVICE limits the number of simultaneous RS requests. Additional requests will be queued after the HTTP/1.1 connection is accepted. When an earlier request completes, a pending request will proceed.</para>
+              <para xml:id="para_e2f02851-9b1a-4b17-b187-b1f447a4a461">EXAMPLE-QIDO-SERVICE limits the number of simultaneous RS requests. Additional requests will be queued after the HTTP connection is accepted. When an earlier request completes, a pending request will proceed.</para>
               <table frame="box" label="K.4.2-4" rules="all" xml:id="table_K.4.2-4">
-                <caption>Number of HTTP/1.1 Requests Supported</caption>
+                <caption>Number of HTTP Requests Supported</caption>
                 <tbody>
                   <tr valign="top">
                     <td align="left" colspan="1" rowspan="1">
@@ -50430,7 +50476,7 @@
               <title>Response Status</title>
               <para xml:id="para_66858a71-32e8-4130-8234-75eefd371bfc">The EXAMPLE-QIDO-SERVICE shall provide a response message header containing the appropriate status code indicating success, warning, or failure as shown in <xref linkend="table_K.4.2-5" xrefstyle="select: label"/>.</para>
               <table frame="box" label="K.4.2-5" rules="all" xml:id="table_K.4.2-5">
-                <caption>HTTP/1.1 Standard Response Codes</caption>
+                <caption>HTTP Standard Response Codes</caption>
                 <thead>
                   <tr valign="top">
                     <th align="center" colspan="1" rowspan="1">

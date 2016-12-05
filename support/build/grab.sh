@@ -2,10 +2,10 @@
 
 set -x
 
-wget -c http://dicom.nema.org/medical/dicom/current/DocBookDICOM2015c_sourceandrenderingpipeline_20150705073023.tar.bz2
+wget -c http://dicom.nema.org/medical/dicom/current/DocBookDICOM2016e_sourceandrenderingpipeline_20161121111853.tar.bz2
 
 mkdir -p tmp
-tar -C tmp -x -f DocBookDICOM2015c_sourceandrenderingpipeline_20150705073023.tar.bz2
+tar -C tmp -x -f DocBookDICOM2016e_sourceandrenderingpipeline_20161121111853.tar.bz2
 
 rm -rf tmp/docbook-xsl-ns-1.78.1
 rm -rf tmp/lib

@@ -4,7 +4,7 @@ sudo: false
 
 os: linux
 #addons: {apt: {packages: [xsltproc, docbook-xsl-ns, docbook-xsl-saxon, libsaxonhe-java, libsaxonb-java, fop]}}
-addons: {apt: {packages: [xsltproc, docbook-xsl-ns, libsaxonhe-java, libsaxonb-java, fop]}}
+addons: {apt: {packages: [xsltproc, docbook-xsl-ns, libsaxonb-java, fop]}}
 
 script:
   - sed -i -e "s:/Users/dclunie/Documents/Work/DICOM_Publish_XML/DocBookDICOM2013:$PWD:" *.xml stylesheets/*.xsl

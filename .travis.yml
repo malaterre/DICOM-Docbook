@@ -1,10 +1,11 @@
 # https://docs.travis-ci.com/user/environment-variables/#Default-Environment-Variables
 language: c
 # TODO https://docs.travis-ci.com/user/trusty-ci-environment
+dist: trusty
 sudo: false
 
 os: linux
-#addons: {apt: {packages: [xsltproc, docbook-xsl-ns, docbook-xsl-saxon, libsaxonhe-java, libsaxonb-java, fop]}}
+#addons: {apt: {packages: [xsltproc, docbook-xsl-ns, docbook-xsl-saxon, libsaxonhe-java, libsaxonb-java, qpdf, fop]}}
 addons: {apt: {packages: [xsltproc, docbook-xsl-ns, libsaxonb-java, qpdf, fop]}}
 
 script:

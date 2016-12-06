@@ -6,7 +6,7 @@ dist: trusty
 sudo: required
 
 os: linux
-addons: {apt: {packages: [xsltproc, docbook-xsl-ns, docbook-xsl-saxon, libsaxonhe-java, libsaxonb-java, qpdf, fop]}}
+addons: {apt: {packages: [xsltproc, docbook-xsl-ns, docbook-xsl-saxon, libsaxonhe-java, libsaxonb-java, qpdf, fop, default-jre-headless]}}
 #addons: {apt: {packages: [xsltproc, docbook-xsl-ns, libsaxonb-java, qpdf, fop]}}
 
 script:

@@ -1,5 +1,6 @@
 # https://docs.travis-ci.com/user/environment-variables/#Default-Environment-Variables
 language: c
+# TODO https://docs.travis-ci.com/user/trusty-ci-environment
 sudo: false
 
 os: linux

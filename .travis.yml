@@ -12,4 +12,12 @@ script:
   - sed -i -e "s@-jar /opt/local/share/java/saxon9he.jar@-classpath /usr/share/java/saxonb.jar net.sf.saxon.Transform -t -ext:on@" *.sh
   - sed -i -e "s:xep.extensions:fop1.extensions:" stylesheets/*.xsl
   # https://docs.travis-ci.com/user/common-build-problems/#My-builds-are-timing-out
-  - travis_wait 70 ./generateforrelease.sh
+  # -> https://github.com/travis-ci/travis-ci/issues/5881#issuecomment-244253130
+  # Each job is limited, but the number or the sum of those jobs is not.
+  #- travis_wait 70 ./generateforrelease.sh
+  - ./generatereleasenotes.sh
+  - ./generateolinkdbforrelease.sh
+  - ./generateolinkdbchunkedforrelease.sh
+  - ./generatehtmlforrelease.sh
+  - ./generatechunkedhtmlforrelease.sh
+  - ./generatepdfforrelease.sh

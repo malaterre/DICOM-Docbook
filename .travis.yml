@@ -19,6 +19,6 @@ script:
   - ./generatereleasenotes.sh
   - ./generateolinkdbforrelease.sh
   - ./generateolinkdbchunkedforrelease.sh
-  - ./generatehtmlforrelease.sh
-  - ./generatechunkedhtmlforrelease.sh
+    #- ./generatehtmlforrelease.sh
+  - sh -x ./generatechunkedhtmlforrelease.sh
   - sh -x ./generatepdfforrelease.sh

@@ -45461,7 +45461,7 @@
     </section>
   </chapter>
   <chapter label="H" xml:id="chapter_H">
-    <title>DICOM Conformance Statement Medication‑System‑Gateway (Informative)</title>
+    <title>DICOM Conformance Statement Medication-System-Gateway (Informative)</title>
     <para xml:id="para_bb205905-4696-4263-95bd-6417432bc1ad">Disclaimer:</para>
     <para xml:id="para_27ed22c1-2a5f-4c0c-a869-b8ee39d2d954">This document is an example DICOM Conformance Statement for a fictional device called EXAMPLE-MEDICATION-SYSTEM-GATEWAY, which is a networked computer system used to provide radiology systems with access to a pharmacy system and a medication administration record system.</para>
     <para xml:id="para_27d5a114-ab89-4fbc-bc19-f6276890119a">As stated in the annex title, this document is truly informative, and not normative. A conformance statement of an actual product might implement additional services and options as appropriate for its specific purpose. In addition, an actual product might implement the services described in a different manner and, for example, with different characteristics and/or sequencing of activities. In other words, this conformance statement example does not intend to standardize a particular manner that a product might implement DICOM functionality.</para>

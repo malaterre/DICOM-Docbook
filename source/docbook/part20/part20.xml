@@ -4791,7 +4791,7 @@ ImagingReport:Findings:QuantityMeasurement[Q21b]:MeasurementUnits = "mm"]]></pro
               <para xml:id="para_50f301b9-956b-496f-91bc-08526c749fd6">&gt;&gt;</para>
             </td>
             <td align="left" colspan="1" rowspan="1">
-              <para xml:id="para_4c0e356e-0b29-4c7a-b1ca-d4935a19706a">ps3‑20:accessionNumber</para>
+              <para xml:id="para_4c0e356e-0b29-4c7a-b1ca-d4935a19706a">ps3-20:accessionNumber</para>
             </td>
             <td align="left" colspan="1" rowspan="1">
               <para xml:id="para_d5ab92b7-b92a-4940-8cdc-e7036be70eba">1..1</para>

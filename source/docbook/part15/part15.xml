@@ -106,7 +106,7 @@
   <para xml:id="para_79edbad2-56c0-4233-9c15-470a25e54820">ISO 7498-1, Information Processing Systems - Open Systems Interconnection - Basic Reference Model</para>
   <para xml:id="para_2b8ff8ea-4b8e-4c7a-9649-749550ed7210">ISO 7498-2, Information processing systems - Open Systems Interconnection - Basic reference Model - Part 2: Security Architecture</para>
   <para xml:id="para_cd042748-82dd-4f43-ae86-d93b354fc1c2">ISO/TR 8509, Information Processing Systems - Open Systems Interconnection - Service Conventions</para>
-  <para xml:id="para_ae181f72-8095-48d1-aacd-3320a56eab70">ISO 8649:1987, Information Processing Systems ‑ Open Systems Interconnection ‑ Service Definition for the Association Control Service Element</para>
+  <para xml:id="para_ae181f72-8095-48d1-aacd-3320a56eab70">ISO 8649:1987, Information Processing Systems - Open Systems Interconnection - Service Definition for the Association Control Service Element</para>
   <para xml:id="para_59fca22e-5348-4bbc-a859-cfb2f8d63f34">Integrated Secure Communication Layer V1.00 MEDIS-DC</para>
   <para xml:id="para_2ca019ac-27e1-44ce-841e-c228bfb1da18">ITU-T Recommendation X.509 (03/00) "Information technology - Open Systems Interconnection - The directory: Public-key and attribute certificate frameworks"</para>
   <note>
@@ -157,7 +157,7 @@
   <section label="3.1" status="2" xml:id="sect_3.1">
     <title>Reference Model Definitions</title>
   
-  <para xml:id="para_0f6e7085-8eca-4dd2-877d-c74bed72e97f">This part of the Standard makes use of the following terms defined in ISO 7498‑1:</para>
+  <para xml:id="para_0f6e7085-8eca-4dd2-877d-c74bed72e97f">This part of the Standard makes use of the following terms defined in ISO 7498-1:</para>
   <orderedlist numeration="loweralpha">
 <listitem>
 <para xml:id="para_63725740-d6f5-4d37-8da2-b654a5b0f661">Application Entity</para>

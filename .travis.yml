@@ -1,12 +1,13 @@
 # https://docs.travis-ci.com/user/environment-variables/#Default-Environment-Variables
 language: c
+#sudo: false
 # TODO https://docs.travis-ci.com/user/trusty-ci-environment
 dist: trusty
-sudo: false
+sudo: required
 
 os: linux
-#addons: {apt: {packages: [xsltproc, docbook-xsl-ns, docbook-xsl-saxon, libsaxonhe-java, libsaxonb-java, qpdf, fop]}}
-addons: {apt: {packages: [xsltproc, docbook-xsl-ns, libsaxonb-java, qpdf, fop]}}
+addons: {apt: {packages: [xsltproc, docbook-xsl-ns, docbook-xsl-saxon, libsaxonhe-java, libsaxonb-java, qpdf, fop]}}
+#addons: {apt: {packages: [xsltproc, docbook-xsl-ns, libsaxonb-java, qpdf, fop]}}
 
 script:
   - sed -i -e "s:/Users/dclunie/Documents/Work/DICOM_Publish_XML/DocBookDICOM2013:$PWD:" *.xml stylesheets/*.xsl

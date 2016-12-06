@@ -12,6 +12,7 @@ addons: {apt: {packages: [xsltproc, docbook-xsl-ns, docbook-xsl-saxon, libsaxonh
 
 script:
   - fop -version
+  - /usr/lib/jvm/java-8-oracle/jre/bin/java -version
   - java -version
   - sed -i -e "s:/Users/dclunie/Documents/Work/DICOM_Publish_XML/DocBookDICOM2013:$PWD:" *.xml stylesheets/*.xsl
   #- sed -i -e "s:/opt/local/share/java/saxon9he.jar:/usr/share/java/saxonb.jar:" *.sh

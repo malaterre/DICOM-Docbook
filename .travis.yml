@@ -21,4 +21,5 @@ script:
   - ./generateolinkdbchunkedforrelease.sh
     #- ./generatehtmlforrelease.sh
     #- sh -x ./generatechunkedhtmlforrelease.sh
+  - fop -version
   - sh -x ./generatepdfforrelease.sh

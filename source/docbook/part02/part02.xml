@@ -84,6 +84,12 @@
   <chapter label="2" xml:id="chapter_2">
     <title>Normative References</title>
     <para xml:id="para_34485576-301f-4230-bb3c-3d48bb4d0b86">The following standards contain provisions, which, through reference in this text, constitute provisions of this Standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this Standard are encouraged to investigate the possibilities of applying the most recent editions of the standards indicated below.</para>
+    <para xml:id="para_d25645c2-e48c-4ec8-986a-7353f5cd8cff">ISO 7498-1 Information Processing Systems - Open Systems Interconnection - Basic Reference Model.</para>
+    <para xml:id="para_508c6091-835c-4bb7-bebb-e26cfae20e38">ISO 8649:1988 Information Processing Systems - Open Systems Interconnection - Service definition for the Association Control Service Element (ACSE).</para>
+    <para xml:id="para_3db34468-59e2-4469-8bf0-f4ba1fac6e99">ISO 8822:1988 Information Processing Systems - Open Systems Interconnection - Connection oriented presentation service definition.</para>
+    <para xml:id="para_d2bde75c-bd33-4782-87b5-dc9893cb111e">ISO/IEC 10646-1:2000 Information Technology - Universal Multiple-Octet Coded Character Set (UCS) - Part 1: Architecture and Basic Multilingual Plane</para>
+    <para xml:id="para_a2eb71b4-c940-468c-9088-6b8182187748">ISO/IEC 10646-1:2000/Amd 1:2002 Mathematical symbols and other characters</para>
+    <para xml:id="para_c8e70f2b-bbe8-43af-8ca0-b5b4d2392909">ISO/IEC 10646-2:2001 Information Technology - Universal Multiple-Octet Coded Character Set (UCS) - Part 2: Supplementary Planes</para>
     <bibliography>
       <biblioentry xml:id="biblio_ISODirectives2">
         <abbrev>ISO/IEC Directives, Part 2</abbrev>
@@ -98,12 +104,6 @@
         </bibliosource>
       </biblioentry>
     </bibliography>
-    <para xml:id="para_d25645c2-e48c-4ec8-986a-7353f5cd8cff">ISO 7498-1 Information Processing Systems - Open Systems Interconnection - Basic Reference Model.</para>
-    <para xml:id="para_508c6091-835c-4bb7-bebb-e26cfae20e38">ISO 8649:1988 Information Processing Systems - Open Systems Interconnection - Service definition for the Association Control Service Element (ACSE).</para>
-    <para xml:id="para_3db34468-59e2-4469-8bf0-f4ba1fac6e99">ISO 8822:1988 Information Processing Systems - Open Systems Interconnection - Connection oriented presentation service definition.</para>
-    <para xml:id="para_d2bde75c-bd33-4782-87b5-dc9893cb111e">ISO/IEC 10646-1:2000 Information Technology - Universal Multiple-Octet Coded Character Set (UCS) - Part 1: Architecture and Basic Multilingual Plane</para>
-    <para xml:id="para_a2eb71b4-c940-468c-9088-6b8182187748">ISO/IEC 10646-1:2000/Amd 1:2002 Mathematical symbols and other characters</para>
-    <para xml:id="para_c8e70f2b-bbe8-43af-8ca0-b5b4d2392909">ISO/IEC 10646-2:2001 Information Technology - Universal Multiple-Octet Coded Character Set (UCS) - Part 2: Supplementary Planes</para>
   </chapter>
   <chapter label="3" xml:id="chapter_3">
     <title>Definitions</title>

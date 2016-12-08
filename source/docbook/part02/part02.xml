@@ -84,6 +84,7 @@
   <chapter label="2" xml:id="chapter_2">
     <title>Normative References</title>
     <para xml:id="para_34485576-301f-4230-bb3c-3d48bb4d0b86">The following standards contain provisions, which, through reference in this text, constitute provisions of this Standard. At the time of publication, the editions indicated were valid. All standards are subject to revision, and parties to agreements based on this Standard are encouraged to investigate the possibilities of applying the most recent editions of the standards indicated below.</para>
+<!--
     <bibliography>
       <biblioentry xml:id="biblio_ISODirectives2">
         <abbrev>ISO/IEC Directives, Part 2</abbrev>
@@ -98,6 +99,7 @@
         </bibliosource>
       </biblioentry>
     </bibliography>
+-->
     <para xml:id="para_d25645c2-e48c-4ec8-986a-7353f5cd8cff">ISO 7498-1 Information Processing Systems - Open Systems Interconnection - Basic Reference Model.</para>
     <para xml:id="para_508c6091-835c-4bb7-bebb-e26cfae20e38">ISO 8649:1988 Information Processing Systems - Open Systems Interconnection - Service definition for the Association Control Service Element (ACSE).</para>
     <para xml:id="para_3db34468-59e2-4469-8bf0-f4ba1fac6e99">ISO 8822:1988 Information Processing Systems - Open Systems Interconnection - Connection oriented presentation service definition.</para>

@@ -516,7 +516,7 @@
             <td align="left" colspan="1" rowspan="1"/>
           </tr>
           <tr valign="top">
-            <td align="left" colspan="1" rowspan="1"/>
+            <td align="left" colspan="1" rowspan="6"/>
             <td align="left" colspan="4" rowspan="1">
               <para xml:id="para_ae59c0c3-0196-4e4a-96fd-3e6d97ac70ed">
                 <emphasis role="italic">Item 1 (ADC Values stored on 1<superscript>st</superscript> and 3<superscript>rd</superscript> point of first Track "A")</emphasis>
@@ -524,7 +524,7 @@
             </td>
           </tr>
           <tr valign="top">
-            <td align="left" colspan="1" rowspan="6"/>
+            <td align="left" colspan="1" rowspan="1"/>
             <td align="left" colspan="1" rowspan="1">
               <para xml:id="para_5db3b086-0ff9-4fcc-b7b9-a994a4b917ce">&gt;&gt;&gt;Floating Point Values</para>
             </td>

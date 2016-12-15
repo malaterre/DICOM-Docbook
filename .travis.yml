@@ -29,9 +29,9 @@ script:
   # -> https://github.com/travis-ci/travis-ci/issues/5881#issuecomment-244253130
   # Each job is limited, but the number or the sum of those jobs is not.
   #- travis_wait 70 ./generateforrelease.sh
-  - sh -ex ./generatereleasenotes.sh
-  - sh -ex ./generateolinkdbforrelease.sh
-  - sh -ex ./generateolinkdbchunkedforrelease.sh
+  - sh -e ./generatereleasenotes.sh
+  - sh -e ./generateolinkdbforrelease.sh
+  - sh -e ./generateolinkdbchunkedforrelease.sh
     #- sh -ex ./generatehtmlforrelease.sh
-    #- sh -ex ./generatechunkedhtmlforrelease.sh
-  - sh -ex ./generatepdfforrelease.sh
+  - travis_wait 70 sh -e ./generatechunkedhtmlforrelease.sh
+  - sh -e ./generatepdfforrelease.sh

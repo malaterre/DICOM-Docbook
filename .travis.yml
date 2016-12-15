@@ -7,8 +7,13 @@ dist: trusty
 sudo: required
 
 os: linux
-addons: {apt: {packages: [xsltproc, docbook-xsl-ns, docbook-xsl-saxon, libsaxonhe-java, libsaxonb-java, qpdf, fop, default-jre-headless, ttf-mscorefonts-installer]}}
+#addons: {apt: {packages: [xsltproc, docbook-xsl-ns, docbook-xsl-saxon, libsaxonhe-java, libsaxonb-java, qpdf, fop, default-jre-headless, ttf-mscorefonts-installer]}}
+addons: {apt: {packages: [xsltproc, docbook-xsl-ns, docbook-xsl-saxon, libsaxonhe-java, libsaxonb-java, qpdf, fop, default-jre-headless]}}
 #addons: {apt: {packages: [xsltproc, docbook-xsl-ns, libsaxonb-java, qpdf, fop]}}
+
+before_script:
+  - echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
+  - sudo apt-get install ttf-mscorefonts-installer
 
 script:
   - fop -version

@@ -33,5 +33,5 @@ script:
   - sh -e ./generateolinkdbforrelease.sh
   - sh -e ./generateolinkdbchunkedforrelease.sh
     #- sh -ex ./generatehtmlforrelease.sh
-  - travis_wait 70 sh -e ./generatechunkedhtmlforrelease.sh
+  - travis_wait 70 sh -ex ./generatechunkedhtmlforrelease.sh
   - sh -e ./generatepdfforrelease.sh
